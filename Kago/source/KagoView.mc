@@ -45,10 +45,10 @@ class KagoView extends WatchUi.WatchFace {
         view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
         view.setText(timeString);
 
-        drawBatteryArc(dc);
-
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+
+        drawBatteryArc(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -67,15 +67,36 @@ class KagoView extends WatchUi.WatchFace {
 
     // -----------------------
     function drawBatteryArc(dc as Dc) as Void {
+        var screenWidth = dc.getWidth();
+        var screenHeight = dc.getHeight();
         var myStats = System.getSystemStats();
-        System.println(myStats.battery);
-        System.println(myStats.totalMemory);
-        // var batteryLevel = myStats.battery;
+        var batteryLevel = myStats.battery;
         var batteryColor = Application.Properties.getValue("BatteryColor") as Number;
-        var batteryArc = Graphics.drawArc(0, 0, 100, Gfx.ARC_CLOCKWISE, 0, 360);
-        // var batteryArc = Graphics.createArc(0, 0, 100, 100, 0, 360 * batteryLevel / 100);
-        batteryArc.setColor(batteryColor);
-        batteryArc.draw(dc);
+        var batteryColorCharged = Application.Properties.getValue("BatteryColorCharged") as Number;
+        var BackgroundColor = Application.Properties.getValue("BackgroundColor") as Number;
+        var lineWidth = 2;
+        var chargedArcStartOffset = 0;
+        // var chargedDegree = (batteryLevel/100*360)
+        var chargedDegree = 180;
+
+        dc.setPenWidth(lineWidth);
+        dc.setColor(batteryColor, BackgroundColor);
+        dc.drawArc(screenWidth / 2, screenHeight / 2, screenWidth / 2 - (lineWidth/2), Graphics.ARC_COUNTER_CLOCKWISE, 0, 360);
+        dc.setColor(batteryColorCharged, BackgroundColor);
+        dc.drawArc(
+          screenWidth / 2,
+          screenHeight / 2,
+          screenWidth / 2 - (lineWidth/2),
+          Graphics.ARC_CLOCKWISE,
+          chargedArcStartOffset,
+          chargedDegree + chargedArcStartOffset
+        );
+        /*
+        0 degrees: 3 o'clock position.
+        90 degrees: 12 o'clock position.
+        180 degrees: 9 o'clock position.
+        270 degrees: 6 o'clock position.
+        */
     }
 
 }

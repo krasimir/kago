@@ -31,10 +31,10 @@ module Rez {
 _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_start:
 [ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" 14 12 ]
             [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_stop" ]
-            %rez_cmp_local_custom_drawable_12117472351426349241.1 = local;
+            %rez_cmp_local_custom_drawable_18318368841400777321.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_12117472351426349241.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_18318368841400777321.1 %tmp.1;
 [ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" 16 12 ]
             [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_13_73_19_8_stop" ]
             %rez_cmp_local_text_TimeLabel.2 = local;
@@ -82,7 +82,7 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_m
             lputv %rez_cmp_local_text_TimeLabel.2 %tmp.5;
 [ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" 18 12 ]
             %tmp.53 = newa 2 Array<WatchUi.Drawable>;
-            %tmp.55 = lgetv %rez_cmp_local_custom_drawable_12117472351426349241.1;
+            %tmp.55 = lgetv %rez_cmp_local_custom_drawable_18318368841400777321.1;
             %tmp.56 = dup %tmp.53;
             %tmp.57 = aputv %tmp.56 0 %tmp.55;
             %tmp.59 = lgetv %rez_cmp_local_text_TimeLabel.2;
