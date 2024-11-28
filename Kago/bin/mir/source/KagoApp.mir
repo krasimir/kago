@@ -1,0 +1,68 @@
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 4; ]
+using Toybox.System;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 6; ]
+class KagoApp extends Application.AppBase{
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_8_26_10_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" 9 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_8_26_10_4_stop:
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 13; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 17; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 21; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_21_68_23_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" 22 8 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :KagoView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_21_68_23_4_stop:
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 26; ]
+    function onSettingsChanged() as Void {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_26_41_28_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" 27 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_26_41_28_4_stop:
+    }
+}
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 32; ]
+function getApp() as KagoApp {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_32_29_34_0_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" 33 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 KagoApp;
+    ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoApp_mc_32_29_34_0_stop:
+}
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc"; @line = 1; ]
+<init> {
+}

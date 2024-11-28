@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="1" lineNum="32" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="1" lineNum="33" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="2" lineNum="6" parent="globals/Background" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435493" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="4" lineNum="6" parent="globals/KagoApp" pc="268435513" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="5" lineNum="7" parent="globals/KagoView" pc="268435525" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="6" lineNum="8" parent="globals/Background" pc="268435537" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="6" lineNum="9" parent="globals/Background" pc="268435540" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="6" lineNum="13" parent="globals/Background" pc="268435558" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="7" lineNum="16" parent="globals/Background" pc="268435575" symbol="draw"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="7" lineNum="18" parent="globals/Background" pc="268435577" symbol="draw"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" id="7" lineNum="19" parent="globals/Background" pc="268435608" symbol="draw"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="8" lineNum="13" parent="globals/KagoApp" pc="268435617" symbol="onStart"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="9" lineNum="26" parent="globals/KagoApp" pc="268435620" symbol="onSettingsChanged"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="9" lineNum="27" parent="globals/KagoApp" pc="268435622" symbol="onSettingsChanged"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="10" lineNum="21" parent="globals/KagoApp" pc="268435634" symbol="getInitialView"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="10" lineNum="22" parent="globals/KagoApp" pc="268435636" symbol="getInitialView"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="11" lineNum="8" parent="globals/KagoApp" pc="268435666" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="11" lineNum="9" parent="globals/KagoApp" pc="268435668" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="12" lineNum="17" parent="globals/KagoApp" pc="268435681" symbol="onStop"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="14" parent="globals/KagoView" pc="268435684" symbol="onLayout"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="15" parent="globals/KagoView" pc="268435686" symbol="onLayout"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="9" parent="globals/KagoView" pc="268435720" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="10" parent="globals/KagoView" pc="268435722" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="25" parent="globals/KagoView" pc="268435735" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="27" parent="globals/KagoView" pc="268435738" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="28" parent="globals/KagoView" pc="268435745" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="29" parent="globals/KagoView" pc="268435757" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="30" parent="globals/KagoView" pc="268435765" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="31" parent="globals/KagoView" pc="268435784" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="32" parent="globals/KagoView" pc="268435792" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="35" parent="globals/KagoView" pc="268435805" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="36" parent="globals/KagoView" pc="268435830" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="37" parent="globals/KagoView" pc="268435837" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="40" parent="globals/KagoView" pc="268435856" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="43" parent="globals/KagoView" pc="268435903" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="44" parent="globals/KagoView" pc="268435927" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="45" parent="globals/KagoView" pc="268435959" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="48" parent="globals/KagoView" pc="268435971" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="20" lineNum="13" parent="globals/Rez/Layouts" pc="268435992" symbol="WatchFace"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="20" lineNum="14" parent="globals/Rez/Layouts" pc="268436003" symbol="WatchFace"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="20" lineNum="16" parent="globals/Rez/Layouts" pc="268436027" symbol="WatchFace"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="20" lineNum="18" parent="globals/Rez/Layouts" pc="268436131" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry id="6" object="true" symbol="KagoApp"/>
+        <entry field="true" id="16" symbol="ColorRed"/>
+        <entry field="true" id="19" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="13" symbol="ColorBlue"/>
+        <entry field="true" id="10" symbol="AppName"/>
+        <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="14" symbol="ColorDarkGray"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="17" symbol="ColorWhite"/>
+        <entry field="true" id="12" symbol="ColorBlack"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="9" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry field="true" id="11" symbol="BackgroundColorTitle"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="15" symbol="ColorLightGray"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="7" object="true" symbol="KagoView"/>
+        <entry field="true" id="18" symbol="ForegroundColorTitle"/>
+        <entry id="8" module="true" symbol="Layouts"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
+        <entry arg="true" endPc="268435616" name="dc" stackId="1" startPc="268435575"/>
+        <entry arg="true" endPc="268435719" name="dc" stackId="1" startPc="268435684"/>
+        <entry arg="true" endPc="268435991" name="dc" stackId="1" startPc="268435735"/>
+        <entry endPc="268435990" name="timeFormat" stackId="2" startPc="268435738"/>
+        <entry endPc="268435990" name="clockTime" stackId="3" startPc="268435738"/>
+        <entry endPc="268435990" name="hours" stackId="4" startPc="268435738"/>
+        <entry endPc="268435990" name="timeString" stackId="5" startPc="268435738"/>
+        <entry endPc="268435990" name="view" stackId="6" startPc="268435738"/>
+        <entry arg="true" endPc="268436145" name="dc" stackId="1" startPc="268435992"/>
+        <entry endPc="268436145" name="rez_cmp_local_custom_drawable_87808300076326894818" stackId="2" startPc="268436003"/>
+        <entry endPc="268436145" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436003"/>
+    </localVars>
+    <deviceInfo deviceVersion="e470ee747f0d6a18bf042f53621907a0dbf0f873" partNumber="006-B4536-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Background" offset="134" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="187" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/KagoApp" offset="240" parentId="globals" symbolId="KagoApp" type="class"/>
+        <dataEntry label="globals/KagoView" offset="320" parentId="globals" symbolId="KagoView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="418" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="453" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="488" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435492" name="&lt;init&gt;" parent="Background" startPc="268435481">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435512" name="&lt;init&gt;" parent="Rez" startPc="268435493">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435524" name="&lt;init&gt;" parent="KagoApp" startPc="268435513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435536" name="&lt;init&gt;" parent="KagoView" startPc="268435525">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435574" name="initialize" parent="Background" startPc="268435537">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435616" name="draw" parent="Background" startPc="268435575">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435619" name="onStart" parent="KagoApp" startPc="268435617">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435633" name="onSettingsChanged" parent="KagoApp" startPc="268435620">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435665" name="getInitialView" parent="KagoApp" startPc="268435634">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435680" name="initialize" parent="KagoApp" startPc="268435666">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435683" name="onStop" parent="KagoApp" startPc="268435681">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="KagoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="KagoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435719" name="onLayout" parent="KagoView" startPc="268435684">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="KagoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435734" name="initialize" parent="KagoView" startPc="268435720">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="KagoView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435991" name="onUpdate" parent="KagoView" startPc="268435735">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436145" name="WatchFace" parent="Layouts" startPc="268435992">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
