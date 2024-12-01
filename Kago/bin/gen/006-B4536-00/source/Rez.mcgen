@@ -9,13 +9,17 @@ module Rez {
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
+    module Fonts {
+        (:initialized) var MontserratFont as ResourceId;
+    } // Fonts
+
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_18318368841400777321 = new Background();
+            var rez_cmp_local_custom_drawable_27361646955330325965 = new Background();
 
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(454 * 0.5), :locY=>((454 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_LARGE});
 
-            return [rez_cmp_local_custom_drawable_18318368841400777321, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_27361646955330325965, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

@@ -22,15 +22,7 @@
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
             palette to update permissions.
         -->
-    <iq:permissions>
-      <iq:uses-permission id="Background"/>
-      <iq:uses-permission id="BluetoothLowEnergy"/>
-      <iq:uses-permission id="Communications"/>
-      <iq:uses-permission id="Positioning"/>
-      <iq:uses-permission id="PushNotification"/>
-      <iq:uses-permission id="Sensor"/>
-      <iq:uses-permission id="UserProfile"/>
-    </iq:permissions>
+    <iq:permissions/>
     <!--
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
