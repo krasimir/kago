@@ -3,7 +3,9 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
-using Toybox.Graphics as Gfx;
+
+using Toybox.Time;
+using Toybox.Time.Gregorian;
 
 class KagoView extends WatchUi.WatchFace {
 
@@ -27,6 +29,8 @@ class KagoView extends WatchUi.WatchFace {
         View.onUpdate(dc);
         drawBatteryArc(dc);
         drawTime(dc);
+        drawDate(dc);
+        // drawHeartRate(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -52,7 +56,7 @@ class KagoView extends WatchUi.WatchFace {
         var batteryColor = Application.Properties.getValue("BatteryColor") as Number;
         var batteryColorCharged = Application.Properties.getValue("BatteryColorCharged") as Number;
         var BackgroundColor = Application.Properties.getValue("BackgroundColor") as Number;
-        var lineWidth = 3;
+        var lineWidth = 4;
         var chargedDegree = 360 - ((100 - batteryLevel)/100*360);
 
         // Background arc
@@ -102,5 +106,37 @@ class KagoView extends WatchUi.WatchFace {
           (dc.getHeight() / 2) - (view.height / 2)
         );
     }
-
+    function drawDate(dc as Dc) as Void {
+        var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var dateString = Lang.format("$1$  $2$  $3$", [
+          today.day_of_week,
+          today.day.format("%02d"),
+          today.month
+        ]);
+        var view = View.findDrawableById("DateLabel") as Text;
+        view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        view.setFont(WatchUi.loadResource(Rez.Fonts.MontserratFont32));
+        view.setText(dateString);
+        view.setLocation(
+          (dc.getWidth() / 2) - (view.width / 2),
+          (dc.getHeight() / 2) - 100
+        );
+    }
+    function drawHeartRate(dc as Dc) as Void {
+      var actInfo = Activity.getActivityInfo();
+      if (actInfo != null) {
+        var heartRate = actInfo.currentHeartRate;
+        var view = View.findDrawableById("HeartRateLabel") as Text;
+        view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
+        if (heartRate != null) {
+          view.setText('♥ ' + heartRate.format("%d"));
+        } else {
+          view.setText("♥ ...");
+        }
+        view.setLocation(
+          (dc.getWidth() / 2),
+          (dc.getHeight() / 2) + (view.height / 2)
+        );
+      }
+    }
 }

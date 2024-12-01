@@ -10,3 +10,7 @@
 ## Resources
 
 * Docs: https://developer.garmin.com/
+
+## Useful information
+
+Res: 454x454

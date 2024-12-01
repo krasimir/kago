@@ -8,30 +8,32 @@ import Toybox.Lang;
 import Toybox.System;
 [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 5; ]
 import Toybox.WatchUi;
-[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 6; ]
-using Toybox.Graphics as :Gfx;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 7; ]
+using Toybox.Time;
 [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 8; ]
+using Toybox.Time.Gregorian;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 10; ]
 class KagoView extends WatchUi.WatchFace{
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 8; ]
-    <init> {
-    }
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 8; ]
-    static
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 10; ]
     <init> {
     }
     [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 10; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 12; ]
     function initialize() as Void {
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_10_26_12_4_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 11 8 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_12_26_14_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 13 8 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_10_26_12_4_stop:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_12_26_14_4_stop:
     }
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 15; ]
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 17; ]
     function onLayout(dc as Dc) as Void {
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_15_40_17_4_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 16 8 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_17_40_19_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 18 8 ]
         %tmp.1 = self;
         %tmp.2 = getv function %tmp.1 :setLayout;
         %tmp.4 = getv ? :Rez;
@@ -40,72 +42,77 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_15_40_17_4_sta
         %tmp.8 = lgetv %dc;
         %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
         invoke %tmp.1 %tmp.2(%tmp.9);
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_15_40_17_4_stop:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_17_40_19_4_stop:
     }
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 22; ]
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 24; ]
     function onShow() as Void {
     }
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 26; ]
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 28; ]
     function onUpdate(dc as Dc) as Void {
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_26_40_30_4_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 27 8 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_28_40_34_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 29 8 ]
         %tmp.2 = getv ? :View;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 28 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 30 8 ]
         %tmp.6 = self;
         %tmp.7 = getv function %tmp.6 :drawBatteryArc;
         %tmp.9 = lgetv %dc;
         invoke %tmp.6 %tmp.7(%tmp.9);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 29 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 31 8 ]
         %tmp.10 = self;
         %tmp.11 = getv function %tmp.10 :drawTime;
         %tmp.13 = lgetv %dc;
         invoke %tmp.10 %tmp.11(%tmp.13);
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_26_40_30_4_stop:
-    }
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 35; ]
-    function onHide() as Void {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 32 8 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :drawDate;
+        %tmp.17 = lgetv %dc;
+        invoke %tmp.14 %tmp.15(%tmp.17);
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_28_40_34_4_stop:
     }
     [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 39; ]
-    function onExitSleep() as Void {
+    function onHide() as Void {
     }
     [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 43; ]
-    function onEnterSleep() as Void {
+    function onExitSleep() as Void {
     }
     [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 47; ]
+    function onEnterSleep() as Void {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 51; ]
     function drawBatteryArc(dc as Dc) as Void {
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 48 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 52 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %screenWidth.1 = local;
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %screenWidth.1 %tmp.3;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 49 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 53 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %screenHeight.2 = local;
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :getHeight;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %screenHeight.2 %tmp.6;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 50 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 54 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %myStats.3 = local;
         %tmp.7 = getm $.Toybox.System;
         %tmp.8 = getv function %tmp.7 :getSystemStats;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         lputv %myStats.3 %tmp.9;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 51 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 55 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %batteryLevel.4 = local;
         %tmp.10 = lgetv %myStats.3;
         %tmp.11 = getv %tmp.10 :battery;
         lputv %batteryLevel.4 %tmp.11;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 52 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 56 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %batteryColor.5 = local;
         %tmp.12 = getm $.Toybox.Application;
         %tmp.13 = getv %tmp.12 :Properties;
@@ -114,8 +121,8 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_sta
         %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
         %tmp.17 = as %tmp.16 Number;
         lputv %batteryColor.5 %tmp.17;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 53 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 57 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %batteryColorCharged.6 = local;
         %tmp.18 = getm $.Toybox.Application;
         %tmp.19 = getv %tmp.18 :Properties;
@@ -124,8 +131,8 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_sta
         %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
         %tmp.23 = as %tmp.22 Number;
         lputv %batteryColorCharged.6 %tmp.23;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 54 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 58 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %BackgroundColor.7 = local;
         %tmp.24 = getm $.Toybox.Application;
         %tmp.25 = getv %tmp.24 :Properties;
@@ -134,13 +141,13 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_sta
         %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
         %tmp.29 = as %tmp.28 Number;
         lputv %BackgroundColor.7 %tmp.29;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 55 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 59 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %lineWidth.8 = local;
-        %tmp.30 = 3;
+        %tmp.30 = 4;
         lputv %lineWidth.8 %tmp.30;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 56 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 60 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop" ]
         %chargedDegree.9 = local;
         %tmp.31 = 360;
         %tmp.32 = 100;
@@ -152,18 +159,18 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_sta
         %tmp.39 = mul %tmp.37 %tmp.38;
         %tmp.40 = sub %tmp.31 %tmp.39;
         lputv %chargedDegree.9 %tmp.40;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 59 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 63 8 ]
         %tmp.41 = lgetv %dc;
         %tmp.42 = getv function %tmp.41 :setPenWidth;
         %tmp.44 = lgetv %lineWidth.8;
         invoke %tmp.41 %tmp.42(%tmp.44);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 60 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 64 8 ]
         %tmp.45 = lgetv %dc;
         %tmp.46 = getv function %tmp.45 :setColor;
         %tmp.48 = lgetv %batteryColorCharged.6;
         %tmp.50 = lgetv %BackgroundColor.7;
         invoke %tmp.45 %tmp.46(%tmp.48, %tmp.50);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 61 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 65 8 ]
         %tmp.51 = lgetv %dc;
         %tmp.52 = getv function %tmp.51 :drawArc;
         %tmp.54 = lgetv %screenWidth.1;
@@ -184,13 +191,13 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_sta
         %tmp.72 = 0;
         %tmp.73 = 360;
         invoke %tmp.51 %tmp.52(%tmp.56, %tmp.60, %tmp.69, %tmp.71, %tmp.72, %tmp.73);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 70 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 74 8 ]
         %tmp.74 = lgetv %dc;
         %tmp.75 = getv function %tmp.74 :setColor;
         %tmp.77 = lgetv %batteryColor.5;
         %tmp.79 = lgetv %BackgroundColor.7;
         invoke %tmp.74 %tmp.75(%tmp.77, %tmp.79);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 71 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 75 8 ]
         %tmp.80 = lgetv %dc;
         %tmp.81 = getv function %tmp.80 :drawArc;
         %tmp.83 = lgetv %screenWidth.1;
@@ -213,85 +220,85 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_sta
         %tmp.104 = 90;
         %tmp.105 = add %tmp.103 %tmp.104;
         invoke %tmp.80 %tmp.81(%tmp.85, %tmp.89, %tmp.98, %tmp.100, %tmp.101, %tmp.105);
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_47_46_79_4_stop:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_51_46_83_4_stop:
     }
-    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 80; ]
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 84; ]
     function drawTime(dc as Dc) as Void {
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 81 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_stop" ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 85 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_stop" ]
         %timeFormat.1 = local;
         %tmp.1 = "$1$:$2$";
         lputv %timeFormat.1 %tmp.1;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 82 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 86 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_stop" ]
         %clockTime.2 = local;
         %tmp.2 = getm $.Toybox.System;
         %tmp.3 = getv function %tmp.2 :getClockTime;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %clockTime.2 %tmp.4;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 83 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 87 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_stop" ]
         %hours.3 = local;
         %tmp.5 = lgetv %clockTime.2;
         %tmp.6 = getv %tmp.5 :hour;
         lputv %hours.3 %tmp.6;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 84 8 ]
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_stmt:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 88 8 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_8_97_8_if_stmt:
         %tmp.7 = getm $.Toybox.System;
         %tmp.8 = getv function %tmp.7 :getDeviceSettings;
         %tmp.9 = invoke %tmp.7 %tmp.8();
         %tmp.10 = getv %tmp.9 :is24Hour;
         %tmp.11 = not %tmp.10;
-        bf %tmp.11 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_false;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_true:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_50_88_8_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 85 12 ]
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_12_87_12_if_stmt:
+        bf %tmp.11 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_8_97_8_if_false;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_8_97_8_if_true:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_50_92_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 89 12 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_91_12_if_stmt:
         %tmp.13 = lgetv %hours.3;
         %tmp.14 = 12;
         %tmp.15 = gt %tmp.13 %tmp.14;
-        bf %tmp.15 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_12_87_12_if_end;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_12_87_12_if_true:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_28_87_12_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 86 16 ]
+        bf %tmp.15 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_91_12_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_91_12_if_true:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_28_91_12_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 90 16 ]
         %tmp.17 = lgetv %hours.3;
         %tmp.18 = 12;
         %tmp.19 = sub %tmp.17 %tmp.18;
         lputv %hours.3 %tmp.19;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_28_87_12_stop:
-        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_12_87_12_if_end;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_85_12_87_12_if_end:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_50_88_8_stop:
-        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_end;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_false:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_15_93_8_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 89 12 ]
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_92_12_if_stmt:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_28_91_12_stop:
+        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_91_12_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_91_12_if_end:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_50_92_8_stop:
+        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_8_97_8_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_8_97_8_if_false:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_92_15_97_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 93 12 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_12_96_12_if_stmt:
         %tmp.20 = getm $.Toybox.Application;
         %tmp.21 = getv %tmp.20 :Properties;
         %tmp.22 = getv function %tmp.21 :getValue;
         %tmp.23 = "UseMilitaryFormat";
         %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
-        bf %tmp.24 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_92_12_if_end;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_92_12_if_true:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_70_92_12_start:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 90 16 ]
+        bf %tmp.24 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_12_96_12_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_12_96_12_if_true:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_70_96_12_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 94 16 ]
         %tmp.25 = "$1$$2$";
         lputv %timeFormat.1 %tmp.25;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 91 16 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 95 16 ]
         %tmp.26 = lgetv %hours.3;
         %tmp.27 = getv function %tmp.26 :format;
         %tmp.28 = "%02d";
         %tmp.29 = invoke %tmp.26 %tmp.27(%tmp.28);
         lputv %hours.3 %tmp.29;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_70_92_12_stop:
-        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_92_12_if_end;
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_89_12_92_12_if_end:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_15_93_8_stop:
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_end:
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 94 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_stop" ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_70_96_12_stop:
+        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_12_96_12_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_93_12_96_12_if_end:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_92_15_97_8_stop:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_88_8_97_8_if_end:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 98 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_stop" ]
         %timeString.4 = local;
         %tmp.30 = getm $.Toybox.Lang;
         %tmp.31 = getv function %tmp.30 :format;
@@ -309,8 +316,8 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_e
         %tmp.45 = aputv %tmp.44 1 %tmp.43;
         %tmp.46 = invoke %tmp.30 %tmp.31(%tmp.33, %tmp.45);
         lputv %timeString.4 %tmp.46;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 96 8 ]
-        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_stop" ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 100 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_stop" ]
         %view.5 = local;
         %tmp.48 = getv ? :View;
         %tmp.49 = getv function %tmp.48 :findDrawableById;
@@ -318,7 +325,7 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_e
         %tmp.51 = invoke %tmp.48 %tmp.49(%tmp.50);
         %tmp.52 = as %tmp.51 Text;
         lputv %view.5 %tmp.52;
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 97 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 101 8 ]
         %tmp.53 = lgetv %view.5;
         %tmp.54 = getv function %tmp.53 :setColor;
         %tmp.55 = getm $.Toybox.Application;
@@ -328,7 +335,7 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_e
         %tmp.59 = invoke %tmp.56 %tmp.57(%tmp.58);
         %tmp.60 = as %tmp.59 Number;
         invoke %tmp.53 %tmp.54(%tmp.60);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 98 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 102 8 ]
         %tmp.61 = lgetv %view.5;
         %tmp.62 = getv function %tmp.61 :setFont;
         %tmp.63 = getm $.Toybox.WatchUi;
@@ -338,12 +345,12 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_e
         %tmp.68 = getv %tmp.67 :MontserratFont;
         %tmp.69 = invoke %tmp.63 %tmp.64(%tmp.68);
         invoke %tmp.61 %tmp.62(%tmp.69);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 99 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 103 8 ]
         %tmp.70 = lgetv %view.5;
         %tmp.71 = getv function %tmp.70 :setText;
         %tmp.73 = lgetv %timeString.4;
         invoke %tmp.70 %tmp.71(%tmp.73);
-[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 100 8 ]
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 104 8 ]
         %tmp.74 = lgetv %view.5;
         %tmp.75 = getv function %tmp.74 :setLocation;
         %tmp.76 = lgetv %dc;
@@ -362,7 +369,199 @@ _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_8_93_8_if_e
         %tmp.89 = div %tmp.87 %tmp.88;
         %tmp.90 = sub %tmp.85 %tmp.89;
         invoke %tmp.74 %tmp.75(%tmp.80, %tmp.90);
-_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_80_40_104_4_stop:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_84_40_108_4_stop:
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 109; ]
+    function drawDate(dc as Dc) as Void {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 110 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_stop" ]
+        %today.1 = local;
+        %tmp.1 = getm $.Toybox.Time.Gregorian;
+        %tmp.2 = getv function %tmp.1 :info;
+        %tmp.3 = getm $.Toybox.Time;
+        %tmp.4 = getv function %tmp.3 :now;
+        %tmp.5 = invoke %tmp.3 %tmp.4();
+        %tmp.6 = getm $.Toybox.Time;
+        %tmp.7 = getv %tmp.6 :FORMAT_MEDIUM;
+        %tmp.8 = invoke %tmp.1 %tmp.2(%tmp.5, %tmp.7);
+        lputv %today.1 %tmp.8;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 111 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_stop" ]
+        %dateString.2 = local;
+        %tmp.9 = getm $.Toybox.Lang;
+        %tmp.10 = getv function %tmp.9 :format;
+        %tmp.11 = "$1$  $2$  $3$";
+        %tmp.12 = newa 3;
+        %tmp.13 = lgetv %today.1;
+        %tmp.14 = getv %tmp.13 :day_of_week;
+        %tmp.15 = dup %tmp.12;
+        %tmp.16 = aputv %tmp.15 0 %tmp.14;
+        %tmp.17 = lgetv %today.1;
+        %tmp.18 = getv %tmp.17 :day;
+        %tmp.19 = getv function %tmp.18 :format;
+        %tmp.20 = "%02d";
+        %tmp.21 = invoke %tmp.18 %tmp.19(%tmp.20);
+        %tmp.22 = dup %tmp.16;
+        %tmp.23 = aputv %tmp.22 1 %tmp.21;
+        %tmp.24 = lgetv %today.1;
+        %tmp.25 = getv %tmp.24 :month;
+        %tmp.26 = dup %tmp.23;
+        %tmp.27 = aputv %tmp.26 2 %tmp.25;
+        %tmp.28 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.27);
+        lputv %dateString.2 %tmp.28;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 116 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_stop" ]
+        %view.3 = local;
+        %tmp.30 = getv ? :View;
+        %tmp.31 = getv function %tmp.30 :findDrawableById;
+        %tmp.32 = "DateLabel";
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        %tmp.34 = as %tmp.33 Text;
+        lputv %view.3 %tmp.34;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 117 8 ]
+        %tmp.35 = lgetv %view.3;
+        %tmp.36 = getv function %tmp.35 :setColor;
+        %tmp.37 = getm $.Toybox.Application;
+        %tmp.38 = getv %tmp.37 :Properties;
+        %tmp.39 = getv function %tmp.38 :getValue;
+        %tmp.40 = "ForegroundColor";
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        %tmp.42 = as %tmp.41 Number;
+        invoke %tmp.35 %tmp.36(%tmp.42);
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 118 8 ]
+        %tmp.43 = lgetv %view.3;
+        %tmp.44 = getv function %tmp.43 :setFont;
+        %tmp.45 = getm $.Toybox.WatchUi;
+        %tmp.46 = getv function %tmp.45 :loadResource;
+        %tmp.48 = getv ? :Rez;
+        %tmp.49 = getv %tmp.48 :Fonts;
+        %tmp.50 = getv %tmp.49 :MontserratFont32;
+        %tmp.51 = invoke %tmp.45 %tmp.46(%tmp.50);
+        invoke %tmp.43 %tmp.44(%tmp.51);
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 119 8 ]
+        %tmp.52 = lgetv %view.3;
+        %tmp.53 = getv function %tmp.52 :setText;
+        %tmp.55 = lgetv %dateString.2;
+        invoke %tmp.52 %tmp.53(%tmp.55);
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 120 8 ]
+        %tmp.56 = lgetv %view.3;
+        %tmp.57 = getv function %tmp.56 :setLocation;
+        %tmp.58 = lgetv %dc;
+        %tmp.59 = getv function %tmp.58 :getWidth;
+        %tmp.60 = invoke %tmp.58 %tmp.59();
+        %tmp.61 = 2;
+        %tmp.62 = div %tmp.60 %tmp.61;
+        %tmp.63 = lgetv %view.3;
+        %tmp.64 = getv %tmp.63 :width;
+        %tmp.65 = 2;
+        %tmp.66 = div %tmp.64 %tmp.65;
+        %tmp.67 = sub %tmp.62 %tmp.66;
+        %tmp.68 = lgetv %dc;
+        %tmp.69 = getv function %tmp.68 :getHeight;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        %tmp.71 = 2;
+        %tmp.72 = div %tmp.70 %tmp.71;
+        %tmp.73 = 100;
+        %tmp.74 = sub %tmp.72 %tmp.73;
+        invoke %tmp.56 %tmp.57(%tmp.67, %tmp.74);
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_109_40_124_4_stop:
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 125; ]
+    function drawHeartRate(dc as Dc) as Void {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_125_45_141_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 126 6 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_125_45_141_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_125_45_141_4_stop" ]
+        %actInfo.1 = local;
+        %tmp.2 = getv ? :Activity;
+        %tmp.3 = getv function %tmp.2 :getActivityInfo;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        lputv %actInfo.1 %tmp.4;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 127 6 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_6_140_6_if_stmt:
+        %tmp.6 = lgetv %actInfo.1;
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_6_140_6_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_6_140_6_if_true:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_27_140_6_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 128 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_27_140_6_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_27_140_6_stop" ]
+        %heartRate.2 = local;
+        %tmp.9 = lgetv %actInfo.1;
+        %tmp.10 = as %tmp.9 { (!Null) };
+        %tmp.11 = getv %tmp.10 :currentHeartRate;
+        lputv %heartRate.2 %tmp.11;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 129 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_27_140_6_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_27_140_6_stop" ]
+        %view.3 = local;
+        %tmp.13 = getv ? :View;
+        %tmp.14 = getv function %tmp.13 :findDrawableById;
+        %tmp.15 = "HeartRateLabel";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = as %tmp.16 Text;
+        lputv %view.3 %tmp.17;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 130 8 ]
+        %tmp.18 = lgetv %view.3;
+        %tmp.19 = getv function %tmp.18 :setColor;
+        %tmp.20 = getm $.Toybox.Application;
+        %tmp.21 = getv %tmp.20 :Properties;
+        %tmp.22 = getv function %tmp.21 :getValue;
+        %tmp.23 = "ForegroundColor";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = as %tmp.24 Number;
+        invoke %tmp.18 %tmp.19(%tmp.25);
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 131 8 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_8_135_8_if_stmt:
+        %tmp.27 = lgetv %heartRate.2;
+        %tmp.28 = null;
+        %tmp.29 = ne %tmp.27 %tmp.28;
+        bf %tmp.29 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_8_135_8_if_false;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_8_135_8_if_true:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_31_133_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 132 10 ]
+        %tmp.30 = lgetv %view.3;
+        %tmp.31 = getv function %tmp.30 :setText;
+        %tmp.32 = lgetv %heartRate.2;
+        %tmp.33 = as %tmp.32 { (!Null) };
+        %tmp.34 = getv function %tmp.33 :format;
+        %tmp.35 = "%d";
+        %tmp.36 = invoke %tmp.33 %tmp.34(%tmp.35);
+        invoke %tmp.30 %tmp.31(%tmp.36);
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_31_133_8_stop:
+        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_8_135_8_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_8_135_8_if_false:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_133_15_135_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 134 10 ]
+        %tmp.37 = lgetv %view.3;
+        %tmp.38 = getv function %tmp.37 :setText;
+        %tmp.39 = "♥ ...";
+        invoke %tmp.37 %tmp.38(%tmp.39);
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_133_15_135_8_stop:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_131_8_135_8_if_end:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" 136 8 ]
+        %tmp.40 = lgetv %view.3;
+        %tmp.41 = getv function %tmp.40 :setLocation;
+        %tmp.42 = lgetv %dc;
+        %tmp.43 = getv function %tmp.42 :getWidth;
+        %tmp.44 = invoke %tmp.42 %tmp.43();
+        %tmp.45 = 2;
+        %tmp.46 = div %tmp.44 %tmp.45;
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :getHeight;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.50 = 2;
+        %tmp.51 = div %tmp.49 %tmp.50;
+        %tmp.52 = lgetv %view.3;
+        %tmp.53 = getv %tmp.52 :height;
+        %tmp.54 = 2;
+        %tmp.55 = div %tmp.53 %tmp.54;
+        %tmp.56 = add %tmp.51 %tmp.55;
+        invoke %tmp.40 %tmp.41(%tmp.46, %tmp.56);
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_27_140_6_stop:
+        goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_6_140_6_if_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_127_6_140_6_if_end:
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoView_mc_125_45_141_4_stop:
     }
 }
 [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc"; @line = 1; ]

@@ -11,15 +11,21 @@ module Rez {
 
     module Fonts {
         (:initialized) var MontserratFont as ResourceId;
+        (:initialized) var MontserratFont16 as ResourceId;
+        (:initialized) var MontserratFont32 as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_27361646955330325965 = new Background();
+            var rez_cmp_local_custom_drawable_13764573576924918981 = new Background();
 
             var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_LARGE});
 
-            return [rez_cmp_local_custom_drawable_27361646955330325965, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SYSTEM_TINY});
+
+            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_SMALL});
+
+            return [rez_cmp_local_custom_drawable_13764573576924918981, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_DateLabel, rez_cmp_local_text_HeartRateLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

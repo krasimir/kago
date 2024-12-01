@@ -1,4 +1,6 @@
 <layout id="WatchFace">
     <drawable class="Background" />
     <label id="TimeLabel" font="Graphics.FONT_SYSTEM_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="DateLabel" font="Graphics.FONT_SYSTEM_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" />
+    <label id="HeartRateLabel" font="Graphics.FONT_SYSTEM_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER" />
 </layout>
