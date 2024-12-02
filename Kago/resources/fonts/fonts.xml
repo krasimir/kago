@@ -1,0 +1,10 @@
+<resources>
+    <font id="MontserratFont" filename="./Montserrat.fnt" />
+    <font id="MontserratFont16" filename="./Montserrat_16.fnt" />
+    <font id="MontserratFont32" filename="./Montserrat_32.fnt" />
+    <font id="OswaldBold140" filename="./Oswald-Bold_140.fnt" />
+    <font id="OswaldBold120" filename="./Oswald-Bold_120.fnt" />
+    <font id="OswaldBold32" filename="./Oswald-Bold_32.fnt" />
+    <font id="OswaldRegular32" filename="./Oswald-Regular_32.fnt" />
+    <font id="OswaldRegular20" filename="./Oswald-Regular_20.fnt" />
+</resources>

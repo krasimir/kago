@@ -1,0 +1,36 @@
+<resources>
+    <font id="activity_icon" filename="./icons/activity.fnt" antialias="true"/>
+    <font id="alarm_icon" filename="./icons/alarm.fnt" antialias="true"/>
+    <font id="altitude_icon" filename="./icons/altitude.fnt" antialias="true"/>
+    <font id="battery_0_icon" filename="./icons/battery_0.fnt" antialias="true"/>
+    <font id="battery_25_icon" filename="./icons/battery_25.fnt" antialias="true"/>
+    <font id="battery_50_icon" filename="./icons/battery_50.fnt" antialias="true"/>
+    <font id="battery_75_icon" filename="./icons/battery_75.fnt" antialias="true"/>
+    <font id="battery_100_icon" filename="./icons/battery_100.fnt" antialias="true"/>
+    <font id="calories_icon" filename="./icons/calories.fnt" antialias="true"/>
+    <font id="connection_icon" filename="./icons/connection.fnt" antialias="true"/>
+    <font id="distance_icon" filename="./icons/distance.fnt" antialias="true"/>
+    <font id="dnd_icon" filename="./icons/do-not-disturb.fnt" antialias="true"/>
+    <font id="energy_icon" filename="./icons/energy.fnt" antialias="true"/>
+    <font id="floors_icon" filename="./icons/floors.fnt" antialias="true"/>
+    <font id="heart_icon" filename="./icons/heart.fnt" antialias="true"/>
+    <font id="memory_icon" filename="./icons/memory.fnt" antialias="true"/>
+    <font id="messages_icon" filename="./icons/messages.fnt" antialias="true"/>
+    <font id="oxygen_icon" filename="./icons/oxygen.fnt" antialias="true"/>
+    <font id="preasure_icon" filename="./icons/preasure.fnt" antialias="true"/>
+    <font id="recovery_icon" filename="./icons/recovery.fnt" antialias="true"/>
+    <font id="sleep_icon" filename="./icons/sleep.fnt" antialias="true"/>
+    <font id="steps_icon" filename="./icons/steps.fnt" antialias="true"/>
+    <font id="stress_icon" filename="./icons/stress.fnt" antialias="true"/>
+    <font id="sun_icon" filename="./icons/sun.fnt" antialias="true"/>
+    <font id="sunrise_icon" filename="./icons/sunrise.fnt" antialias="true"/>
+    <font id="sunset_icon" filename="./icons/sunset.fnt" antialias="true"/>
+    <font id="weather_icon" filename="./icons/weather.fnt" antialias="true"/>
+    <font id="snow_icon" filename="./icons/snow.fnt" antialias="true"/>
+    <font id="clouds_icon" filename="./icons/clouds.fnt" antialias="true"/>
+    <font id="fog_icon" filename="./icons/fog.fnt" antialias="true"/>
+    <font id="hail_icon" filename="./icons/hail.fnt" antialias="true"/>
+    <font id="rain_icon" filename="./icons/rain.fnt" antialias="true"/>
+    <font id="thunderstorm_icon" filename="./icons/thunderstorm.fnt" antialias="true"/>
+    <font id="hurricane_icon" filename="./icons/hurricane.fnt" antialias="true"/>
+</resources>

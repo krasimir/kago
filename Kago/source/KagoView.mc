@@ -31,6 +31,7 @@ class KagoView extends WatchUi.WatchFace {
         drawTime(dc);
         drawDate(dc);
         // drawHeartRate(dc);
+        drawIcon(dc, Rez.Fonts.activity_icon, 100, 100);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -97,30 +98,39 @@ class KagoView extends WatchUi.WatchFace {
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
-        var view = View.findDrawableById("TimeLabel") as Text;
-        view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-        view.setFont(WatchUi.loadResource(Rez.Fonts.MontserratFont));
-        view.setText(timeString);
-        view.setLocation(
+        var font = WatchUi.loadResource(Rez.Fonts.OswaldBold140);
+        var text = new WatchUi.Text({
+          :text => timeString,
+          :color => Application.Properties.getValue("ForegroundColor") as Number,
+          :font => font,
+          :justification => Graphics.TEXT_JUSTIFY_CENTER
+        });
+        var size = dc.getTextDimensions(timeString, font);
+        text.setLocation(
           (dc.getWidth() / 2),
-          (dc.getHeight() / 2) - (view.height / 2)
+          (dc.getHeight() / 2) - (size[1] / 2)
         );
+        text.draw(dc);
     }
     function drawDate(dc as Dc) as Void {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-        var dateString = Lang.format("$1$  $2$  $3$", [
-          today.day_of_week,
+        var dayOfWeek = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day_of_week;
+        var dateString = Lang.format("$1$ $2$", [
           today.day.format("%02d"),
           today.month
         ]);
-        var view = View.findDrawableById("DateLabel") as Text;
-        view.setColor(Application.Properties.getValue("ForegroundColor") as Number);
-        view.setFont(WatchUi.loadResource(Rez.Fonts.MontserratFont32));
-        view.setText(dateString);
-        view.setLocation(
-          (dc.getWidth() / 2) - (view.width / 2),
+        var dayAndMonth = self._createText(dc, dateString, Rez.Fonts.OswaldRegular32);
+        dayAndMonth["text"].setLocation(
+          (dc.getWidth() / 2) - (dayAndMonth["width"] / 2),
           (dc.getHeight() / 2) - 100
         );
+        self._drawText(dc, dayAndMonth);
+        var weekDay = self._createText(dc, self._getDayOfWeek(dayOfWeek), Rez.Fonts.OswaldRegular20);
+        weekDay["text"].setLocation(
+          (dc.getWidth() / 2) - (weekDay["width"] / 2),
+          (dc.getHeight() / 2) - 120
+        );
+        self._drawText(dc, weekDay);
     }
     function drawHeartRate(dc as Dc) as Void {
       var actInfo = Activity.getActivityInfo();
@@ -131,12 +141,58 @@ class KagoView extends WatchUi.WatchFace {
         if (heartRate != null) {
           view.setText('♥ ' + heartRate.format("%d"));
         } else {
-          view.setText("♥ ...");
+          view.setText("...");
         }
         view.setLocation(
           (dc.getWidth() / 2),
           (dc.getHeight() / 2) + (view.height / 2)
         );
       }
+    }
+    function drawIcon(dc as Dc, iconId as ResourceId, x as Number, y as Number) as Void {
+      var icon = new WatchUi.Text({
+        :text => " ",
+        :color => Graphics.COLOR_WHITE,
+        :font => WatchUi.loadResource(iconId)
+      });
+      icon.setLocation(x, y);
+      icon.draw(dc);
+    }
+
+    function _createText(dc as Dc, str as String, fontId as ResourceId) as Dictionary {
+      var font = WatchUi.loadResource(fontId);
+      var text = new WatchUi.Text({
+        :text => str,
+        :color => Application.Properties.getValue("ForegroundColor") as Number,
+        :font => font
+      });
+      var size = dc.getTextDimensions(str, font);
+      var result = {};
+      result["text"] = text;
+      result["width"] = size[0];
+      result["height"] = size[1];
+      return result;
+    }
+    function _drawText(dc as Dc, text as Dictionary) as Void {
+      text["text"].draw(dc);
+    }
+    function _getDayOfWeek(dayOfWeek as Number) as String {
+      switch (dayOfWeek) {
+        case Time.Gregorian.DAY_MONDAY:
+          return "MONDAY";
+        case Time.Gregorian.DAY_TUESDAY:
+          return "TUESDAY";
+        case Time.Gregorian.DAY_WEDNESDAY:
+          return "WEDNESDAY";
+        case Time.Gregorian.DAY_THURSDAY:
+          return "THURSDAY";
+        case Time.Gregorian.DAY_FRIDAY:
+          return "FRIDAY";
+        case Time.Gregorian.DAY_SATURDAY:
+          return "SATURDAY";
+        case Time.Gregorian.DAY_SUNDAY:
+          return "SUNDAY";
+      }
+      return "UNKNOWN";
     }
 }

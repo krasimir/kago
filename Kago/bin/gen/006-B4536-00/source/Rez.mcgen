@@ -10,22 +10,57 @@ module Rez {
     } // Drawables
 
     module Fonts {
+        (:initialized) var activity_icon as ResourceId;
+        (:initialized) var alarm_icon as ResourceId;
+        (:initialized) var altitude_icon as ResourceId;
+        (:initialized) var battery_0_icon as ResourceId;
+        (:initialized) var battery_25_icon as ResourceId;
+        (:initialized) var battery_50_icon as ResourceId;
+        (:initialized) var battery_75_icon as ResourceId;
+        (:initialized) var battery_100_icon as ResourceId;
+        (:initialized) var calories_icon as ResourceId;
+        (:initialized) var connection_icon as ResourceId;
+        (:initialized) var distance_icon as ResourceId;
+        (:initialized) var dnd_icon as ResourceId;
+        (:initialized) var energy_icon as ResourceId;
+        (:initialized) var floors_icon as ResourceId;
+        (:initialized) var heart_icon as ResourceId;
+        (:initialized) var memory_icon as ResourceId;
+        (:initialized) var messages_icon as ResourceId;
+        (:initialized) var oxygen_icon as ResourceId;
+        (:initialized) var preasure_icon as ResourceId;
+        (:initialized) var recovery_icon as ResourceId;
+        (:initialized) var sleep_icon as ResourceId;
+        (:initialized) var steps_icon as ResourceId;
+        (:initialized) var stress_icon as ResourceId;
+        (:initialized) var sun_icon as ResourceId;
+        (:initialized) var sunrise_icon as ResourceId;
+        (:initialized) var sunset_icon as ResourceId;
+        (:initialized) var weather_icon as ResourceId;
+        (:initialized) var snow_icon as ResourceId;
+        (:initialized) var clouds_icon as ResourceId;
+        (:initialized) var fog_icon as ResourceId;
+        (:initialized) var hail_icon as ResourceId;
+        (:initialized) var rain_icon as ResourceId;
+        (:initialized) var thunderstorm_icon as ResourceId;
+        (:initialized) var hurricane_icon as ResourceId;
         (:initialized) var MontserratFont as ResourceId;
         (:initialized) var MontserratFont16 as ResourceId;
         (:initialized) var MontserratFont32 as ResourceId;
+        (:initialized) var OswaldBold140 as ResourceId;
+        (:initialized) var OswaldBold120 as ResourceId;
+        (:initialized) var OswaldBold32 as ResourceId;
+        (:initialized) var OswaldRegular32 as ResourceId;
+        (:initialized) var OswaldRegular20 as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_13764573576924918981 = new Background();
-
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_LARGE});
-
-            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_SYSTEM_TINY});
+            var rez_cmp_local_custom_drawable_40774010819426763022 = new Background();
 
             var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_SMALL});
 
-            return [rez_cmp_local_custom_drawable_13764573576924918981, rez_cmp_local_text_TimeLabel, rez_cmp_local_text_DateLabel, rez_cmp_local_text_HeartRateLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_40774010819426763022, rez_cmp_local_text_HeartRateLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

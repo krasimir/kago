@@ -11,6 +11,8 @@
 
 * Docs: https://developer.garmin.com/
 
-## Useful information
+## Misc
 
 Res: 454x454
+
+* Inspiration: https://github.com/bombsimon/awesome-garmin?tab=readme-ov-file#watch-faces
