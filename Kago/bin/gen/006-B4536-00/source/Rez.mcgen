@@ -50,17 +50,16 @@ module Rez {
         (:initialized) var OswaldBold140 as ResourceId;
         (:initialized) var OswaldBold120 as ResourceId;
         (:initialized) var OswaldBold32 as ResourceId;
-        (:initialized) var OswaldRegular32 as ResourceId;
         (:initialized) var OswaldRegular20 as ResourceId;
+        (:initialized) var OswaldRegular32 as ResourceId;
+        (:initialized) var OswaldRegular48 as ResourceId;
     } // Fonts
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_40774010819426763022 = new Background();
+            var rez_cmp_local_custom_drawable_15741383171093566624 = new Background();
 
-            var rez_cmp_local_text_HeartRateLabel = new WatchUi.Text({:identifier=>"HeartRateLabel", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SYSTEM_SMALL});
-
-            return [rez_cmp_local_custom_drawable_40774010819426763022, rez_cmp_local_text_HeartRateLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_15741383171093566624] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
