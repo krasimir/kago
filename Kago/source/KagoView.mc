@@ -289,9 +289,10 @@ class KagoView extends WatchUi.WatchFace {
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
       self._drawIcon(dc, Rez.Fonts.steps_icon, textX - 22, textY + 1, "SensorStatsColor");
+      System.println("===");
       if (goalSteps != null && steps != null) {
         var goalText = steps.toFloat() / goalSteps.toFloat() * 100;
-        var goal = self._createText(dc, goalText.format("%d") + "%", Rez.Fonts.MontserratFont16, "SensorStatsColor");
+        var goal = self._createText(dc, goalText.format("%d") + "%", Rez.Fonts.MontserratFont12, "SensorStatsColor");
         goal["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
         goal["text"].setLocation(textX + text["width"] + 2, textY - 4);
         self._drawText(dc, goal);

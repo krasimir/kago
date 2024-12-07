@@ -45,6 +45,7 @@ module Rez {
         (:initialized) var thunderstorm_icon as ResourceId;
         (:initialized) var hurricane_icon as ResourceId;
         (:initialized) var MontserratFont as ResourceId;
+        (:initialized) var MontserratFont12 as ResourceId;
         (:initialized) var MontserratFont16 as ResourceId;
         (:initialized) var MontserratFont32 as ResourceId;
         (:initialized) var OswaldBold140 as ResourceId;
@@ -57,9 +58,9 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_15741383171093566624 = new Background();
+            var rez_cmp_local_custom_drawable_14826003731973962757 = new Background();
 
-            return [rez_cmp_local_custom_drawable_15741383171093566624] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_14826003731973962757] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

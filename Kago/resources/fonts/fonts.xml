@@ -1,5 +1,6 @@
 <resources>
     <font id="MontserratFont" filename="./Montserrat.fnt" />
+    <font id="MontserratFont12" filename="./Montserrat_12.fnt" />
     <font id="MontserratFont16" filename="./Montserrat_16.fnt" />
     <font id="MontserratFont32" filename="./Montserrat_32.fnt" />
     <font id="OswaldBold140" filename="./Oswald-Bold_140.fnt" />
