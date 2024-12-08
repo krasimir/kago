@@ -82,9 +82,9 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_20002132141520346644 = new Background();
+            var rez_cmp_local_custom_drawable_21127903051012544289 = new Background();
 
-            return [rez_cmp_local_custom_drawable_20002132141520346644] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_21127903051012544289] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -95,27 +95,31 @@ module Rez {
         (:initialized) var BackgroundColorTitle as ResourceId;
         (:initialized) var ColorSoftBlue as ResourceId;
         (:initialized) var ColorReddishBrown as ResourceId;
+        (:initialized) var ColorDarkMagenta as ResourceId;
+        (:initialized) var ColorYellow as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var ColorMagenta as ResourceId;
         (:initialized) var ColorRed as ResourceId;
         (:initialized) var ColorGoldenYellow as ResourceId;
-        (:initialized) var ColorDeepPurple as ResourceId;
         (:initialized) var ColorLightPink as ResourceId;
         (:initialized) var ColorDarkOliveGreen as ResourceId;
         (:initialized) var SensorStatsColorTitle as ResourceId;
         (:initialized) var SeasonIconTitle as ResourceId;
         (:initialized) var ColorWhite as ResourceId;
-        (:initialized) var ColorSoftOrange as ResourceId;
-        (:initialized) var ColorBrightGreen as ResourceId;
+        (:initialized) var ColorGreen as ResourceId;
         (:initialized) var ColorLightGray as ResourceId;
         (:initialized) var ColorDarkGray as ResourceId;
         (:initialized) var MilitaryFormatTitle as ResourceId;
         (:initialized) var ColorBlack as ResourceId;
+        (:initialized) var ColorOrange as ResourceId;
         (:initialized) var SeasonTree as ResourceId;
         (:initialized) var BatteryColorTitle as ResourceId;
         (:initialized) var ForegroundColorTitle as ResourceId;
         (:initialized) var AccentLinesColorTitle as ResourceId;
         (:initialized) var BatteryColorChargedTitle as ResourceId;
         (:initialized) var DateColorTitle as ResourceId;
+        (:initialized) var ColorCyan as ResourceId;
+        (:initialized) var ColorPurple as ResourceId;
         (:initialized) var ColorLimeGreen as ResourceId;
     } // Strings
 

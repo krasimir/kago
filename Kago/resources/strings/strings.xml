@@ -21,15 +21,21 @@
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>
     <string id="ColorRed">Red</string>
+    <string id="ColorGreen">Green</string>
+    <string id="ColorYellow">Yellow</string>
+    <string id="ColorBlue">Blue</string>
+    <string id="ColorMagenta">Magenta</string>
+    <string id="ColorCyan">Cyan</string>
     <string id="ColorSoftBlue">Soft Blue</string>
-    <string id="ColorBrightGreen">Bright Green</string>
     <string id="ColorGoldenYellow">Golden Yellow</string>
-    <string id="ColorSoftOrange">Soft Orange</string>
-    <string id="ColorDeepPurple">Deep Purple</string>
     <string id="ColorLightPink">Light Pink</string>
     <string id="ColorSkyBlue">Sky Blue</string>
     <string id="ColorLimeGreen">Lime Green</string>
     <string id="ColorReddishBrown">Reddish Brown</string>
     <string id="ColorDarkOliveGreen">Dark Olive Green</string>
+    <string id="ColorOrange">Orange</string>
+    <string id="ColorPurple">Purple</string>
+    <string id="ColorDarkMagenta">Dark Magenta</string>
+    <string id="ColorGreen">Dark Green</string>
 
 </strings>

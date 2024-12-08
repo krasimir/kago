@@ -370,35 +370,38 @@
         <entry id="8389346" symbol="text"/>
         <entry id="30" method="true" symbol="drawPhoneConnection"/>
         <entry id="20" method="true" symbol="_transformMetrToMil"/>
-        <entry id="133" method="true" symbol="getActiveMinutesWeek"/>
+        <entry id="137" method="true" symbol="getActiveMinutesWeek"/>
         <entry field="true" id="89" symbol="memory_icon"/>
-        <entry id="145" method="true" symbol="getMetersClimbed"/>
+        <entry id="149" method="true" symbol="getMetersClimbed"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="26" method="true" symbol="drawDate"/>
+        <entry field="true" id="122" symbol="ColorPurple"/>
         <entry field="true" id="70" symbol="activity_icon"/>
         <entry id="24" method="true" symbol="drawBatteryArc"/>
         <entry field="true" id="52" symbol="TreeJanuary"/>
+        <entry field="true" id="116" symbol="ColorGreen"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="128" symbol="ColorYellow"/>
         <entry id="9" object="true" symbol="KagoApp"/>
         <entry field="true" id="115" symbol="ColorGoldenYellow"/>
-        <entry field="true" id="119" symbol="ColorRed"/>
-        <entry id="151" method="true" symbol="getStressScore"/>
+        <entry field="true" id="123" symbol="ColorRed"/>
+        <entry id="155" method="true" symbol="getStressScore"/>
         <entry field="true" id="55" symbol="TreeMarch"/>
         <entry id="8390424" module="true" symbol="Storage"/>
         <entry field="true" id="42" symbol="IllustrationMarch"/>
         <entry field="true" id="99" symbol="sun_icon"/>
         <entry field="true" id="84" symbol="floors_icon"/>
-        <entry field="true" id="127" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="131" symbol="MilitaryFormatTitle"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
         <entry field="true" id="102" symbol="thunderstorm_icon"/>
-        <entry id="150" method="true" symbol="getSteps"/>
+        <entry id="154" method="true" symbol="getSteps"/>
         <entry field="true" id="69" symbol="OswaldRegular48"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry field="true" id="68" symbol="OswaldRegular32"/>
         <entry field="true" id="71" symbol="alarm_icon"/>
         <entry field="true" id="67" symbol="OswaldRegular20"/>
         <entry field="true" id="51" symbol="TreeFebruary"/>
-        <entry id="136" method="true" symbol="getBattery"/>
+        <entry id="140" method="true" symbol="getBattery"/>
         <entry field="true" id="38" symbol="IllustrationFebruary"/>
         <entry field="true" id="73" symbol="battery_0_icon"/>
         <entry field="true" id="66" symbol="OswaldBold32"/>
@@ -414,23 +417,24 @@
         <entry id="8388631" module="true" symbol="Activity"/>
         <entry field="true" id="57" symbol="TreeNovember"/>
         <entry id="29" method="true" symbol="drawMessages"/>
-        <entry id="135" method="true" symbol="getAlarmCount"/>
+        <entry id="139" method="true" symbol="getAlarmCount"/>
         <entry field="true" id="88" symbol="hurricane_icon"/>
         <entry field="true" id="44" symbol="IllustrationNovember"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="134" method="true" symbol="getActiveMinutesWeekGoal"/>
+        <entry field="true" id="121" symbol="ColorOrange"/>
+        <entry id="138" method="true" symbol="getActiveMinutesWeekGoal"/>
         <entry id="17" method="true" symbol="_getSeasonIcon"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="153" method="true" symbol="isDoNotDisturb"/>
+        <entry id="157" method="true" symbol="isDoNotDisturb"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
         <entry field="true" id="104" symbol="AccentLinesColorTitle"/>
-        <entry field="true" id="118" symbol="ColorLimeGreen"/>
+        <entry field="true" id="119" symbol="ColorLimeGreen"/>
         <entry id="32" method="true" symbol="drawSteps"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry field="true" id="48" symbol="TreeApril"/>
-        <entry id="138" method="true" symbol="getCalories"/>
-        <entry id="137" method="true" symbol="getBatteryInDays"/>
+        <entry id="142" method="true" symbol="getCalories"/>
+        <entry id="141" method="true" symbol="getBatteryInDays"/>
         <entry id="14" method="true" symbol="_drawIcon"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
@@ -439,11 +443,11 @@
         <entry field="true" id="79" symbol="clouds_icon"/>
         <entry field="true" id="35" symbol="IllustrationApril"/>
         <entry field="true" id="43" symbol="IllustrationMay"/>
-        <entry field="true" id="123" symbol="ColorSoftOrange"/>
         <entry id="23" method="true" symbol="drawBattery"/>
         <entry id="31" method="true" symbol="drawSeason"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry field="true" id="111" symbol="ColorCyan"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry field="true" id="90" symbol="messages_icon"/>
         <entry field="true" id="78" symbol="calories_icon"/>
@@ -451,19 +455,19 @@
         <entry field="true" id="76" symbol="battery_50_icon"/>
         <entry field="true" id="77" symbol="battery_75_icon"/>
         <entry field="true" id="85" symbol="fog_icon"/>
-        <entry field="true" id="120" symbol="ColorReddishBrown"/>
+        <entry field="true" id="124" symbol="ColorReddishBrown"/>
         <entry id="18" method="true" symbol="_transformMeters"/>
         <entry field="true" id="87" symbol="heart_icon"/>
         <entry id="34" module="true" symbol="Getters"/>
         <entry field="true" id="96" symbol="snow_icon"/>
-        <entry field="true" id="124" symbol="ColorWhite"/>
-        <entry id="152" method="true" symbol="getTimeToRecovery"/>
+        <entry field="true" id="127" symbol="ColorWhite"/>
+        <entry id="156" method="true" symbol="getTimeToRecovery"/>
         <entry field="true" id="60" symbol="MontserratFont"/>
-        <entry field="true" id="117" symbol="ColorLightPink"/>
+        <entry field="true" id="118" symbol="ColorLightPink"/>
         <entry field="true" id="54" symbol="TreeJune"/>
         <entry field="true" id="109" symbol="ColorBlack"/>
         <entry field="true" id="53" symbol="TreeJuly"/>
-        <entry id="132" method="true" symbol="getActiveMinutesDay"/>
+        <entry id="136" method="true" symbol="getActiveMinutesDay"/>
         <entry field="true" id="81" symbol="distance_icon"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry field="true" id="82" symbol="dnd_icon"/>
@@ -473,17 +477,18 @@
         <entry field="true" id="97" symbol="steps_icon"/>
         <entry id="22" method="true" symbol="drawActiveMinutes"/>
         <entry field="true" id="80" symbol="connection_icon"/>
-        <entry field="true" id="111" symbol="ColorBrightGreen"/>
-        <entry field="true" id="130" symbol="SeasonTree"/>
-        <entry field="true" id="122" symbol="ColorSoftBlue"/>
+        <entry field="true" id="120" symbol="ColorMagenta"/>
+        <entry field="true" id="113" symbol="ColorDarkMagenta"/>
+        <entry field="true" id="134" symbol="SeasonTree"/>
+        <entry field="true" id="126" symbol="ColorSoftBlue"/>
         <entry field="true" id="46" symbol="IllustrationSeptember"/>
-        <entry id="149" method="true" symbol="getStepGoal"/>
+        <entry id="153" method="true" symbol="getStepGoal"/>
         <entry field="true" id="45" symbol="IllustrationOctober"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
-        <entry id="143" method="true" symbol="getMemory"/>
+        <entry id="147" method="true" symbol="getMemory"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry field="true" id="107" symbol="BatteryColorChargedTitle"/>
-        <entry field="true" id="131" symbol="SensorStatsColorTitle"/>
+        <entry field="true" id="135" symbol="SensorStatsColorTitle"/>
         <entry id="11" module="true" symbol="SensorsGetters"/>
         <entry field="true" id="94" symbol="recovery_icon"/>
         <entry id="8388645" module="true" symbol="Time"/>
@@ -494,20 +499,20 @@
         <entry id="19" method="true" symbol="_transformMetrToFeet"/>
         <entry field="true" id="41" symbol="IllustrationJune"/>
         <entry id="15" method="true" symbol="_drawText"/>
-        <entry id="142" method="true" symbol="getIsConnected"/>
+        <entry id="146" method="true" symbol="getIsConnected"/>
         <entry id="8389068" method="true" symbol="draw"/>
         <entry field="true" id="86" symbol="hail_icon"/>
         <entry id="16" method="true" symbol="_getDayOfWeek"/>
         <entry field="true" id="40" symbol="IllustrationJuly"/>
         <entry id="13" method="true" symbol="_createText"/>
-        <entry id="139" method="true" symbol="getDistanceMeters"/>
+        <entry id="143" method="true" symbol="getDistanceMeters"/>
         <entry field="true" id="47" symbol="LauncherIcon"/>
-        <entry field="true" id="129" symbol="SeasonIllustrations"/>
+        <entry field="true" id="133" symbol="SeasonIllustrations"/>
         <entry field="true" id="58" symbol="TreeOctober"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="140" method="true" symbol="getFloors"/>
-        <entry id="148" method="true" symbol="getSolarIntensity"/>
+        <entry id="144" method="true" symbol="getFloors"/>
+        <entry id="152" method="true" symbol="getSolarIntensity"/>
         <entry field="true" id="65" symbol="OswaldBold140"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry field="true" id="108" symbol="BatteryColorTitle"/>
@@ -515,47 +520,46 @@
         <entry id="7" module="true" symbol="globals/SensorsGetters"/>
         <entry field="true" id="64" symbol="OswaldBold120"/>
         <entry field="true" id="98" symbol="stress_icon"/>
-        <entry field="true" id="114" symbol="ColorDeepPurple"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry field="true" id="95" symbol="sleep_icon"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="146" method="true" symbol="getNone"/>
+        <entry id="150" method="true" symbol="getNone"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="72" symbol="altitude_icon"/>
-        <entry field="true" id="113" symbol="ColorDarkOliveGreen"/>
+        <entry field="true" id="114" symbol="ColorDarkOliveGreen"/>
         <entry id="25" method="true" symbol="drawCalories"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry field="true" id="36" symbol="IllustrationAugust"/>
-        <entry field="true" id="116" symbol="ColorLightGray"/>
+        <entry field="true" id="117" symbol="ColorLightGray"/>
         <entry field="true" id="50" symbol="TreeDecember"/>
-        <entry field="true" id="121" symbol="ColorSkyBlue"/>
+        <entry field="true" id="125" symbol="ColorSkyBlue"/>
         <entry field="true" id="37" symbol="IllustrationDecember"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
         <entry id="8389781" module="true" symbol="SensorHistory"/>
         <entry id="10" object="true" symbol="KagoView"/>
-        <entry id="147" method="true" symbol="getRespirationRate"/>
-        <entry field="true" id="126" symbol="ForegroundColorTitle"/>
+        <entry id="151" method="true" symbol="getRespirationRate"/>
+        <entry field="true" id="130" symbol="ForegroundColorTitle"/>
         <entry field="true" id="56" symbol="TreeMay"/>
         <entry field="true" id="92" symbol="preasure_icon"/>
         <entry id="12" module="true" symbol="Layouts"/>
         <entry field="true" id="103" symbol="weather_icon"/>
         <entry field="true" id="91" symbol="oxygen_icon"/>
         <entry id="8" module="true" symbol="globals/SensorsGetters/Getters"/>
-        <entry id="144" method="true" symbol="getMessages"/>
+        <entry id="148" method="true" symbol="getMessages"/>
         <entry field="true" id="75" symbol="battery_25_icon"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry field="true" id="8391886" method="true" symbol="isNightModeEnabled"/>
-        <entry id="141" method="true" symbol="getFloorsClimbedGoal"/>
+        <entry id="145" method="true" symbol="getFloorsClimbedGoal"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry field="true" id="83" symbol="energy_icon"/>
         <entry id="27" method="true" symbol="drawDistance"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="128" symbol="SeasonIconTitle"/>
+        <entry field="true" id="132" symbol="SeasonIconTitle"/>
         <entry field="true" id="39" symbol="IllustrationJanuary"/>
-        <entry field="true" id="125" symbol="DateColorTitle"/>
+        <entry field="true" id="129" symbol="DateColorTitle"/>
         <entry field="true" id="59" symbol="TreeSeptember"/>
         <entry id="21" method="true" symbol="drawAccentLines"/>
     </symbolTable>
@@ -671,7 +675,7 @@
         <entry endPc="268440767" name="dateString" stackId="4" startPc="268440542"/>
         <entry endPc="268440767" name="date" stackId="5" startPc="268440542"/>
         <entry arg="true" endPc="268440813" name="dc" stackId="1" startPc="268440769"/>
-        <entry endPc="268440813" name="rez_cmp_local_custom_drawable_20002132141520346644" stackId="2" startPc="268440780"/>
+        <entry endPc="268440813" name="rez_cmp_local_custom_drawable_21127903051012544289" stackId="2" startPc="268440780"/>
         <entry endPc="268440915" name="distanceCm" stackId="1" startPc="268440877"/>
         <entry endPc="268441039" name="value" stackId="1" startPc="268441005"/>
         <entry endPc="268441260" name="value" stackId="1" startPc="268441225"/>
@@ -680,6 +684,7 @@
     <annotations>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="fog_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPurple"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sunset_icon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationJanuary"/>
@@ -694,7 +699,6 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLimeGreen"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_50_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sleep_icon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorSoftOrange"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="recovery_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sunrise_icon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -712,6 +716,7 @@
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationApril"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="snow_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont32"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorYellow"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorSoftBlue"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationMay"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="calories_icon"/>
@@ -733,6 +738,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SeasonIllustrations"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rain_icon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorMagenta"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="preasure_icon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationAugust"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkOliveGreen"/>
@@ -745,11 +751,13 @@
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont12"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldBold140"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorCyan"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="stress_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="floors_icon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationMarch"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="energy_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_25_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldRegular20"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationJuly"/>
@@ -758,6 +766,7 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightPink"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeAugust"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="distance_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorOrange"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_0_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sun_icon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeMay"/>
@@ -766,10 +775,9 @@
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="alarm_icon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeJuly"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="memory_icon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDeepPurple"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBrightGreen"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkMagenta"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGoldenYellow"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SeasonIconTitle"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationJune"/>
@@ -787,7 +795,7 @@
         <dataEntry label="globals/Rez/Layouts" offset="938" parentId="Rez" symbolId="Layouts" type="module"/>
         <dataEntry label="globals/Rez/Fonts" offset="973" parentId="Rez" symbolId="Fonts" type="module"/>
         <dataEntry label="globals/Rez/Strings" offset="1395" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/SensorsGetters/Getters" offset="1673" parentId="SensorsGetters" symbolId="Getters" type="module"/>
+        <dataEntry label="globals/SensorsGetters/Getters" offset="1709" parentId="SensorsGetters" symbolId="Getters" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
