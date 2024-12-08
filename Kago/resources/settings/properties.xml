@@ -3,11 +3,9 @@
     <property id="ForegroundColor" type="number">0xFFFFFF</property>
     <property id="UseMilitaryFormat" type="boolean">false</property>
     <property id="BatteryColor" type="number">0xFFFFFF</property>
-    <property id="BatteryColorCharged" type="number">0xda0ddb</property>
-    <property id="DateColor" type="number">0xF0F0F0</property>
-    <property id="WeekDayColor" type="number">0xF0F0F0</property>
-    <property id="SensorStatsColor" type="number">0x999999</property>
-    <property id="AccentLinesColor" type="number">0xda0ddb</property>
-    <property id="MessagesColor" type="number">0xa0a0a0</property>
-    <property id="PhoneConnection" type="number">0xa0a0a0</property>
+    <property id="BatteryColorCharged" type="number">0x800080</property>
+    <property id="DateColor" type="number">0xFFFFFF</property>
+    <property id="SensorStatsColor" type="number">0xFFFFFF</property>
+    <property id="AccentLinesColor" type="number">0x800080</property>
+    <property id="SeasonIcon" type="number">0</property>
 </properties>

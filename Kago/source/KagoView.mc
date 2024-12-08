@@ -28,17 +28,18 @@ class KagoView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         View.onUpdate(dc);
+        drawSeason(dc);
         drawBatteryArc(dc);
         drawAccentLines(dc);
         drawTime(dc);
         drawDate(dc);
         drawBattery(dc);
         drawHeartRate(dc);
-        drawActiveMinutes(dc);
+        // drawActiveMinutes(dc); 
+        drawMessages(dc);
         drawSteps(dc);
         drawDistance(dc);
         drawCalories(dc);
-        drawMessages(dc);
         drawPhoneConnection(dc);
     }
 
@@ -57,6 +58,18 @@ class KagoView extends WatchUi.WatchFace {
     }
 
     // -----------------------
+    function drawSeason(dc as Dc) as Void {
+      var bitmap = self._getSeasonIcon();
+      var season = new WatchUi.Bitmap({
+        :rezId => bitmap
+      });
+      var dimensions = season.getDimensions();
+      season.setLocation(
+        (dc.getWidth() / 2) - (dimensions[0] / 2),
+        70 - (dimensions[1] / 2)
+      );
+      season.draw(dc);
+    }
     function drawAccentLines(dc as Dc) as Void {
         dc.setPenWidth(1);
         dc.setColor(
@@ -64,10 +77,6 @@ class KagoView extends WatchUi.WatchFace {
           Application.Properties.getValue("AccentLinesColor") as Number
         );
         var centerY = dc.getHeight() / 2 + 90;
-        dc.drawLine(
-          dc.getWidth() / 2, 70,
-          dc.getWidth() / 2, 95
-        );
         // accent below the time
         dc.drawLine(
           100, centerY,
@@ -83,32 +92,15 @@ class KagoView extends WatchUi.WatchFace {
         // accent above the time
         var aboveTheTimeY = dc.getHeight() / 2 - 80;
         dc.drawLine(
-          100, aboveTheTimeY,
-          150, aboveTheTimeY
+          80, aboveTheTimeY,
+          120, aboveTheTimeY
         );
-        dc.drawCircle(100 - 5, aboveTheTimeY, 2);
+        dc.drawCircle(80 - 5, aboveTheTimeY, 2);
         dc.drawLine(
-          dc.getWidth() - 150, aboveTheTimeY,
-          dc.getWidth() - 100, aboveTheTimeY
+          dc.getWidth() - 120, aboveTheTimeY,
+          dc.getWidth() - 80, aboveTheTimeY
         );
-        dc.drawCircle(dc.getWidth() - 100 + 5, aboveTheTimeY, 2);
-        // arrows
-        dc.drawArc(
-          dc.getWidth() / 2 - 10,
-          dc.getHeight() / 2,
-          140,
-          Graphics.ARC_CLOCKWISE,
-          140,
-          90
-        );
-        dc.drawArc(
-          dc.getWidth() / 2 + 10,
-          dc.getHeight() / 2,
-          140,
-          Graphics.ARC_COUNTER_CLOCKWISE,
-          40,
-          90
-        );
+        dc.drawCircle(dc.getWidth() - 80 + 5, aboveTheTimeY, 2);
     }
     function drawBatteryArc(dc as Dc) as Void {
         var screenWidth = dc.getWidth();
@@ -176,41 +168,28 @@ class KagoView extends WatchUi.WatchFace {
     function drawDate(dc as Dc) as Void {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var dayOfWeek = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day_of_week;
-        var dateString = Lang.format("$1$ $2$", [
+        var dateString = Lang.format("$1$ $2$ $3$", [
+          self._getDayOfWeek(dayOfWeek),
           today.day.format("%02d"),
           today.month
         ]);
-        var dayAndMonth = self._createText(dc, dateString, Rez.Fonts.MontserratFont32, "DateColor");
-        dayAndMonth["text"].setLocation(
-          (dc.getWidth() / 2) - (dayAndMonth["width"] / 2),
+        var date = self._createText(dc, dateString, Rez.Fonts.MontserratFont32, "DateColor");
+        date["text"].setLocation(
+          (dc.getWidth() / 2) - (date["width"] / 2),
           (dc.getHeight() / 2) - 100
         );
-        self._drawText(dc, dayAndMonth);
-        var weekDay = self._createText(dc, self._getDayOfWeek(dayOfWeek), Rez.Fonts.MontserratFont16, "WeekDayColor");
-        weekDay["text"].setLocation(
-          (dc.getWidth() / 2) - (weekDay["width"] / 2),
-          (dc.getHeight() / 2) - 120
-        );
-        self._drawText(dc, weekDay);
-    }
-    function drawMessages(dc as Dc) as Void {
-      var messages = SensorsGetters.Getters.getMessages();
-      var messagesText = "___";
-      if (messages != null) {
-        messagesText = messages.format("%d");
-      }  
-      var text = self._createText(dc, messagesText, Rez.Fonts.MontserratFont16, "MessagesColor");
-      var textX = (dc.getWidth() / 2) + 4;
-      var textY = 42;
-      text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
-      text["text"].setLocation(textX, textY);
-      self._drawText(dc, text);
-      self._drawIcon(dc, Rez.Fonts.messages_icon, textX - 22, textY + 1, "MessagesColor");
+        self._drawText(dc, date);
     }
     function drawPhoneConnection(dc as Dc) as Void {
       var isConnected = SensorsGetters.Getters.getIsConnected();
       if (isConnected) {
-        self._drawIcon(dc, Rez.Fonts.connection_icon, (dc.getWidth() / 2) - 8, 18, "PhoneConnection");
+        self._drawIcon(
+          dc,
+          Rez.Fonts.connection_icon,
+          (dc.getWidth() / 2) - 8,
+          dc.getHeight() - 34,
+          "SensorStatsColor"
+        );
       }
     }
     function drawBattery(dc as Dc) as Void {
@@ -220,7 +199,7 @@ class KagoView extends WatchUi.WatchFace {
         batteryText = battery.format("%d") + "%";
       }  
       var text = self._createText(dc, batteryText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
-      var textX = (dc.getWidth() / 2) - (text["width"] / 2) - 32;
+      var textX = (dc.getWidth() / 2) - text["width"] - 16;
       var textY = (dc.getHeight() / 2) + 106;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
@@ -254,7 +233,7 @@ class KagoView extends WatchUi.WatchFace {
         }
       }  
       var text = self._createText(dc, heartRateText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
-      var textX = (dc.getWidth() / 2) - (text["width"] / 2) - 32;
+      var textX = (dc.getWidth() / 2) - text["width"] - 16;
       var textY = (dc.getHeight() / 2) + 106 + 30;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
@@ -274,6 +253,20 @@ class KagoView extends WatchUi.WatchFace {
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
       _drawIcon(dc, Rez.Fonts.activity_icon, textX - 22, textY + 1, "SensorStatsColor");
+    }
+    function drawMessages(dc as Dc) as Void {
+      var messages = SensorsGetters.Getters.getMessages();
+      var messagesText = "___";
+      if (messages != null) {
+        messagesText = messages.format("%d");
+      }  
+      var text = self._createText(dc, messagesText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var textX = (dc.getWidth() / 2) - text["width"] - 16;
+      var textY = (dc.getHeight() / 2) + 106 + 30 + 30;
+      text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
+      text["text"].setLocation(textX, textY);
+      self._drawText(dc, text);
+      self._drawIcon(dc, Rez.Fonts.messages_icon, textX - 22, textY + 1, "SensorStatsColor");
     }
     function drawSteps(dc as Dc) as Void {
       var steps = SensorsGetters.Getters.getSteps();
@@ -356,21 +349,21 @@ class KagoView extends WatchUi.WatchFace {
     function _getDayOfWeek(dayOfWeek as Number) as String {
       switch (dayOfWeek) {
         case Time.Gregorian.DAY_MONDAY:
-          return "MONDAY";
+          return "Mon";
         case Time.Gregorian.DAY_TUESDAY:
-          return "TUESDAY";
+          return "Tue";
         case Time.Gregorian.DAY_WEDNESDAY:
-          return "WEDNESDAY";
+          return "Wed";
         case Time.Gregorian.DAY_THURSDAY:
-          return "THURSDAY";
+          return "Thu";
         case Time.Gregorian.DAY_FRIDAY:
-          return "FRIDAY";
+          return "Fri";
         case Time.Gregorian.DAY_SATURDAY:
-          return "SATURDAY";
+          return "Sat";
         case Time.Gregorian.DAY_SUNDAY:
-          return "SUNDAY";
+          return "Sun";
       }
-      return "UNKNOWN";
+      return "___";
     }
     function _transformMeters(value as Float or Number) as String {
 
@@ -394,6 +387,76 @@ class KagoView extends WatchUi.WatchFace {
         return value * 0.000621;
     }
     function _transformMetrToFeet(value as Float or Number) as Float or Number {
-          return value * 3.280839895;
+        return value * 3.280839895;
+    }
+    function _getSeasonIcon() {
+      var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+      var month = today.month;
+      var bitmap = Rez.Drawables.TreeJanuary;
+      var seasonIconType = Application.Properties.getValue("SeasonIcon") as String;
+      // month = 1;
+      if (month == 1) {
+        bitmap = Rez.Drawables.TreeJanuary;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationJanuary;
+        }
+      } else if (month == 2) {
+        bitmap = Rez.Drawables.TreeFebruary;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationFebruary;
+        }
+      } else if (month == 3) {
+        bitmap = Rez.Drawables.TreeMarch;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationMarch;
+        }
+      } else if (month == 4) {
+        bitmap = Rez.Drawables.TreeApril;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationApril;
+        }
+      } else if (month == 5) {
+        bitmap = Rez.Drawables.TreeMay;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationMay;
+        }
+      } else if (month == 6) {
+        bitmap = Rez.Drawables.TreeJune;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationJune;
+        }
+      } else if (month == 7) {
+        bitmap = Rez.Drawables.TreeJuly;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationJuly;
+        }
+      } else if (month == 8) {
+        bitmap = Rez.Drawables.TreeAugust;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationAugust;
+        }
+      } else if (month == 9) {
+        bitmap = Rez.Drawables.TreeSeptember;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationSeptember;
+        }
+      } else if (month == 10) {
+        bitmap = Rez.Drawables.TreeOctober;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationOctober;
+        }
+      } else if (month == 11) {
+        bitmap = Rez.Drawables.TreeNovember;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationNovember;
+        }
+      } else if (month == 12) {
+        bitmap = Rez.Drawables.TreeDecember;
+        if (seasonIconType == 1) {
+          bitmap = Rez.Drawables.IllustrationDecember;
+        }
       }
+      System.println(bitmap);
+      return bitmap;
+    }
 }

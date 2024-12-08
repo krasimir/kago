@@ -5,6 +5,15 @@
     <string id="BackgroundColorTitle">Background Color</string>
     <string id="ForegroundColorTitle">Foreground Color</string>
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
+    <string id="BatteryColorTitle">Battery Arc Color</string>
+    <string id="BatteryColorChargedTitle">Battery Arc Color (drained)</string>
+    <string id="DateColorTitle">Date color</string>
+    <string id="SensorStatsColorTitle">Stats color</string>
+    <string id="AccentLinesColorTitle">Accent elements color</string>
+    <string id="SeasonIconTitle">Season illustration/icon</string>
+
+    <string id="SeasonTree">Tree</string>
+    <string id="SeasonIllustrations">Illustrations</string>
 
     <string id="ColorBlack">Black</string>
     <string id="ColorDarkGray">Dark Gray</string>
@@ -12,5 +21,15 @@
     <string id="ColorWhite">White</string>
     <string id="ColorBlue">Blue</string>
     <string id="ColorRed">Red</string>
+    <string id="ColorSoftBlue">Soft Blue</string>
+    <string id="ColorBrightGreen">Bright Green</string>
+    <string id="ColorGoldenYellow">Golden Yellow</string>
+    <string id="ColorSoftOrange">Soft Orange</string>
+    <string id="ColorDeepPurple">Deep Purple</string>
+    <string id="ColorLightPink">Light Pink</string>
+    <string id="ColorSkyBlue">Sky Blue</string>
+    <string id="ColorLimeGreen">Lime Green</string>
+    <string id="ColorReddishBrown">Reddish Brown</string>
+    <string id="ColorDarkOliveGreen">Dark Olive Green</string>
 
 </strings>

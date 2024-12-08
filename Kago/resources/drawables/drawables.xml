@@ -1,3 +1,27 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="TreeJanuary" filename="tree1.png" />
+    <bitmap id="TreeFebruary" filename="tree2.png" />
+    <bitmap id="TreeMarch" filename="tree3.png" />
+    <bitmap id="TreeApril" filename="tree4.png" />
+    <bitmap id="TreeMay" filename="tree5.png" />
+    <bitmap id="TreeJune" filename="tree6.png" />
+    <bitmap id="TreeJuly" filename="tree7.png" />
+    <bitmap id="TreeAugust" filename="tree8.png" />
+    <bitmap id="TreeSeptember" filename="tree9.png" />
+    <bitmap id="TreeOctober" filename="tree10.png" />
+    <bitmap id="TreeNovember" filename="tree11.png" />
+    <bitmap id="TreeDecember" filename="tree12.png" />
+    <bitmap id="IllustrationJanuary" filename="illustration1-min.png" />
+    <bitmap id="IllustrationFebruary" filename="illustration2-min.png" />
+    <bitmap id="IllustrationMarch" filename="illustration3-min.png" />
+    <bitmap id="IllustrationApril" filename="illustration4-min.png" />
+    <bitmap id="IllustrationMay" filename="illustration5-min.png" />
+    <bitmap id="IllustrationJune" filename="illustration6-min.png" />
+    <bitmap id="IllustrationJuly" filename="illustration7-min.png" />
+    <bitmap id="IllustrationAugust" filename="illustration8-min.png" />
+    <bitmap id="IllustrationSeptember" filename="illustration9-min.png" />
+    <bitmap id="IllustrationOctober" filename="illustration10-min.png" />
+    <bitmap id="IllustrationNovember" filename="illustration11-min.png" />
+    <bitmap id="IllustrationDecember" filename="illustration12-min.png" />
 </drawables>

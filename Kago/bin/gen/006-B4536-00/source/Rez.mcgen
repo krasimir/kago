@@ -6,6 +6,30 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
+        (:initialized) var TreeJanuary as ResourceId;
+        (:initialized) var TreeFebruary as ResourceId;
+        (:initialized) var TreeMarch as ResourceId;
+        (:initialized) var TreeApril as ResourceId;
+        (:initialized) var TreeMay as ResourceId;
+        (:initialized) var TreeJune as ResourceId;
+        (:initialized) var TreeJuly as ResourceId;
+        (:initialized) var TreeAugust as ResourceId;
+        (:initialized) var TreeSeptember as ResourceId;
+        (:initialized) var TreeOctober as ResourceId;
+        (:initialized) var TreeNovember as ResourceId;
+        (:initialized) var TreeDecember as ResourceId;
+        (:initialized) var IllustrationJanuary as ResourceId;
+        (:initialized) var IllustrationFebruary as ResourceId;
+        (:initialized) var IllustrationMarch as ResourceId;
+        (:initialized) var IllustrationApril as ResourceId;
+        (:initialized) var IllustrationMay as ResourceId;
+        (:initialized) var IllustrationJune as ResourceId;
+        (:initialized) var IllustrationJuly as ResourceId;
+        (:initialized) var IllustrationAugust as ResourceId;
+        (:initialized) var IllustrationSeptember as ResourceId;
+        (:initialized) var IllustrationOctober as ResourceId;
+        (:initialized) var IllustrationNovember as ResourceId;
+        (:initialized) var IllustrationDecember as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
@@ -58,23 +82,41 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_14826003731973962757 = new Background();
+            var rez_cmp_local_custom_drawable_20002132141520346644 = new Background();
 
-            return [rez_cmp_local_custom_drawable_14826003731973962757] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_20002132141520346644] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
     module Strings {
-        (:initialized) var ColorLightGray as ResourceId;
+        (:initialized) var SeasonIllustrations as ResourceId;
         (:initialized) var ColorBlue as ResourceId;
-        (:initialized) var ColorRed as ResourceId;
-        (:initialized) var ForegroundColorTitle as ResourceId;
+        (:initialized) var ColorSkyBlue as ResourceId;
         (:initialized) var BackgroundColorTitle as ResourceId;
+        (:initialized) var ColorSoftBlue as ResourceId;
+        (:initialized) var ColorReddishBrown as ResourceId;
+        (:initialized) var AppName as ResourceId;
+        (:initialized) var ColorRed as ResourceId;
+        (:initialized) var ColorGoldenYellow as ResourceId;
+        (:initialized) var ColorDeepPurple as ResourceId;
+        (:initialized) var ColorLightPink as ResourceId;
+        (:initialized) var ColorDarkOliveGreen as ResourceId;
+        (:initialized) var SensorStatsColorTitle as ResourceId;
+        (:initialized) var SeasonIconTitle as ResourceId;
+        (:initialized) var ColorWhite as ResourceId;
+        (:initialized) var ColorSoftOrange as ResourceId;
+        (:initialized) var ColorBrightGreen as ResourceId;
+        (:initialized) var ColorLightGray as ResourceId;
         (:initialized) var ColorDarkGray as ResourceId;
         (:initialized) var MilitaryFormatTitle as ResourceId;
         (:initialized) var ColorBlack as ResourceId;
-        (:initialized) var ColorWhite as ResourceId;
-        (:initialized) var AppName as ResourceId;
+        (:initialized) var SeasonTree as ResourceId;
+        (:initialized) var BatteryColorTitle as ResourceId;
+        (:initialized) var ForegroundColorTitle as ResourceId;
+        (:initialized) var AccentLinesColorTitle as ResourceId;
+        (:initialized) var BatteryColorChargedTitle as ResourceId;
+        (:initialized) var DateColorTitle as ResourceId;
+        (:initialized) var ColorLimeGreen as ResourceId;
     } // Strings
 
     module Styles {

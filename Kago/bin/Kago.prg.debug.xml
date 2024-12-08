@@ -22,442 +22,542 @@
         <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="11" lineNum="8" parent="globals/KagoApp" pc="268435669" symbol="initialize"/>
         <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="11" lineNum="9" parent="globals/KagoApp" pc="268435671" symbol="initialize"/>
         <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoApp.mc" id="12" lineNum="17" parent="globals/KagoApp" pc="268435684" symbol="onStop"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="264" parent="globals/KagoView" pc="268435687" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="265" parent="globals/KagoView" pc="268435690" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="266" parent="globals/KagoView" pc="268435707" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="267" parent="globals/KagoView" pc="268435714" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="268" parent="globals/KagoView" pc="268435720" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="270" parent="globals/KagoView" pc="268435740" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="271" parent="globals/KagoView" pc="268435778" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="272" parent="globals/KagoView" pc="268435805" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="273" parent="globals/KagoView" pc="268435826" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="274" parent="globals/KagoView" pc="268435845" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="275" parent="globals/KagoView" pc="268435866" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="276" parent="globals/KagoView" pc="268435879" symbol="drawActiveMinutes"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="113" parent="globals/KagoView" pc="268435925" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="114" parent="globals/KagoView" pc="268435928" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="115" parent="globals/KagoView" pc="268435937" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="116" parent="globals/KagoView" pc="268435946" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="117" parent="globals/KagoView" pc="268435958" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="118" parent="globals/KagoView" pc="268435966" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="119" parent="globals/KagoView" pc="268435990" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="120" parent="globals/KagoView" pc="268436014" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="121" parent="globals/KagoView" pc="268436038" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="122" parent="globals/KagoView" pc="268436042" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="125" parent="globals/KagoView" pc="268436060" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="126" parent="globals/KagoView" pc="268436072" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="127" parent="globals/KagoView" pc="268436086" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="136" parent="globals/KagoView" pc="268436122" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="137" parent="globals/KagoView" pc="268436136" symbol="drawBatteryArc"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="146" parent="globals/KagoView" pc="268436176" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="147" parent="globals/KagoView" pc="268436179" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="148" parent="globals/KagoView" pc="268436186" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="149" parent="globals/KagoView" pc="268436198" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="150" parent="globals/KagoView" pc="268436206" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="151" parent="globals/KagoView" pc="268436225" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="152" parent="globals/KagoView" pc="268436233" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="155" parent="globals/KagoView" pc="268436246" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="156" parent="globals/KagoView" pc="268436271" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="157" parent="globals/KagoView" pc="268436278" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="160" parent="globals/KagoView" pc="268436297" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="162" parent="globals/KagoView" pc="268436344" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="163" parent="globals/KagoView" pc="268436377" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="169" parent="globals/KagoView" pc="268436458" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="170" parent="globals/KagoView" pc="268436473" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="174" parent="globals/KagoView" pc="268436512" symbol="drawTime"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="60" parent="globals/KagoView" pc="268436525" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="61" parent="globals/KagoView" pc="268436528" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="62" parent="globals/KagoView" pc="268436540" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="66" parent="globals/KagoView" pc="268436594" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="67" parent="globals/KagoView" pc="268436609" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="72" parent="globals/KagoView" pc="268436643" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="76" parent="globals/KagoView" pc="268436669" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="77" parent="globals/KagoView" pc="268436685" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="78" parent="globals/KagoView" pc="268436709" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="82" parent="globals/KagoView" pc="268436746" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="84" parent="globals/KagoView" pc="268436770" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="85" parent="globals/KagoView" pc="268436785" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="89" parent="globals/KagoView" pc="268436804" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="90" parent="globals/KagoView" pc="268436820" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="94" parent="globals/KagoView" pc="268436855" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="96" parent="globals/KagoView" pc="268436882" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="104" parent="globals/KagoView" pc="268436925" symbol="drawAccentLines"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="315" parent="globals/KagoView" pc="268436967" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="316" parent="globals/KagoView" pc="268436970" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="317" parent="globals/KagoView" pc="268436987" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="318" parent="globals/KagoView" pc="268436994" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="319" parent="globals/KagoView" pc="268437000" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="321" parent="globals/KagoView" pc="268437020" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="322" parent="globals/KagoView" pc="268437058" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="323" parent="globals/KagoView" pc="268437073" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="324" parent="globals/KagoView" pc="268437094" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="325" parent="globals/KagoView" pc="268437113" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="326" parent="globals/KagoView" pc="268437134" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="327" parent="globals/KagoView" pc="268437147" symbol="drawCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="356" parent="globals/KagoView" pc="268437193" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="357" parent="globals/KagoView" pc="268437195" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="358" parent="globals/KagoView" pc="268437197" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="360" parent="globals/KagoView" pc="268437213" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="362" parent="globals/KagoView" pc="268437229" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="364" parent="globals/KagoView" pc="268437245" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="366" parent="globals/KagoView" pc="268437261" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="368" parent="globals/KagoView" pc="268437277" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="370" parent="globals/KagoView" pc="268437293" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="359" parent="globals/KagoView" pc="268437312" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="361" parent="globals/KagoView" pc="268437318" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="363" parent="globals/KagoView" pc="268437324" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="365" parent="globals/KagoView" pc="268437330" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="367" parent="globals/KagoView" pc="268437336" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="369" parent="globals/KagoView" pc="268437342" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="371" parent="globals/KagoView" pc="268437348" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="373" parent="globals/KagoView" pc="268437355" symbol="_getDayOfWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="339" parent="globals/KagoView" pc="268437361" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="340" parent="globals/KagoView" pc="268437364" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="341" parent="globals/KagoView" pc="268437380" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="346" parent="globals/KagoView" pc="268437450" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="347" parent="globals/KagoView" pc="268437465" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="348" parent="globals/KagoView" pc="268437469" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="349" parent="globals/KagoView" pc="268437479" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="350" parent="globals/KagoView" pc="268437491" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="351" parent="globals/KagoView" pc="268437504" symbol="_createText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="278" parent="globals/KagoView" pc="268437507" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="279" parent="globals/KagoView" pc="268437510" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="280" parent="globals/KagoView" pc="268437527" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="281" parent="globals/KagoView" pc="268437544" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="282" parent="globals/KagoView" pc="268437551" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="283" parent="globals/KagoView" pc="268437557" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="285" parent="globals/KagoView" pc="268437577" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="286" parent="globals/KagoView" pc="268437615" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="287" parent="globals/KagoView" pc="268437630" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="288" parent="globals/KagoView" pc="268437645" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="289" parent="globals/KagoView" pc="268437664" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="290" parent="globals/KagoView" pc="268437685" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="291" parent="globals/KagoView" pc="268437698" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="292" parent="globals/KagoView" pc="268437743" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="293" parent="globals/KagoView" pc="268437761" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="294" parent="globals/KagoView" pc="268437773" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="295" parent="globals/KagoView" pc="268437795" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="296" parent="globals/KagoView" pc="268437851" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="297" parent="globals/KagoView" pc="268437870" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="298" parent="globals/KagoView" pc="268437906" symbol="drawSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="210" parent="globals/KagoView" pc="268437923" symbol="drawPhoneConnection"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="211" parent="globals/KagoView" pc="268437926" symbol="drawPhoneConnection"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="212" parent="globals/KagoView" pc="268437943" symbol="drawPhoneConnection"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="213" parent="globals/KagoView" pc="268437948" symbol="drawPhoneConnection"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="246" parent="globals/KagoView" pc="268438002" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="247" parent="globals/KagoView" pc="268438005" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="248" parent="globals/KagoView" pc="268438008" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="249" parent="globals/KagoView" pc="268438015" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="250" parent="globals/KagoView" pc="268438028" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="251" parent="globals/KagoView" pc="268438034" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="252" parent="globals/KagoView" pc="268438043" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="253" parent="globals/KagoView" pc="268438056" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="256" parent="globals/KagoView" pc="268438079" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="257" parent="globals/KagoView" pc="268438117" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="258" parent="globals/KagoView" pc="268438144" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="259" parent="globals/KagoView" pc="268438162" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="260" parent="globals/KagoView" pc="268438181" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="261" parent="globals/KagoView" pc="268438202" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="23" lineNum="262" parent="globals/KagoView" pc="268438215" symbol="drawHeartRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="196" parent="globals/KagoView" pc="268438261" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="197" parent="globals/KagoView" pc="268438264" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="198" parent="globals/KagoView" pc="268438281" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="199" parent="globals/KagoView" pc="268438288" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="200" parent="globals/KagoView" pc="268438294" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="202" parent="globals/KagoView" pc="268438314" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="203" parent="globals/KagoView" pc="268438352" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="204" parent="globals/KagoView" pc="268438367" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="205" parent="globals/KagoView" pc="268438371" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="206" parent="globals/KagoView" pc="268438390" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="207" parent="globals/KagoView" pc="268438411" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="208" parent="globals/KagoView" pc="268438424" symbol="drawMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="27" lineNum="18" parent="globals/KagoView" pc="268438470" symbol="onLayout"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="27" lineNum="19" parent="globals/KagoView" pc="268438472" symbol="onLayout"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="28" lineNum="393" parent="globals/KagoView" pc="268438506" symbol="_transformMetrToMil"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="28" lineNum="394" parent="globals/KagoView" pc="268438508" symbol="_transformMetrToMil"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="330" parent="globals/KagoView" pc="268438517" symbol="_drawIcon"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="331" parent="globals/KagoView" pc="268438520" symbol="_drawIcon"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="336" parent="globals/KagoView" pc="268438605" symbol="_drawIcon"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="337" parent="globals/KagoView" pc="268438619" symbol="_drawIcon"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="30" lineNum="353" parent="globals/KagoView" pc="268438632" symbol="_drawText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="30" lineNum="354" parent="globals/KagoView" pc="268438634" symbol="_drawText"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="301" parent="globals/KagoView" pc="268438654" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="302" parent="globals/KagoView" pc="268438657" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="303" parent="globals/KagoView" pc="268438674" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="304" parent="globals/KagoView" pc="268438681" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="305" parent="globals/KagoView" pc="268438687" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="307" parent="globals/KagoView" pc="268438702" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="308" parent="globals/KagoView" pc="268438740" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="309" parent="globals/KagoView" pc="268438755" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="310" parent="globals/KagoView" pc="268438773" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="311" parent="globals/KagoView" pc="268438792" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="312" parent="globals/KagoView" pc="268438813" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="313" parent="globals/KagoView" pc="268438826" symbol="drawDistance"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="32" lineNum="396" parent="globals/KagoView" pc="268438872" symbol="_transformMetrToFeet"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="32" lineNum="397" parent="globals/KagoView" pc="268438874" symbol="_transformMetrToFeet"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="216" parent="globals/KagoView" pc="268438883" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="217" parent="globals/KagoView" pc="268438886" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="218" parent="globals/KagoView" pc="268438903" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="219" parent="globals/KagoView" pc="268438910" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="220" parent="globals/KagoView" pc="268438916" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="222" parent="globals/KagoView" pc="268438942" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="223" parent="globals/KagoView" pc="268438980" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="224" parent="globals/KagoView" pc="268439007" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="225" parent="globals/KagoView" pc="268439022" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="226" parent="globals/KagoView" pc="268439041" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="227" parent="globals/KagoView" pc="268439062" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="228" parent="globals/KagoView" pc="268439075" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="229" parent="globals/KagoView" pc="268439096" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="230" parent="globals/KagoView" pc="268439110" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="232" parent="globals/KagoView" pc="268439134" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="233" parent="globals/KagoView" pc="268439148" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="235" parent="globals/KagoView" pc="268439172" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="236" parent="globals/KagoView" pc="268439186" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="238" parent="globals/KagoView" pc="268439210" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="239" parent="globals/KagoView" pc="268439224" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="241" parent="globals/KagoView" pc="268439248" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="242" parent="globals/KagoView" pc="268439266" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="244" parent="globals/KagoView" pc="268439290" symbol="drawBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="375" parent="globals/KagoView" pc="268439319" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="377" parent="globals/KagoView" pc="268439322" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="378" parent="globals/KagoView" pc="268439329" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="379" parent="globals/KagoView" pc="268439337" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="381" parent="globals/KagoView" pc="268439356" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="383" parent="globals/KagoView" pc="268439365" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="384" parent="globals/KagoView" pc="268439370" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="385" parent="globals/KagoView" pc="268439390" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="387" parent="globals/KagoView" pc="268439419" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="388" parent="globals/KagoView" pc="268439439" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="35" lineNum="391" parent="globals/KagoView" pc="268439461" symbol="_transformMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="13" parent="globals/KagoView" pc="268439485" symbol="initialize"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="14" parent="globals/KagoView" pc="268439487" symbol="initialize"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="29" parent="globals/KagoView" pc="268439500" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="30" parent="globals/KagoView" pc="268439502" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="31" parent="globals/KagoView" pc="268439522" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="32" parent="globals/KagoView" pc="268439533" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="33" parent="globals/KagoView" pc="268439544" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="34" parent="globals/KagoView" pc="268439555" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="35" parent="globals/KagoView" pc="268439566" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="36" parent="globals/KagoView" pc="268439577" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="37" parent="globals/KagoView" pc="268439588" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="38" parent="globals/KagoView" pc="268439599" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="39" parent="globals/KagoView" pc="268439610" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="40" parent="globals/KagoView" pc="268439621" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="41" parent="globals/KagoView" pc="268439632" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="42" parent="globals/KagoView" pc="268439643" symbol="onUpdate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="176" parent="globals/KagoView" pc="268439655" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="177" parent="globals/KagoView" pc="268439658" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="178" parent="globals/KagoView" pc="268439684" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="179" parent="globals/KagoView" pc="268439714" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="183" parent="globals/KagoView" pc="268439768" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="184" parent="globals/KagoView" pc="268439806" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="188" parent="globals/KagoView" pc="268439858" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="189" parent="globals/KagoView" pc="268439871" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="190" parent="globals/KagoView" pc="268439917" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="194" parent="globals/KagoView" pc="268439969" symbol="drawDate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="39" lineNum="60" parent="globals/Rez/Layouts" pc="268439983" symbol="WatchFace"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="39" lineNum="61" parent="globals/Rez/Layouts" pc="268439994" symbol="WatchFace"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="39" lineNum="63" parent="globals/Rez/Layouts" pc="268440018" symbol="WatchFace"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="40" lineNum="90" parent="globals/SensorsGetters/Getters" pc="268440028" symbol="isDoNotDisturb"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="40" lineNum="91" parent="globals/SensorsGetters/Getters" pc="268440038" symbol="isDoNotDisturb"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="41" lineNum="34" parent="globals/SensorsGetters/Getters" pc="268440054" symbol="getTimeToRecovery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="41" lineNum="35" parent="globals/SensorsGetters/Getters" pc="268440064" symbol="getTimeToRecovery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="42" lineNum="54" parent="globals/SensorsGetters/Getters" pc="268440080" symbol="getDistanceMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="42" lineNum="55" parent="globals/SensorsGetters/Getters" pc="268440091" symbol="getDistanceMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="42" lineNum="57" parent="globals/SensorsGetters/Getters" pc="268440108" symbol="getDistanceMeters"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="43" lineNum="78" parent="globals/SensorsGetters/Getters" pc="268440130" symbol="getAlarmCount"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="43" lineNum="79" parent="globals/SensorsGetters/Getters" pc="268440140" symbol="getAlarmCount"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="44" lineNum="86" parent="globals/SensorsGetters/Getters" pc="268440156" symbol="getSolarIntensity"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="44" lineNum="87" parent="globals/SensorsGetters/Getters" pc="268440166" symbol="getSolarIntensity"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="45" lineNum="98" parent="globals/SensorsGetters/Getters" pc="268440182" symbol="getIsConnected"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="45" lineNum="99" parent="globals/SensorsGetters/Getters" pc="268440192" symbol="getIsConnected"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="46" lineNum="102" parent="globals/SensorsGetters/Getters" pc="268440208" symbol="getActiveMinutesWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="46" lineNum="103" parent="globals/SensorsGetters/Getters" pc="268440219" symbol="getActiveMinutesWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="46" lineNum="105" parent="globals/SensorsGetters/Getters" pc="268440236" symbol="getActiveMinutesWeek"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="47" lineNum="74" parent="globals/SensorsGetters/Getters" pc="268440254" symbol="getBatteryInDays"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="47" lineNum="75" parent="globals/SensorsGetters/Getters" pc="268440264" symbol="getBatteryInDays"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="48" lineNum="108" parent="globals/SensorsGetters/Getters" pc="268440286" symbol="getActiveMinutesWeekGoal"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="48" lineNum="109" parent="globals/SensorsGetters/Getters" pc="268440296" symbol="getActiveMinutesWeekGoal"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="49" lineNum="38" parent="globals/SensorsGetters/Getters" pc="268440312" symbol="getStepGoal"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="49" lineNum="39" parent="globals/SensorsGetters/Getters" pc="268440322" symbol="getStepGoal"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="50" lineNum="14" parent="globals/SensorsGetters/Getters" pc="268440338" symbol="getNone"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="50" lineNum="15" parent="globals/SensorsGetters/Getters" pc="268440348" symbol="getNone"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="51" lineNum="50" parent="globals/SensorsGetters/Getters" pc="268440350" symbol="getFloorsClimbedGoal"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="51" lineNum="51" parent="globals/SensorsGetters/Getters" pc="268440360" symbol="getFloorsClimbedGoal"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="52" lineNum="82" parent="globals/SensorsGetters/Getters" pc="268440376" symbol="getMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="52" lineNum="83" parent="globals/SensorsGetters/Getters" pc="268440386" symbol="getMessages"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="53" lineNum="66" parent="globals/SensorsGetters/Getters" pc="268440402" symbol="getMemory"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="53" lineNum="67" parent="globals/SensorsGetters/Getters" pc="268440412" symbol="getMemory"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="54" lineNum="60" parent="globals/SensorsGetters/Getters" pc="268440428" symbol="getActiveMinutesDay"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="54" lineNum="61" parent="globals/SensorsGetters/Getters" pc="268440439" symbol="getActiveMinutesDay"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="54" lineNum="63" parent="globals/SensorsGetters/Getters" pc="268440456" symbol="getActiveMinutesDay"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="55" lineNum="22" parent="globals/SensorsGetters/Getters" pc="268440475" symbol="getCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="55" lineNum="23" parent="globals/SensorsGetters/Getters" pc="268440485" symbol="getCalories"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="56" lineNum="30" parent="globals/SensorsGetters/Getters" pc="268440501" symbol="getFloors"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="56" lineNum="31" parent="globals/SensorsGetters/Getters" pc="268440511" symbol="getFloors"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="57" lineNum="46" parent="globals/SensorsGetters/Getters" pc="268440527" symbol="getMetersClimbed"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="57" lineNum="47" parent="globals/SensorsGetters/Getters" pc="268440537" symbol="getMetersClimbed"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="58" lineNum="94" parent="globals/SensorsGetters/Getters" pc="268440553" symbol="isNightModeEnabled"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="58" lineNum="95" parent="globals/SensorsGetters/Getters" pc="268440563" symbol="isNightModeEnabled"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="59" lineNum="42" parent="globals/SensorsGetters/Getters" pc="268440581" symbol="getRespirationRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="59" lineNum="43" parent="globals/SensorsGetters/Getters" pc="268440591" symbol="getRespirationRate"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="60" lineNum="18" parent="globals/SensorsGetters/Getters" pc="268440607" symbol="getSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="60" lineNum="19" parent="globals/SensorsGetters/Getters" pc="268440617" symbol="getSteps"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="61" lineNum="70" parent="globals/SensorsGetters/Getters" pc="268440633" symbol="getBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="61" lineNum="71" parent="globals/SensorsGetters/Getters" pc="268440643" symbol="getBattery"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="62" lineNum="26" parent="globals/SensorsGetters/Getters" pc="268440665" symbol="getStressScore"/>
-        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="62" lineNum="27" parent="globals/SensorsGetters/Getters" pc="268440675" symbol="getStressScore"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="243" parent="globals/KagoView" pc="268435687" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="244" parent="globals/KagoView" pc="268435690" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="245" parent="globals/KagoView" pc="268435707" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="246" parent="globals/KagoView" pc="268435714" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="247" parent="globals/KagoView" pc="268435720" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="249" parent="globals/KagoView" pc="268435740" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="250" parent="globals/KagoView" pc="268435778" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="251" parent="globals/KagoView" pc="268435805" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="252" parent="globals/KagoView" pc="268435826" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="253" parent="globals/KagoView" pc="268435845" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="254" parent="globals/KagoView" pc="268435866" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="13" lineNum="255" parent="globals/KagoView" pc="268435879" symbol="drawActiveMinutes"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="105" parent="globals/KagoView" pc="268435925" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="106" parent="globals/KagoView" pc="268435928" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="107" parent="globals/KagoView" pc="268435937" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="108" parent="globals/KagoView" pc="268435946" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="109" parent="globals/KagoView" pc="268435958" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="110" parent="globals/KagoView" pc="268435966" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="111" parent="globals/KagoView" pc="268435990" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="112" parent="globals/KagoView" pc="268436014" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="113" parent="globals/KagoView" pc="268436038" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="114" parent="globals/KagoView" pc="268436042" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="117" parent="globals/KagoView" pc="268436060" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="118" parent="globals/KagoView" pc="268436072" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="119" parent="globals/KagoView" pc="268436086" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="128" parent="globals/KagoView" pc="268436122" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="14" lineNum="129" parent="globals/KagoView" pc="268436136" symbol="drawBatteryArc"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="138" parent="globals/KagoView" pc="268436176" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="139" parent="globals/KagoView" pc="268436179" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="140" parent="globals/KagoView" pc="268436186" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="141" parent="globals/KagoView" pc="268436198" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="142" parent="globals/KagoView" pc="268436206" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="143" parent="globals/KagoView" pc="268436225" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="144" parent="globals/KagoView" pc="268436233" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="147" parent="globals/KagoView" pc="268436246" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="148" parent="globals/KagoView" pc="268436271" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="149" parent="globals/KagoView" pc="268436278" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="152" parent="globals/KagoView" pc="268436297" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="154" parent="globals/KagoView" pc="268436344" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="155" parent="globals/KagoView" pc="268436377" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="161" parent="globals/KagoView" pc="268436458" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="162" parent="globals/KagoView" pc="268436473" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="15" lineNum="166" parent="globals/KagoView" pc="268436512" symbol="drawTime"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="73" parent="globals/KagoView" pc="268436525" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="74" parent="globals/KagoView" pc="268436528" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="75" parent="globals/KagoView" pc="268436540" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="79" parent="globals/KagoView" pc="268436594" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="81" parent="globals/KagoView" pc="268436609" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="85" parent="globals/KagoView" pc="268436635" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="86" parent="globals/KagoView" pc="268436651" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="87" parent="globals/KagoView" pc="268436675" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="91" parent="globals/KagoView" pc="268436712" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="93" parent="globals/KagoView" pc="268436736" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="94" parent="globals/KagoView" pc="268436751" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="98" parent="globals/KagoView" pc="268436769" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="99" parent="globals/KagoView" pc="268436785" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="16" lineNum="103" parent="globals/KagoView" pc="268436819" symbol="drawAccentLines"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="308" parent="globals/KagoView" pc="268436847" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="309" parent="globals/KagoView" pc="268436850" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="310" parent="globals/KagoView" pc="268436867" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="311" parent="globals/KagoView" pc="268436874" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="312" parent="globals/KagoView" pc="268436880" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="314" parent="globals/KagoView" pc="268436900" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="315" parent="globals/KagoView" pc="268436938" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="316" parent="globals/KagoView" pc="268436953" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="317" parent="globals/KagoView" pc="268436974" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="318" parent="globals/KagoView" pc="268436993" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="319" parent="globals/KagoView" pc="268437014" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="17" lineNum="320" parent="globals/KagoView" pc="268437027" symbol="drawCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="349" parent="globals/KagoView" pc="268437073" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="350" parent="globals/KagoView" pc="268437075" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="351" parent="globals/KagoView" pc="268437077" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="353" parent="globals/KagoView" pc="268437093" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="355" parent="globals/KagoView" pc="268437109" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="357" parent="globals/KagoView" pc="268437125" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="359" parent="globals/KagoView" pc="268437141" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="361" parent="globals/KagoView" pc="268437157" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="363" parent="globals/KagoView" pc="268437173" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="352" parent="globals/KagoView" pc="268437192" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="354" parent="globals/KagoView" pc="268437198" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="356" parent="globals/KagoView" pc="268437204" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="358" parent="globals/KagoView" pc="268437210" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="360" parent="globals/KagoView" pc="268437216" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="362" parent="globals/KagoView" pc="268437222" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="364" parent="globals/KagoView" pc="268437228" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="18" lineNum="366" parent="globals/KagoView" pc="268437235" symbol="_getDayOfWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="332" parent="globals/KagoView" pc="268437241" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="333" parent="globals/KagoView" pc="268437244" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="334" parent="globals/KagoView" pc="268437260" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="339" parent="globals/KagoView" pc="268437330" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="340" parent="globals/KagoView" pc="268437345" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="341" parent="globals/KagoView" pc="268437349" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="342" parent="globals/KagoView" pc="268437359" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="343" parent="globals/KagoView" pc="268437371" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="19" lineNum="344" parent="globals/KagoView" pc="268437384" symbol="_createText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="271" parent="globals/KagoView" pc="268437387" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="272" parent="globals/KagoView" pc="268437390" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="273" parent="globals/KagoView" pc="268437407" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="274" parent="globals/KagoView" pc="268437424" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="275" parent="globals/KagoView" pc="268437431" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="276" parent="globals/KagoView" pc="268437437" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="278" parent="globals/KagoView" pc="268437457" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="279" parent="globals/KagoView" pc="268437495" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="280" parent="globals/KagoView" pc="268437510" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="281" parent="globals/KagoView" pc="268437525" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="282" parent="globals/KagoView" pc="268437544" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="283" parent="globals/KagoView" pc="268437565" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="284" parent="globals/KagoView" pc="268437578" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="285" parent="globals/KagoView" pc="268437623" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="286" parent="globals/KagoView" pc="268437641" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="287" parent="globals/KagoView" pc="268437653" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="288" parent="globals/KagoView" pc="268437675" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="289" parent="globals/KagoView" pc="268437731" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="290" parent="globals/KagoView" pc="268437750" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="20" lineNum="291" parent="globals/KagoView" pc="268437786" symbol="drawSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="392" parent="globals/KagoView" pc="268437803" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="393" parent="globals/KagoView" pc="268437806" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="394" parent="globals/KagoView" pc="268437831" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="395" parent="globals/KagoView" pc="268437839" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="396" parent="globals/KagoView" pc="268437860" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="398" parent="globals/KagoView" pc="268437884" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="399" parent="globals/KagoView" pc="268437892" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="400" parent="globals/KagoView" pc="268437913" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="401" parent="globals/KagoView" pc="268437921" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="403" parent="globals/KagoView" pc="268437948" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="404" parent="globals/KagoView" pc="268437956" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="405" parent="globals/KagoView" pc="268437977" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="406" parent="globals/KagoView" pc="268437985" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="408" parent="globals/KagoView" pc="268438012" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="409" parent="globals/KagoView" pc="268438020" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="410" parent="globals/KagoView" pc="268438041" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="411" parent="globals/KagoView" pc="268438049" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="413" parent="globals/KagoView" pc="268438076" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="414" parent="globals/KagoView" pc="268438084" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="415" parent="globals/KagoView" pc="268438105" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="416" parent="globals/KagoView" pc="268438113" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="418" parent="globals/KagoView" pc="268438140" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="419" parent="globals/KagoView" pc="268438148" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="420" parent="globals/KagoView" pc="268438169" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="421" parent="globals/KagoView" pc="268438177" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="423" parent="globals/KagoView" pc="268438204" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="424" parent="globals/KagoView" pc="268438212" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="425" parent="globals/KagoView" pc="268438233" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="426" parent="globals/KagoView" pc="268438241" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="428" parent="globals/KagoView" pc="268438268" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="429" parent="globals/KagoView" pc="268438276" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="430" parent="globals/KagoView" pc="268438297" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="431" parent="globals/KagoView" pc="268438305" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="433" parent="globals/KagoView" pc="268438332" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="434" parent="globals/KagoView" pc="268438340" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="435" parent="globals/KagoView" pc="268438361" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="436" parent="globals/KagoView" pc="268438369" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="438" parent="globals/KagoView" pc="268438396" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="439" parent="globals/KagoView" pc="268438404" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="440" parent="globals/KagoView" pc="268438425" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="441" parent="globals/KagoView" pc="268438433" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="443" parent="globals/KagoView" pc="268438460" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="444" parent="globals/KagoView" pc="268438468" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="445" parent="globals/KagoView" pc="268438489" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="446" parent="globals/KagoView" pc="268438497" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="448" parent="globals/KagoView" pc="268438524" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="449" parent="globals/KagoView" pc="268438532" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="450" parent="globals/KagoView" pc="268438553" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="451" parent="globals/KagoView" pc="268438561" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="453" parent="globals/KagoView" pc="268438588" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="454" parent="globals/KagoView" pc="268438596" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="455" parent="globals/KagoView" pc="268438617" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="456" parent="globals/KagoView" pc="268438625" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="459" parent="globals/KagoView" pc="268438652" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="21" lineNum="460" parent="globals/KagoView" pc="268438667" symbol="_getSeasonIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="22" lineNum="183" parent="globals/KagoView" pc="268438670" symbol="drawPhoneConnection"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="22" lineNum="184" parent="globals/KagoView" pc="268438673" symbol="drawPhoneConnection"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="22" lineNum="185" parent="globals/KagoView" pc="268438690" symbol="drawPhoneConnection"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="22" lineNum="186" parent="globals/KagoView" pc="268438695" symbol="drawPhoneConnection"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="225" parent="globals/KagoView" pc="268438757" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="226" parent="globals/KagoView" pc="268438760" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="227" parent="globals/KagoView" pc="268438763" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="228" parent="globals/KagoView" pc="268438770" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="229" parent="globals/KagoView" pc="268438783" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="230" parent="globals/KagoView" pc="268438789" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="231" parent="globals/KagoView" pc="268438798" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="232" parent="globals/KagoView" pc="268438811" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="235" parent="globals/KagoView" pc="268438834" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="236" parent="globals/KagoView" pc="268438872" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="237" parent="globals/KagoView" pc="268438896" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="238" parent="globals/KagoView" pc="268438914" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="239" parent="globals/KagoView" pc="268438933" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="240" parent="globals/KagoView" pc="268438954" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="24" lineNum="241" parent="globals/KagoView" pc="268438967" symbol="drawHeartRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="257" parent="globals/KagoView" pc="268439013" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="258" parent="globals/KagoView" pc="268439016" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="259" parent="globals/KagoView" pc="268439033" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="260" parent="globals/KagoView" pc="268439040" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="261" parent="globals/KagoView" pc="268439046" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="263" parent="globals/KagoView" pc="268439066" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="264" parent="globals/KagoView" pc="268439104" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="265" parent="globals/KagoView" pc="268439128" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="266" parent="globals/KagoView" pc="268439149" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="267" parent="globals/KagoView" pc="268439168" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="268" parent="globals/KagoView" pc="268439189" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="25" lineNum="269" parent="globals/KagoView" pc="268439202" symbol="drawMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="28" lineNum="18" parent="globals/KagoView" pc="268439248" symbol="onLayout"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="28" lineNum="19" parent="globals/KagoView" pc="268439250" symbol="onLayout"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="61" parent="globals/KagoView" pc="268439284" symbol="drawSeason"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="62" parent="globals/KagoView" pc="268439287" symbol="drawSeason"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="63" parent="globals/KagoView" pc="268439295" symbol="drawSeason"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="66" parent="globals/KagoView" pc="268439332" symbol="drawSeason"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="67" parent="globals/KagoView" pc="268439341" symbol="drawSeason"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="29" lineNum="71" parent="globals/KagoView" pc="268439380" symbol="drawSeason"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="30" lineNum="386" parent="globals/KagoView" pc="268439393" symbol="_transformMetrToMil"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="30" lineNum="387" parent="globals/KagoView" pc="268439395" symbol="_transformMetrToMil"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="323" parent="globals/KagoView" pc="268439404" symbol="_drawIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="324" parent="globals/KagoView" pc="268439407" symbol="_drawIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="329" parent="globals/KagoView" pc="268439492" symbol="_drawIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="31" lineNum="330" parent="globals/KagoView" pc="268439506" symbol="_drawIcon"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="32" lineNum="346" parent="globals/KagoView" pc="268439519" symbol="_drawText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="32" lineNum="347" parent="globals/KagoView" pc="268439521" symbol="_drawText"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="294" parent="globals/KagoView" pc="268439541" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="295" parent="globals/KagoView" pc="268439544" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="296" parent="globals/KagoView" pc="268439561" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="297" parent="globals/KagoView" pc="268439568" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="298" parent="globals/KagoView" pc="268439574" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="300" parent="globals/KagoView" pc="268439589" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="301" parent="globals/KagoView" pc="268439627" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="302" parent="globals/KagoView" pc="268439642" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="303" parent="globals/KagoView" pc="268439660" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="304" parent="globals/KagoView" pc="268439679" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="305" parent="globals/KagoView" pc="268439700" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="33" lineNum="306" parent="globals/KagoView" pc="268439713" symbol="drawDistance"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="389" parent="globals/KagoView" pc="268439759" symbol="_transformMetrToFeet"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="34" lineNum="390" parent="globals/KagoView" pc="268439761" symbol="_transformMetrToFeet"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="195" parent="globals/KagoView" pc="268439770" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="196" parent="globals/KagoView" pc="268439773" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="197" parent="globals/KagoView" pc="268439790" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="198" parent="globals/KagoView" pc="268439797" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="199" parent="globals/KagoView" pc="268439803" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="201" parent="globals/KagoView" pc="268439829" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="202" parent="globals/KagoView" pc="268439867" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="203" parent="globals/KagoView" pc="268439891" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="204" parent="globals/KagoView" pc="268439906" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="205" parent="globals/KagoView" pc="268439925" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="206" parent="globals/KagoView" pc="268439946" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="207" parent="globals/KagoView" pc="268439959" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="208" parent="globals/KagoView" pc="268439980" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="209" parent="globals/KagoView" pc="268439994" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="211" parent="globals/KagoView" pc="268440018" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="212" parent="globals/KagoView" pc="268440032" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="214" parent="globals/KagoView" pc="268440056" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="215" parent="globals/KagoView" pc="268440070" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="217" parent="globals/KagoView" pc="268440094" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="218" parent="globals/KagoView" pc="268440108" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="220" parent="globals/KagoView" pc="268440132" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="221" parent="globals/KagoView" pc="268440150" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="36" lineNum="223" parent="globals/KagoView" pc="268440174" symbol="drawBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="368" parent="globals/KagoView" pc="268440203" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="370" parent="globals/KagoView" pc="268440206" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="371" parent="globals/KagoView" pc="268440213" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="372" parent="globals/KagoView" pc="268440221" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="374" parent="globals/KagoView" pc="268440240" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="376" parent="globals/KagoView" pc="268440249" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="377" parent="globals/KagoView" pc="268440254" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="378" parent="globals/KagoView" pc="268440274" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="380" parent="globals/KagoView" pc="268440303" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="381" parent="globals/KagoView" pc="268440323" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="37" lineNum="384" parent="globals/KagoView" pc="268440345" symbol="_transformMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="13" parent="globals/KagoView" pc="268440369" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="38" lineNum="14" parent="globals/KagoView" pc="268440371" symbol="initialize"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="29" parent="globals/KagoView" pc="268440384" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="30" parent="globals/KagoView" pc="268440386" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="31" parent="globals/KagoView" pc="268440406" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="32" parent="globals/KagoView" pc="268440417" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="33" parent="globals/KagoView" pc="268440428" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="34" parent="globals/KagoView" pc="268440439" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="35" parent="globals/KagoView" pc="268440450" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="36" parent="globals/KagoView" pc="268440461" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="37" parent="globals/KagoView" pc="268440472" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="39" parent="globals/KagoView" pc="268440483" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="40" parent="globals/KagoView" pc="268440494" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="41" parent="globals/KagoView" pc="268440505" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="42" parent="globals/KagoView" pc="268440516" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="39" lineNum="43" parent="globals/KagoView" pc="268440527" symbol="onUpdate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="168" parent="globals/KagoView" pc="268440539" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="169" parent="globals/KagoView" pc="268440542" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="170" parent="globals/KagoView" pc="268440568" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="171" parent="globals/KagoView" pc="268440598" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="176" parent="globals/KagoView" pc="268440665" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="177" parent="globals/KagoView" pc="268440703" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoView.mc" id="40" lineNum="181" parent="globals/KagoView" pc="268440755" symbol="drawDate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="41" lineNum="84" parent="globals/Rez/Layouts" pc="268440769" symbol="WatchFace"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="41" lineNum="85" parent="globals/Rez/Layouts" pc="268440780" symbol="WatchFace"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" id="41" lineNum="87" parent="globals/Rez/Layouts" pc="268440804" symbol="WatchFace"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="42" lineNum="90" parent="globals/SensorsGetters/Getters" pc="268440814" symbol="isDoNotDisturb"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="42" lineNum="91" parent="globals/SensorsGetters/Getters" pc="268440824" symbol="isDoNotDisturb"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="43" lineNum="34" parent="globals/SensorsGetters/Getters" pc="268440840" symbol="getTimeToRecovery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="43" lineNum="35" parent="globals/SensorsGetters/Getters" pc="268440850" symbol="getTimeToRecovery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="44" lineNum="54" parent="globals/SensorsGetters/Getters" pc="268440866" symbol="getDistanceMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="44" lineNum="55" parent="globals/SensorsGetters/Getters" pc="268440877" symbol="getDistanceMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="44" lineNum="57" parent="globals/SensorsGetters/Getters" pc="268440894" symbol="getDistanceMeters"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="45" lineNum="78" parent="globals/SensorsGetters/Getters" pc="268440916" symbol="getAlarmCount"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="45" lineNum="79" parent="globals/SensorsGetters/Getters" pc="268440926" symbol="getAlarmCount"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="46" lineNum="86" parent="globals/SensorsGetters/Getters" pc="268440942" symbol="getSolarIntensity"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="46" lineNum="87" parent="globals/SensorsGetters/Getters" pc="268440952" symbol="getSolarIntensity"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="47" lineNum="98" parent="globals/SensorsGetters/Getters" pc="268440968" symbol="getIsConnected"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="47" lineNum="99" parent="globals/SensorsGetters/Getters" pc="268440978" symbol="getIsConnected"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="48" lineNum="102" parent="globals/SensorsGetters/Getters" pc="268440994" symbol="getActiveMinutesWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="48" lineNum="103" parent="globals/SensorsGetters/Getters" pc="268441005" symbol="getActiveMinutesWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="48" lineNum="105" parent="globals/SensorsGetters/Getters" pc="268441022" symbol="getActiveMinutesWeek"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="49" lineNum="74" parent="globals/SensorsGetters/Getters" pc="268441040" symbol="getBatteryInDays"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="49" lineNum="75" parent="globals/SensorsGetters/Getters" pc="268441050" symbol="getBatteryInDays"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="50" lineNum="108" parent="globals/SensorsGetters/Getters" pc="268441072" symbol="getActiveMinutesWeekGoal"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="50" lineNum="109" parent="globals/SensorsGetters/Getters" pc="268441082" symbol="getActiveMinutesWeekGoal"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="51" lineNum="38" parent="globals/SensorsGetters/Getters" pc="268441098" symbol="getStepGoal"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="51" lineNum="39" parent="globals/SensorsGetters/Getters" pc="268441108" symbol="getStepGoal"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="52" lineNum="14" parent="globals/SensorsGetters/Getters" pc="268441124" symbol="getNone"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="52" lineNum="15" parent="globals/SensorsGetters/Getters" pc="268441134" symbol="getNone"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="53" lineNum="50" parent="globals/SensorsGetters/Getters" pc="268441136" symbol="getFloorsClimbedGoal"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="53" lineNum="51" parent="globals/SensorsGetters/Getters" pc="268441146" symbol="getFloorsClimbedGoal"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="54" lineNum="82" parent="globals/SensorsGetters/Getters" pc="268441162" symbol="getMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="54" lineNum="83" parent="globals/SensorsGetters/Getters" pc="268441172" symbol="getMessages"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="55" lineNum="66" parent="globals/SensorsGetters/Getters" pc="268441188" symbol="getMemory"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="55" lineNum="67" parent="globals/SensorsGetters/Getters" pc="268441198" symbol="getMemory"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="56" lineNum="60" parent="globals/SensorsGetters/Getters" pc="268441214" symbol="getActiveMinutesDay"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="56" lineNum="61" parent="globals/SensorsGetters/Getters" pc="268441225" symbol="getActiveMinutesDay"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="56" lineNum="63" parent="globals/SensorsGetters/Getters" pc="268441242" symbol="getActiveMinutesDay"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="57" lineNum="22" parent="globals/SensorsGetters/Getters" pc="268441261" symbol="getCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="57" lineNum="23" parent="globals/SensorsGetters/Getters" pc="268441271" symbol="getCalories"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="58" lineNum="30" parent="globals/SensorsGetters/Getters" pc="268441287" symbol="getFloors"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="58" lineNum="31" parent="globals/SensorsGetters/Getters" pc="268441297" symbol="getFloors"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="59" lineNum="46" parent="globals/SensorsGetters/Getters" pc="268441313" symbol="getMetersClimbed"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="59" lineNum="47" parent="globals/SensorsGetters/Getters" pc="268441323" symbol="getMetersClimbed"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="60" lineNum="94" parent="globals/SensorsGetters/Getters" pc="268441339" symbol="isNightModeEnabled"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="60" lineNum="95" parent="globals/SensorsGetters/Getters" pc="268441349" symbol="isNightModeEnabled"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="61" lineNum="42" parent="globals/SensorsGetters/Getters" pc="268441367" symbol="getRespirationRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="61" lineNum="43" parent="globals/SensorsGetters/Getters" pc="268441377" symbol="getRespirationRate"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="62" lineNum="18" parent="globals/SensorsGetters/Getters" pc="268441393" symbol="getSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="62" lineNum="19" parent="globals/SensorsGetters/Getters" pc="268441403" symbol="getSteps"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="63" lineNum="70" parent="globals/SensorsGetters/Getters" pc="268441419" symbol="getBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="63" lineNum="71" parent="globals/SensorsGetters/Getters" pc="268441429" symbol="getBattery"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="64" lineNum="26" parent="globals/SensorsGetters/Getters" pc="268441451" symbol="getStressScore"/>
+        <entry filename="/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" id="64" lineNum="27" parent="globals/SensorsGetters/Getters" pc="268441461" symbol="getStressScore"/>
     </pcToLineNum>
     <symbolTable>
-        <entry id="27" method="true" symbol="drawHeartRate"/>
+        <entry id="28" method="true" symbol="drawHeartRate"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="67" symbol="rain_icon"/>
+        <entry field="true" id="93" symbol="rain_icon"/>
         <entry id="8389346" symbol="text"/>
-        <entry id="29" method="true" symbol="drawPhoneConnection"/>
-        <entry id="19" method="true" symbol="_transformMetrToMil"/>
-        <entry id="89" method="true" symbol="getActiveMinutesWeek"/>
-        <entry field="true" id="63" symbol="memory_icon"/>
-        <entry id="101" method="true" symbol="getMetersClimbed"/>
+        <entry id="30" method="true" symbol="drawPhoneConnection"/>
+        <entry id="20" method="true" symbol="_transformMetrToMil"/>
+        <entry id="133" method="true" symbol="getActiveMinutesWeek"/>
+        <entry field="true" id="89" symbol="memory_icon"/>
+        <entry id="145" method="true" symbol="getMetersClimbed"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry id="25" method="true" symbol="drawDate"/>
-        <entry field="true" id="44" symbol="activity_icon"/>
-        <entry id="23" method="true" symbol="drawBatteryArc"/>
+        <entry id="26" method="true" symbol="drawDate"/>
+        <entry field="true" id="70" symbol="activity_icon"/>
+        <entry id="24" method="true" symbol="drawBatteryArc"/>
+        <entry field="true" id="52" symbol="TreeJanuary"/>
         <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry id="9" object="true" symbol="KagoApp"/>
-        <entry field="true" id="84" symbol="ColorRed"/>
-        <entry id="107" method="true" symbol="getStressScore"/>
+        <entry field="true" id="115" symbol="ColorGoldenYellow"/>
+        <entry field="true" id="119" symbol="ColorRed"/>
+        <entry id="151" method="true" symbol="getStressScore"/>
+        <entry field="true" id="55" symbol="TreeMarch"/>
         <entry id="8390424" module="true" symbol="Storage"/>
-        <entry field="true" id="73" symbol="sun_icon"/>
-        <entry field="true" id="58" symbol="floors_icon"/>
-        <entry field="true" id="87" symbol="MilitaryFormatTitle"/>
+        <entry field="true" id="42" symbol="IllustrationMarch"/>
+        <entry field="true" id="99" symbol="sun_icon"/>
+        <entry field="true" id="84" symbol="floors_icon"/>
+        <entry field="true" id="127" symbol="MilitaryFormatTitle"/>
         <entry id="8388924" module="true" symbol="Gregorian"/>
-        <entry field="true" id="76" symbol="thunderstorm_icon"/>
-        <entry id="106" method="true" symbol="getSteps"/>
-        <entry field="true" id="43" symbol="OswaldRegular48"/>
+        <entry field="true" id="102" symbol="thunderstorm_icon"/>
+        <entry id="150" method="true" symbol="getSteps"/>
+        <entry field="true" id="69" symbol="OswaldRegular48"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="42" symbol="OswaldRegular32"/>
-        <entry field="true" id="45" symbol="alarm_icon"/>
-        <entry field="true" id="41" symbol="OswaldRegular20"/>
-        <entry id="92" method="true" symbol="getBattery"/>
-        <entry field="true" id="47" symbol="battery_0_icon"/>
-        <entry field="true" id="40" symbol="OswaldBold32"/>
-        <entry field="true" id="81" symbol="ColorBlue"/>
-        <entry id="31" method="true" symbol="drawTime"/>
-        <entry field="true" id="78" symbol="AppName"/>
+        <entry field="true" id="68" symbol="OswaldRegular32"/>
+        <entry field="true" id="71" symbol="alarm_icon"/>
+        <entry field="true" id="67" symbol="OswaldRegular20"/>
+        <entry field="true" id="51" symbol="TreeFebruary"/>
+        <entry id="136" method="true" symbol="getBattery"/>
+        <entry field="true" id="38" symbol="IllustrationFebruary"/>
+        <entry field="true" id="73" symbol="battery_0_icon"/>
+        <entry field="true" id="66" symbol="OswaldBold32"/>
+        <entry field="true" id="110" symbol="ColorBlue"/>
+        <entry id="33" method="true" symbol="drawTime"/>
+        <entry field="true" id="105" symbol="AppName"/>
         <entry id="8388633" module="true" symbol="ActivityMonitor"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
-        <entry field="true" id="75" symbol="sunset_icon"/>
+        <entry field="true" id="101" symbol="sunset_icon"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry field="true" id="74" symbol="sunrise_icon"/>
+        <entry field="true" id="100" symbol="sunrise_icon"/>
+        <entry id="8389345" symbol="rezId"/>
         <entry id="8388631" module="true" symbol="Activity"/>
-        <entry id="28" method="true" symbol="drawMessages"/>
-        <entry id="91" method="true" symbol="getAlarmCount"/>
-        <entry field="true" id="62" symbol="hurricane_icon"/>
+        <entry field="true" id="57" symbol="TreeNovember"/>
+        <entry id="29" method="true" symbol="drawMessages"/>
+        <entry id="135" method="true" symbol="getAlarmCount"/>
+        <entry field="true" id="88" symbol="hurricane_icon"/>
+        <entry field="true" id="44" symbol="IllustrationNovember"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="90" method="true" symbol="getActiveMinutesWeekGoal"/>
+        <entry id="134" method="true" symbol="getActiveMinutesWeekGoal"/>
+        <entry id="17" method="true" symbol="_getSeasonIcon"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="109" method="true" symbol="isDoNotDisturb"/>
+        <entry id="153" method="true" symbol="isDoNotDisturb"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
-        <entry id="30" method="true" symbol="drawSteps"/>
+        <entry field="true" id="104" symbol="AccentLinesColorTitle"/>
+        <entry field="true" id="118" symbol="ColorLimeGreen"/>
+        <entry id="32" method="true" symbol="drawSteps"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="94" method="true" symbol="getCalories"/>
-        <entry id="93" method="true" symbol="getBatteryInDays"/>
+        <entry field="true" id="48" symbol="TreeApril"/>
+        <entry id="138" method="true" symbol="getCalories"/>
+        <entry id="137" method="true" symbol="getBatteryInDays"/>
         <entry id="14" method="true" symbol="_drawIcon"/>
         <entry id="8389348" symbol="font"/>
         <entry id="8389275" method="true" symbol="getApp"/>
-        <entry field="true" id="82" symbol="ColorDarkGray"/>
+        <entry field="true" id="112" symbol="ColorDarkGray"/>
         <entry id="5" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="53" symbol="clouds_icon"/>
-        <entry id="22" method="true" symbol="drawBattery"/>
+        <entry field="true" id="79" symbol="clouds_icon"/>
+        <entry field="true" id="35" symbol="IllustrationApril"/>
+        <entry field="true" id="43" symbol="IllustrationMay"/>
+        <entry field="true" id="123" symbol="ColorSoftOrange"/>
+        <entry id="23" method="true" symbol="drawBattery"/>
+        <entry id="31" method="true" symbol="drawSeason"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry id="8389376" method="true" symbol="onEnterSleep"/>
         <entry field="true" id="8389063" symbol="identifier"/>
-        <entry field="true" id="64" symbol="messages_icon"/>
-        <entry field="true" id="52" symbol="calories_icon"/>
+        <entry field="true" id="90" symbol="messages_icon"/>
+        <entry field="true" id="78" symbol="calories_icon"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="50" symbol="battery_50_icon"/>
-        <entry field="true" id="51" symbol="battery_75_icon"/>
-        <entry field="true" id="59" symbol="fog_icon"/>
-        <entry id="17" method="true" symbol="_transformMeters"/>
-        <entry field="true" id="61" symbol="heart_icon"/>
-        <entry id="32" module="true" symbol="Getters"/>
-        <entry field="true" id="70" symbol="snow_icon"/>
-        <entry field="true" id="85" symbol="ColorWhite"/>
-        <entry id="108" method="true" symbol="getTimeToRecovery"/>
-        <entry field="true" id="34" symbol="MontserratFont"/>
-        <entry field="true" id="80" symbol="ColorBlack"/>
-        <entry id="88" method="true" symbol="getActiveMinutesDay"/>
-        <entry field="true" id="55" symbol="distance_icon"/>
+        <entry field="true" id="76" symbol="battery_50_icon"/>
+        <entry field="true" id="77" symbol="battery_75_icon"/>
+        <entry field="true" id="85" symbol="fog_icon"/>
+        <entry field="true" id="120" symbol="ColorReddishBrown"/>
+        <entry id="18" method="true" symbol="_transformMeters"/>
+        <entry field="true" id="87" symbol="heart_icon"/>
+        <entry id="34" module="true" symbol="Getters"/>
+        <entry field="true" id="96" symbol="snow_icon"/>
+        <entry field="true" id="124" symbol="ColorWhite"/>
+        <entry id="152" method="true" symbol="getTimeToRecovery"/>
+        <entry field="true" id="60" symbol="MontserratFont"/>
+        <entry field="true" id="117" symbol="ColorLightPink"/>
+        <entry field="true" id="54" symbol="TreeJune"/>
+        <entry field="true" id="109" symbol="ColorBlack"/>
+        <entry field="true" id="53" symbol="TreeJuly"/>
+        <entry id="132" method="true" symbol="getActiveMinutesDay"/>
+        <entry field="true" id="81" symbol="distance_icon"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="56" symbol="dnd_icon"/>
-        <entry field="true" id="37" symbol="MontserratFont32"/>
-        <entry field="true" id="36" symbol="MontserratFont16"/>
-        <entry field="true" id="35" symbol="MontserratFont12"/>
-        <entry field="true" id="71" symbol="steps_icon"/>
-        <entry id="21" method="true" symbol="drawActiveMinutes"/>
-        <entry field="true" id="54" symbol="connection_icon"/>
-        <entry id="105" method="true" symbol="getStepGoal"/>
+        <entry field="true" id="82" symbol="dnd_icon"/>
+        <entry field="true" id="63" symbol="MontserratFont32"/>
+        <entry field="true" id="62" symbol="MontserratFont16"/>
+        <entry field="true" id="61" symbol="MontserratFont12"/>
+        <entry field="true" id="97" symbol="steps_icon"/>
+        <entry id="22" method="true" symbol="drawActiveMinutes"/>
+        <entry field="true" id="80" symbol="connection_icon"/>
+        <entry field="true" id="111" symbol="ColorBrightGreen"/>
+        <entry field="true" id="130" symbol="SeasonTree"/>
+        <entry field="true" id="122" symbol="ColorSoftBlue"/>
+        <entry field="true" id="46" symbol="IllustrationSeptember"/>
+        <entry id="149" method="true" symbol="getStepGoal"/>
+        <entry field="true" id="45" symbol="IllustrationOctober"/>
         <entry id="8389377" method="true" symbol="onExitSleep"/>
-        <entry id="99" method="true" symbol="getMemory"/>
+        <entry id="143" method="true" symbol="getMemory"/>
         <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="107" symbol="BatteryColorChargedTitle"/>
+        <entry field="true" id="131" symbol="SensorStatsColorTitle"/>
         <entry id="11" module="true" symbol="SensorsGetters"/>
-        <entry field="true" id="68" symbol="recovery_icon"/>
+        <entry field="true" id="94" symbol="recovery_icon"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="48" symbol="battery_100_icon"/>
+        <entry field="true" id="49" symbol="TreeAugust"/>
+        <entry field="true" id="74" symbol="battery_100_icon"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="18" method="true" symbol="_transformMetrToFeet"/>
+        <entry id="19" method="true" symbol="_transformMetrToFeet"/>
+        <entry field="true" id="41" symbol="IllustrationJune"/>
         <entry id="15" method="true" symbol="_drawText"/>
-        <entry id="98" method="true" symbol="getIsConnected"/>
+        <entry id="142" method="true" symbol="getIsConnected"/>
         <entry id="8389068" method="true" symbol="draw"/>
-        <entry field="true" id="60" symbol="hail_icon"/>
+        <entry field="true" id="86" symbol="hail_icon"/>
         <entry id="16" method="true" symbol="_getDayOfWeek"/>
+        <entry field="true" id="40" symbol="IllustrationJuly"/>
         <entry id="13" method="true" symbol="_createText"/>
-        <entry id="95" method="true" symbol="getDistanceMeters"/>
-        <entry field="true" id="33" symbol="LauncherIcon"/>
+        <entry id="139" method="true" symbol="getDistanceMeters"/>
+        <entry field="true" id="47" symbol="LauncherIcon"/>
+        <entry field="true" id="129" symbol="SeasonIllustrations"/>
+        <entry field="true" id="58" symbol="TreeOctober"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="96" method="true" symbol="getFloors"/>
-        <entry id="104" method="true" symbol="getSolarIntensity"/>
-        <entry field="true" id="39" symbol="OswaldBold140"/>
+        <entry id="140" method="true" symbol="getFloors"/>
+        <entry id="148" method="true" symbol="getSolarIntensity"/>
+        <entry field="true" id="65" symbol="OswaldBold140"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry field="true" id="79" symbol="BackgroundColorTitle"/>
+        <entry field="true" id="108" symbol="BatteryColorTitle"/>
+        <entry field="true" id="106" symbol="BackgroundColorTitle"/>
         <entry id="7" module="true" symbol="globals/SensorsGetters"/>
-        <entry field="true" id="38" symbol="OswaldBold120"/>
-        <entry field="true" id="72" symbol="stress_icon"/>
+        <entry field="true" id="64" symbol="OswaldBold120"/>
+        <entry field="true" id="98" symbol="stress_icon"/>
+        <entry field="true" id="114" symbol="ColorDeepPurple"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="69" symbol="sleep_icon"/>
+        <entry field="true" id="95" symbol="sleep_icon"/>
         <entry id="8390146" module="true" object="true" symbol="Background"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry id="102" method="true" symbol="getNone"/>
+        <entry id="146" method="true" symbol="getNone"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="46" symbol="altitude_icon"/>
-        <entry id="24" method="true" symbol="drawCalories"/>
+        <entry field="true" id="72" symbol="altitude_icon"/>
+        <entry field="true" id="113" symbol="ColorDarkOliveGreen"/>
+        <entry id="25" method="true" symbol="drawCalories"/>
         <entry id="8388641" module="true" symbol="Math"/>
-        <entry field="true" id="83" symbol="ColorLightGray"/>
+        <entry field="true" id="36" symbol="IllustrationAugust"/>
+        <entry field="true" id="116" symbol="ColorLightGray"/>
+        <entry field="true" id="50" symbol="TreeDecember"/>
+        <entry field="true" id="121" symbol="ColorSkyBlue"/>
+        <entry field="true" id="37" symbol="IllustrationDecember"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
         <entry id="8389781" module="true" symbol="SensorHistory"/>
         <entry id="10" object="true" symbol="KagoView"/>
-        <entry id="103" method="true" symbol="getRespirationRate"/>
-        <entry field="true" id="86" symbol="ForegroundColorTitle"/>
-        <entry field="true" id="66" symbol="preasure_icon"/>
+        <entry id="147" method="true" symbol="getRespirationRate"/>
+        <entry field="true" id="126" symbol="ForegroundColorTitle"/>
+        <entry field="true" id="56" symbol="TreeMay"/>
+        <entry field="true" id="92" symbol="preasure_icon"/>
         <entry id="12" module="true" symbol="Layouts"/>
-        <entry field="true" id="77" symbol="weather_icon"/>
-        <entry field="true" id="65" symbol="oxygen_icon"/>
+        <entry field="true" id="103" symbol="weather_icon"/>
+        <entry field="true" id="91" symbol="oxygen_icon"/>
         <entry id="8" module="true" symbol="globals/SensorsGetters/Getters"/>
-        <entry id="100" method="true" symbol="getMessages"/>
-        <entry field="true" id="49" symbol="battery_25_icon"/>
+        <entry id="144" method="true" symbol="getMessages"/>
+        <entry field="true" id="75" symbol="battery_25_icon"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
         <entry field="true" id="8391886" method="true" symbol="isNightModeEnabled"/>
-        <entry id="97" method="true" symbol="getFloorsClimbedGoal"/>
+        <entry id="141" method="true" symbol="getFloorsClimbedGoal"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry field="true" id="57" symbol="energy_icon"/>
-        <entry id="26" method="true" symbol="drawDistance"/>
+        <entry field="true" id="83" symbol="energy_icon"/>
+        <entry id="27" method="true" symbol="drawDistance"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry id="20" method="true" symbol="drawAccentLines"/>
+        <entry field="true" id="128" symbol="SeasonIconTitle"/>
+        <entry field="true" id="39" symbol="IllustrationJanuary"/>
+        <entry field="true" id="125" symbol="DateColorTitle"/>
+        <entry field="true" id="59" symbol="TreeSeptember"/>
+        <entry id="21" method="true" symbol="drawAccentLines"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435573" name="dictionary" stackId="1" startPc="268435540"/>
@@ -486,144 +586,193 @@
         <entry endPc="268436523" name="font" stackId="6" startPc="268436179"/>
         <entry endPc="268436523" name="text" stackId="7" startPc="268436179"/>
         <entry endPc="268436523" name="size" stackId="8" startPc="268436179"/>
-        <entry arg="true" endPc="268436966" name="dc" stackId="1" startPc="268436525"/>
-        <entry endPc="268436965" name="centerY" stackId="2" startPc="268436528"/>
-        <entry endPc="268436965" name="aboveTheTimeY" stackId="3" startPc="268436528"/>
-        <entry arg="true" endPc="268437192" name="dc" stackId="1" startPc="268436967"/>
-        <entry endPc="268437191" name="calories" stackId="2" startPc="268436970"/>
-        <entry endPc="268437191" name="caloriesText" stackId="3" startPc="268436970"/>
-        <entry endPc="268437191" name="text" stackId="4" startPc="268436970"/>
-        <entry endPc="268437191" name="textX" stackId="5" startPc="268436970"/>
-        <entry endPc="268437191" name="textY" stackId="6" startPc="268436970"/>
-        <entry arg="true" endPc="268437360" name="dayOfWeek" stackId="1" startPc="268437193"/>
-        <entry arg="true" endPc="268437506" name="dc" stackId="1" startPc="268437361"/>
-        <entry arg="true" endPc="268437506" name="str" stackId="2" startPc="268437361"/>
-        <entry arg="true" endPc="268437506" name="fontId" stackId="3" startPc="268437361"/>
-        <entry arg="true" endPc="268437506" name="color" stackId="4" startPc="268437361"/>
-        <entry endPc="268437506" name="font" stackId="5" startPc="268437364"/>
-        <entry endPc="268437506" name="text" stackId="6" startPc="268437364"/>
-        <entry endPc="268437506" name="size" stackId="7" startPc="268437364"/>
-        <entry endPc="268437506" name="result" stackId="8" startPc="268437364"/>
-        <entry arg="true" endPc="268437922" name="dc" stackId="1" startPc="268437507"/>
-        <entry endPc="268437921" name="steps" stackId="2" startPc="268437510"/>
-        <entry endPc="268437921" name="goalSteps" stackId="3" startPc="268437510"/>
-        <entry endPc="268437921" name="stepsText" stackId="4" startPc="268437510"/>
-        <entry endPc="268437921" name="text" stackId="5" startPc="268437510"/>
-        <entry endPc="268437921" name="textX" stackId="6" startPc="268437510"/>
-        <entry endPc="268437921" name="textY" stackId="7" startPc="268437510"/>
-        <entry endPc="268437918" name="goalText" stackId="8" startPc="268437773"/>
-        <entry endPc="268437918" name="goal" stackId="9" startPc="268437773"/>
-        <entry arg="true" endPc="268438001" name="dc" stackId="1" startPc="268437923"/>
-        <entry endPc="268438000" name="isConnected" stackId="2" startPc="268437926"/>
-        <entry arg="true" endPc="268438260" name="dc" stackId="1" startPc="268438002"/>
-        <entry endPc="268438259" name="heartRate" stackId="2" startPc="268438005"/>
-        <entry endPc="268438259" name="heartRateText" stackId="3" startPc="268438005"/>
-        <entry endPc="268438259" name="actInfo" stackId="4" startPc="268438005"/>
-        <entry endPc="268438259" name="text" stackId="5" startPc="268438005"/>
-        <entry endPc="268438259" name="textX" stackId="6" startPc="268438005"/>
-        <entry endPc="268438259" name="textY" stackId="7" startPc="268438005"/>
-        <entry arg="true" endPc="268438469" name="dc" stackId="1" startPc="268438261"/>
-        <entry endPc="268438468" name="messages" stackId="2" startPc="268438264"/>
-        <entry endPc="268438468" name="messagesText" stackId="3" startPc="268438264"/>
-        <entry endPc="268438468" name="text" stackId="4" startPc="268438264"/>
-        <entry endPc="268438468" name="textX" stackId="5" startPc="268438264"/>
-        <entry endPc="268438468" name="textY" stackId="6" startPc="268438264"/>
-        <entry arg="true" endPc="268438505" name="dc" stackId="1" startPc="268438470"/>
-        <entry arg="true" endPc="268438516" name="value" stackId="1" startPc="268438506"/>
-        <entry arg="true" endPc="268438631" name="dc" stackId="1" startPc="268438517"/>
-        <entry arg="true" endPc="268438631" name="iconId" stackId="2" startPc="268438517"/>
-        <entry arg="true" endPc="268438631" name="x" stackId="3" startPc="268438517"/>
-        <entry arg="true" endPc="268438631" name="y" stackId="4" startPc="268438517"/>
-        <entry arg="true" endPc="268438631" name="color" stackId="5" startPc="268438517"/>
-        <entry endPc="268438630" name="icon" stackId="6" startPc="268438520"/>
-        <entry arg="true" endPc="268438653" name="dc" stackId="1" startPc="268438632"/>
-        <entry arg="true" endPc="268438653" name="text" stackId="2" startPc="268438632"/>
-        <entry arg="true" endPc="268438871" name="dc" stackId="1" startPc="268438654"/>
-        <entry endPc="268438870" name="distance" stackId="2" startPc="268438657"/>
-        <entry endPc="268438870" name="distanceText" stackId="3" startPc="268438657"/>
-        <entry endPc="268438870" name="text" stackId="4" startPc="268438657"/>
-        <entry endPc="268438870" name="textX" stackId="5" startPc="268438657"/>
-        <entry endPc="268438870" name="textY" stackId="6" startPc="268438657"/>
-        <entry arg="true" endPc="268438882" name="value" stackId="1" startPc="268438872"/>
-        <entry arg="true" endPc="268439318" name="dc" stackId="1" startPc="268438883"/>
-        <entry endPc="268439317" name="battery" stackId="2" startPc="268438886"/>
-        <entry endPc="268439317" name="batteryText" stackId="3" startPc="268438886"/>
-        <entry endPc="268439317" name="text" stackId="4" startPc="268438886"/>
-        <entry endPc="268439317" name="textX" stackId="5" startPc="268438886"/>
-        <entry endPc="268439317" name="textY" stackId="6" startPc="268438886"/>
-        <entry endPc="268439317" name="batteryIcon" stackId="7" startPc="268438886"/>
-        <entry arg="true" endPc="268439484" name="value" stackId="1" startPc="268439319"/>
-        <entry endPc="268439484" name="unitText" stackId="2" startPc="268439322"/>
-        <entry endPc="268439484" name="isKilometr" stackId="3" startPc="268439322"/>
-        <entry endPc="268439484" name="isMetricSystem" stackId="4" startPc="268439322"/>
-        <entry arg="true" endPc="268439654" name="dc" stackId="1" startPc="268439500"/>
-        <entry arg="true" endPc="268439982" name="dc" stackId="1" startPc="268439655"/>
-        <entry endPc="268439981" name="today" stackId="2" startPc="268439658"/>
-        <entry endPc="268439981" name="dayOfWeek" stackId="3" startPc="268439658"/>
-        <entry endPc="268439981" name="dateString" stackId="4" startPc="268439658"/>
-        <entry endPc="268439981" name="dayAndMonth" stackId="5" startPc="268439658"/>
-        <entry endPc="268439981" name="weekDay" stackId="6" startPc="268439658"/>
-        <entry arg="true" endPc="268440027" name="dc" stackId="1" startPc="268439983"/>
-        <entry endPc="268440027" name="rez_cmp_local_custom_drawable_14826003731973962757" stackId="2" startPc="268439994"/>
-        <entry endPc="268440129" name="distanceCm" stackId="1" startPc="268440091"/>
-        <entry endPc="268440253" name="value" stackId="1" startPc="268440219"/>
-        <entry endPc="268440474" name="value" stackId="1" startPc="268440439"/>
+        <entry arg="true" endPc="268436846" name="dc" stackId="1" startPc="268436525"/>
+        <entry endPc="268436845" name="centerY" stackId="2" startPc="268436528"/>
+        <entry endPc="268436845" name="aboveTheTimeY" stackId="3" startPc="268436528"/>
+        <entry arg="true" endPc="268437072" name="dc" stackId="1" startPc="268436847"/>
+        <entry endPc="268437071" name="calories" stackId="2" startPc="268436850"/>
+        <entry endPc="268437071" name="caloriesText" stackId="3" startPc="268436850"/>
+        <entry endPc="268437071" name="text" stackId="4" startPc="268436850"/>
+        <entry endPc="268437071" name="textX" stackId="5" startPc="268436850"/>
+        <entry endPc="268437071" name="textY" stackId="6" startPc="268436850"/>
+        <entry arg="true" endPc="268437240" name="dayOfWeek" stackId="1" startPc="268437073"/>
+        <entry arg="true" endPc="268437386" name="dc" stackId="1" startPc="268437241"/>
+        <entry arg="true" endPc="268437386" name="str" stackId="2" startPc="268437241"/>
+        <entry arg="true" endPc="268437386" name="fontId" stackId="3" startPc="268437241"/>
+        <entry arg="true" endPc="268437386" name="color" stackId="4" startPc="268437241"/>
+        <entry endPc="268437386" name="font" stackId="5" startPc="268437244"/>
+        <entry endPc="268437386" name="text" stackId="6" startPc="268437244"/>
+        <entry endPc="268437386" name="size" stackId="7" startPc="268437244"/>
+        <entry endPc="268437386" name="result" stackId="8" startPc="268437244"/>
+        <entry arg="true" endPc="268437802" name="dc" stackId="1" startPc="268437387"/>
+        <entry endPc="268437801" name="steps" stackId="2" startPc="268437390"/>
+        <entry endPc="268437801" name="goalSteps" stackId="3" startPc="268437390"/>
+        <entry endPc="268437801" name="stepsText" stackId="4" startPc="268437390"/>
+        <entry endPc="268437801" name="text" stackId="5" startPc="268437390"/>
+        <entry endPc="268437801" name="textX" stackId="6" startPc="268437390"/>
+        <entry endPc="268437801" name="textY" stackId="7" startPc="268437390"/>
+        <entry endPc="268437798" name="goalText" stackId="8" startPc="268437653"/>
+        <entry endPc="268437798" name="goal" stackId="9" startPc="268437653"/>
+        <entry endPc="268438669" name="today" stackId="1" startPc="268437806"/>
+        <entry endPc="268438669" name="month" stackId="2" startPc="268437806"/>
+        <entry endPc="268438669" name="bitmap" stackId="3" startPc="268437806"/>
+        <entry endPc="268438669" name="seasonIconType" stackId="4" startPc="268437806"/>
+        <entry arg="true" endPc="268438756" name="dc" stackId="1" startPc="268438670"/>
+        <entry endPc="268438755" name="isConnected" stackId="2" startPc="268438673"/>
+        <entry arg="true" endPc="268439012" name="dc" stackId="1" startPc="268438757"/>
+        <entry endPc="268439011" name="heartRate" stackId="2" startPc="268438760"/>
+        <entry endPc="268439011" name="heartRateText" stackId="3" startPc="268438760"/>
+        <entry endPc="268439011" name="actInfo" stackId="4" startPc="268438760"/>
+        <entry endPc="268439011" name="text" stackId="5" startPc="268438760"/>
+        <entry endPc="268439011" name="textX" stackId="6" startPc="268438760"/>
+        <entry endPc="268439011" name="textY" stackId="7" startPc="268438760"/>
+        <entry arg="true" endPc="268439247" name="dc" stackId="1" startPc="268439013"/>
+        <entry endPc="268439246" name="messages" stackId="2" startPc="268439016"/>
+        <entry endPc="268439246" name="messagesText" stackId="3" startPc="268439016"/>
+        <entry endPc="268439246" name="text" stackId="4" startPc="268439016"/>
+        <entry endPc="268439246" name="textX" stackId="5" startPc="268439016"/>
+        <entry endPc="268439246" name="textY" stackId="6" startPc="268439016"/>
+        <entry arg="true" endPc="268439283" name="dc" stackId="1" startPc="268439248"/>
+        <entry arg="true" endPc="268439392" name="dc" stackId="1" startPc="268439284"/>
+        <entry endPc="268439391" name="bitmap" stackId="2" startPc="268439287"/>
+        <entry endPc="268439391" name="season" stackId="3" startPc="268439287"/>
+        <entry endPc="268439391" name="dimensions" stackId="4" startPc="268439287"/>
+        <entry arg="true" endPc="268439403" name="value" stackId="1" startPc="268439393"/>
+        <entry arg="true" endPc="268439518" name="dc" stackId="1" startPc="268439404"/>
+        <entry arg="true" endPc="268439518" name="iconId" stackId="2" startPc="268439404"/>
+        <entry arg="true" endPc="268439518" name="x" stackId="3" startPc="268439404"/>
+        <entry arg="true" endPc="268439518" name="y" stackId="4" startPc="268439404"/>
+        <entry arg="true" endPc="268439518" name="color" stackId="5" startPc="268439404"/>
+        <entry endPc="268439517" name="icon" stackId="6" startPc="268439407"/>
+        <entry arg="true" endPc="268439540" name="dc" stackId="1" startPc="268439519"/>
+        <entry arg="true" endPc="268439540" name="text" stackId="2" startPc="268439519"/>
+        <entry arg="true" endPc="268439758" name="dc" stackId="1" startPc="268439541"/>
+        <entry endPc="268439757" name="distance" stackId="2" startPc="268439544"/>
+        <entry endPc="268439757" name="distanceText" stackId="3" startPc="268439544"/>
+        <entry endPc="268439757" name="text" stackId="4" startPc="268439544"/>
+        <entry endPc="268439757" name="textX" stackId="5" startPc="268439544"/>
+        <entry endPc="268439757" name="textY" stackId="6" startPc="268439544"/>
+        <entry arg="true" endPc="268439769" name="value" stackId="1" startPc="268439759"/>
+        <entry arg="true" endPc="268440202" name="dc" stackId="1" startPc="268439770"/>
+        <entry endPc="268440201" name="battery" stackId="2" startPc="268439773"/>
+        <entry endPc="268440201" name="batteryText" stackId="3" startPc="268439773"/>
+        <entry endPc="268440201" name="text" stackId="4" startPc="268439773"/>
+        <entry endPc="268440201" name="textX" stackId="5" startPc="268439773"/>
+        <entry endPc="268440201" name="textY" stackId="6" startPc="268439773"/>
+        <entry endPc="268440201" name="batteryIcon" stackId="7" startPc="268439773"/>
+        <entry arg="true" endPc="268440368" name="value" stackId="1" startPc="268440203"/>
+        <entry endPc="268440368" name="unitText" stackId="2" startPc="268440206"/>
+        <entry endPc="268440368" name="isKilometr" stackId="3" startPc="268440206"/>
+        <entry endPc="268440368" name="isMetricSystem" stackId="4" startPc="268440206"/>
+        <entry arg="true" endPc="268440538" name="dc" stackId="1" startPc="268440384"/>
+        <entry arg="true" endPc="268440768" name="dc" stackId="1" startPc="268440539"/>
+        <entry endPc="268440767" name="today" stackId="2" startPc="268440542"/>
+        <entry endPc="268440767" name="dayOfWeek" stackId="3" startPc="268440542"/>
+        <entry endPc="268440767" name="dateString" stackId="4" startPc="268440542"/>
+        <entry endPc="268440767" name="date" stackId="5" startPc="268440542"/>
+        <entry arg="true" endPc="268440813" name="dc" stackId="1" startPc="268440769"/>
+        <entry endPc="268440813" name="rez_cmp_local_custom_drawable_20002132141520346644" stackId="2" startPc="268440780"/>
+        <entry endPc="268440915" name="distanceCm" stackId="1" startPc="268440877"/>
+        <entry endPc="268441039" name="value" stackId="1" startPc="268441005"/>
+        <entry endPc="268441260" name="value" stackId="1" startPc="268441225"/>
     </localVars>
     <deviceInfo deviceVersion="e470ee747f0d6a18bf042f53621907a0dbf0f873" partNumber="006-B4536-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldBold120"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="fog_icon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="hurricane_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="thunderstorm_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldRegular48"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColorTitle"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_75_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sunset_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationJanuary"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="connection_icon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeJanuary"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="clouds_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="heart_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rain_icon"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightGray"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="activity_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="dnd_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="preasure_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLimeGreen"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_50_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sleep_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorSoftOrange"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="recovery_icon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sunrise_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SeasonTree"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationOctober"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeSeptember"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="hail_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SensorStatsColorTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeDecember"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BatteryColorTitle"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_100_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeApril"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorReddishBrown"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorSkyBlue"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationApril"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="snow_icon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont32"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorSoftBlue"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationMay"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="calories_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationNovember"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationFebruary"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeMarch"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationDecember"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldBold120"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="hurricane_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationSeptember"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="thunderstorm_icon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldRegular48"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeNovember"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_75_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeJune"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeOctober"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BatteryColorChargedTitle"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SeasonIllustrations"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="rain_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColorTitle"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="preasure_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationAugust"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkOliveGreen"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldRegular32"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="weather_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont16"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="altitude_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="recovery_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sunrise_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DateColorTitle"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="oxygen_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont12"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MilitaryFormatTitle"/>
-        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldBold140"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="stress_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="floors_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="hail_icon"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationMarch"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="energy_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_25_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldRegular20"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationJuly"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AccentLinesColorTitle"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="steps_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightPink"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeAugust"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="distance_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_100_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="battery_0_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="sun_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeMay"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="snow_icon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeFebruary"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="alarm_icon"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="MontserratFont32"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="TreeJuly"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="memory_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDeepPurple"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBrightGreen"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorDarkGray"/>
-        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="calories_icon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGoldenYellow"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SeasonIconTitle"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IllustrationJune"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="messages_icon"/>
         <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="OswaldBold32"/>
     </annotations>
@@ -633,12 +782,12 @@
         <dataEntry label="globals/Rez" offset="223" parentId="globals" symbolId="Rez" type="module"/>
         <dataEntry label="globals/KagoApp" offset="285" parentId="globals" symbolId="KagoApp" type="class"/>
         <dataEntry label="globals/KagoView" offset="365" parentId="globals" symbolId="KagoView" type="class"/>
-        <dataEntry label="globals/SensorsGetters" offset="634" parentId="globals" symbolId="SensorsGetters" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="669" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="704" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="739" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1161" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/SensorsGetters/Getters" offset="1277" parentId="SensorsGetters" symbolId="Getters" type="module"/>
+        <dataEntry label="globals/SensorsGetters" offset="652" parentId="globals" symbolId="SensorsGetters" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="687" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="938" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="973" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1395" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/SensorsGetters/Getters" offset="1673" parentId="SensorsGetters" symbolId="Getters" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
@@ -707,41 +856,44 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436966" name="drawAccentLines" parent="KagoView" startPc="268436525">
+        <functionEntry accessMode="public" endPc="268436846" name="drawAccentLines" parent="KagoView" startPc="268436525">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437192" name="drawCalories" parent="KagoView" startPc="268436967">
+        <functionEntry accessMode="public" endPc="268437072" name="drawCalories" parent="KagoView" startPc="268436847">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437360" name="_getDayOfWeek" parent="KagoView" startPc="268437193">
+        <functionEntry accessMode="public" endPc="268437240" name="_getDayOfWeek" parent="KagoView" startPc="268437073">
             <param id="dayOfWeek"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437506" name="_createText" parent="KagoView" startPc="268437361">
+        <functionEntry accessMode="public" endPc="268437386" name="_createText" parent="KagoView" startPc="268437241">
             <param id="dc"/>
             <param id="str"/>
             <param id="fontId"/>
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437922" name="drawSteps" parent="KagoView" startPc="268437507">
+        <functionEntry accessMode="public" endPc="268437802" name="drawSteps" parent="KagoView" startPc="268437387">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438001" name="drawPhoneConnection" parent="KagoView" startPc="268437923">
+        <functionEntry accessMode="public" endPc="268438669" name="_getSeasonIcon" parent="KagoView" startPc="268437803">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438756" name="drawPhoneConnection" parent="KagoView" startPc="268438670">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="KagoView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438260" name="drawHeartRate" parent="KagoView" startPc="268438002">
+        <functionEntry accessMode="public" endPc="268439012" name="drawHeartRate" parent="KagoView" startPc="268438757">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438469" name="drawMessages" parent="KagoView" startPc="268438261">
+        <functionEntry accessMode="public" endPc="268439247" name="drawMessages" parent="KagoView" startPc="268439013">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -751,15 +903,19 @@
         <functionEntry accessMode="public" name="onShow" parent="KagoView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438505" name="onLayout" parent="KagoView" startPc="268438470">
+        <functionEntry accessMode="public" endPc="268439283" name="onLayout" parent="KagoView" startPc="268439248">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438516" name="_transformMetrToMil" parent="KagoView" startPc="268438506">
+        <functionEntry accessMode="public" endPc="268439392" name="drawSeason" parent="KagoView" startPc="268439284">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439403" name="_transformMetrToMil" parent="KagoView" startPc="268439393">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438631" name="_drawIcon" parent="KagoView" startPc="268438517">
+        <functionEntry accessMode="public" endPc="268439518" name="_drawIcon" parent="KagoView" startPc="268439404">
             <param id="dc"/>
             <param id="iconId"/>
             <param id="x"/>
@@ -767,115 +923,115 @@
             <param id="color"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438653" name="_drawText" parent="KagoView" startPc="268438632">
+        <functionEntry accessMode="public" endPc="268439540" name="_drawText" parent="KagoView" startPc="268439519">
             <param id="dc"/>
             <param id="text"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438871" name="drawDistance" parent="KagoView" startPc="268438654">
+        <functionEntry accessMode="public" endPc="268439758" name="drawDistance" parent="KagoView" startPc="268439541">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438882" name="_transformMetrToFeet" parent="KagoView" startPc="268438872">
+        <functionEntry accessMode="public" endPc="268439769" name="_transformMetrToFeet" parent="KagoView" startPc="268439759">
             <param id="value"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onEnterSleep" parent="KagoView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439318" name="drawBattery" parent="KagoView" startPc="268438883">
+        <functionEntry accessMode="public" endPc="268440202" name="drawBattery" parent="KagoView" startPc="268439770">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439484" name="_transformMeters" parent="KagoView" startPc="268439319">
+        <functionEntry accessMode="public" endPc="268440368" name="_transformMeters" parent="KagoView" startPc="268440203">
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439499" name="initialize" parent="KagoView" startPc="268439485">
+        <functionEntry accessMode="public" endPc="268440383" name="initialize" parent="KagoView" startPc="268440369">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439654" name="onUpdate" parent="KagoView" startPc="268439500">
+        <functionEntry accessMode="public" endPc="268440538" name="onUpdate" parent="KagoView" startPc="268440384">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439982" name="drawDate" parent="KagoView" startPc="268439655">
+        <functionEntry accessMode="public" endPc="268440768" name="drawDate" parent="KagoView" startPc="268440539">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Getters">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440027" name="WatchFace" parent="Layouts" startPc="268439983">
+        <functionEntry accessMode="public" endPc="268440813" name="WatchFace" parent="Layouts" startPc="268440769">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440053" name="isDoNotDisturb" parent="Getters" startPc="268440028">
+        <functionEntry accessMode="public" endPc="268440839" name="isDoNotDisturb" parent="Getters" startPc="268440814">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440079" name="getTimeToRecovery" parent="Getters" startPc="268440054">
+        <functionEntry accessMode="public" endPc="268440865" name="getTimeToRecovery" parent="Getters" startPc="268440840">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440129" name="getDistanceMeters" parent="Getters" startPc="268440080">
+        <functionEntry accessMode="public" endPc="268440915" name="getDistanceMeters" parent="Getters" startPc="268440866">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440155" name="getAlarmCount" parent="Getters" startPc="268440130">
+        <functionEntry accessMode="public" endPc="268440941" name="getAlarmCount" parent="Getters" startPc="268440916">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440181" name="getSolarIntensity" parent="Getters" startPc="268440156">
+        <functionEntry accessMode="public" endPc="268440967" name="getSolarIntensity" parent="Getters" startPc="268440942">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440207" name="getIsConnected" parent="Getters" startPc="268440182">
+        <functionEntry accessMode="public" endPc="268440993" name="getIsConnected" parent="Getters" startPc="268440968">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440253" name="getActiveMinutesWeek" parent="Getters" startPc="268440208">
+        <functionEntry accessMode="public" endPc="268441039" name="getActiveMinutesWeek" parent="Getters" startPc="268440994">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440285" name="getBatteryInDays" parent="Getters" startPc="268440254">
+        <functionEntry accessMode="public" endPc="268441071" name="getBatteryInDays" parent="Getters" startPc="268441040">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440311" name="getActiveMinutesWeekGoal" parent="Getters" startPc="268440286">
+        <functionEntry accessMode="public" endPc="268441097" name="getActiveMinutesWeekGoal" parent="Getters" startPc="268441072">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440337" name="getStepGoal" parent="Getters" startPc="268440312">
+        <functionEntry accessMode="public" endPc="268441123" name="getStepGoal" parent="Getters" startPc="268441098">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440349" name="getNone" parent="Getters" startPc="268440338">
+        <functionEntry accessMode="public" endPc="268441135" name="getNone" parent="Getters" startPc="268441124">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440375" name="getFloorsClimbedGoal" parent="Getters" startPc="268440350">
+        <functionEntry accessMode="public" endPc="268441161" name="getFloorsClimbedGoal" parent="Getters" startPc="268441136">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440401" name="getMessages" parent="Getters" startPc="268440376">
+        <functionEntry accessMode="public" endPc="268441187" name="getMessages" parent="Getters" startPc="268441162">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440427" name="getMemory" parent="Getters" startPc="268440402">
+        <functionEntry accessMode="public" endPc="268441213" name="getMemory" parent="Getters" startPc="268441188">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440474" name="getActiveMinutesDay" parent="Getters" startPc="268440428">
+        <functionEntry accessMode="public" endPc="268441260" name="getActiveMinutesDay" parent="Getters" startPc="268441214">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440500" name="getCalories" parent="Getters" startPc="268440475">
+        <functionEntry accessMode="public" endPc="268441286" name="getCalories" parent="Getters" startPc="268441261">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440526" name="getFloors" parent="Getters" startPc="268440501">
+        <functionEntry accessMode="public" endPc="268441312" name="getFloors" parent="Getters" startPc="268441287">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440552" name="getMetersClimbed" parent="Getters" startPc="268440527">
+        <functionEntry accessMode="public" endPc="268441338" name="getMetersClimbed" parent="Getters" startPc="268441313">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440580" name="isNightModeEnabled" parent="Getters" startPc="268440553">
+        <functionEntry accessMode="public" endPc="268441366" name="isNightModeEnabled" parent="Getters" startPc="268441339">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440606" name="getRespirationRate" parent="Getters" startPc="268440581">
+        <functionEntry accessMode="public" endPc="268441392" name="getRespirationRate" parent="Getters" startPc="268441367">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440632" name="getSteps" parent="Getters" startPc="268440607">
+        <functionEntry accessMode="public" endPc="268441418" name="getSteps" parent="Getters" startPc="268441393">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440664" name="getBattery" parent="Getters" startPc="268440633">
+        <functionEntry accessMode="public" endPc="268441450" name="getBattery" parent="Getters" startPc="268441419">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440690" name="getStressScore" parent="Getters" startPc="268440665">
+        <functionEntry accessMode="public" endPc="268441476" name="getStressScore" parent="Getters" startPc="268441451">
             <documentation/>
         </functionEntry>
     </functions>

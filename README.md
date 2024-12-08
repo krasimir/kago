@@ -16,3 +16,7 @@
 Res: 454x454
 
 * Inspiration: https://github.com/bombsimon/awesome-garmin?tab=readme-ov-file#watch-faces
+
+## Attribution
+
+Season picture developed by [Freepik here](https://www.freepik.com/free-vector/months-year-template-design_33802328.htm#fromView=keyword&page=1&position=12&uuid=9343120e-e1c9-4ccb-873b-1c1bb6aa44f6) and [here](https://www.freepik.com/free-vector/calendar-with-sketchy-seasonal-elements_823715.htm#fromView=keyword&page=1&position=33&uuid=9343120e-e1c9-4ccb-873b-1c1bb6aa44f6). Gallery [here](https://www.freepik.com/free-photos-vectors/months-year-icon).
