@@ -1,0 +1,526 @@
+{
+  "settings" : [ {
+    "key" : "BackgroundColor",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "BackgroundColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorMagenta",
+      "value" : 16711935
+    }, {
+      "display" : "ColorCyan",
+      "value" : 65535
+    }, {
+      "display" : "ColorSoftBlue",
+      "value" : 32767
+    }, {
+      "display" : "ColorGoldenYellow",
+      "value" : 16766720
+    }, {
+      "display" : "ColorLightPink",
+      "value" : 16758465
+    }, {
+      "display" : "ColorSkyBlue",
+      "value" : 8900331
+    }, {
+      "display" : "ColorReddishBrown",
+      "value" : 9127187
+    }, {
+      "display" : "ColorDarkOliveGreen",
+      "value" : 5597999
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16753920
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorDarkMagenta",
+      "value" : 9109643
+    }, {
+      "display" : "ColorGreen",
+      "value" : 32768
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "ForegroundColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "ForegroundColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorMagenta",
+      "value" : 16711935
+    }, {
+      "display" : "ColorCyan",
+      "value" : 65535
+    }, {
+      "display" : "ColorSoftBlue",
+      "value" : 32767
+    }, {
+      "display" : "ColorGoldenYellow",
+      "value" : 16766720
+    }, {
+      "display" : "ColorLightPink",
+      "value" : 16758465
+    }, {
+      "display" : "ColorSkyBlue",
+      "value" : 8900331
+    }, {
+      "display" : "ColorReddishBrown",
+      "value" : 9127187
+    }, {
+      "display" : "ColorDarkOliveGreen",
+      "value" : 5597999
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16753920
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorDarkMagenta",
+      "value" : 9109643
+    }, {
+      "display" : "ColorGreen",
+      "value" : 32768
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "UseMilitaryFormat",
+    "valueType" : "boolean",
+    "defaultValue" : false,
+    "configTitle" : "MilitaryFormatTitle",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "BatteryColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "BatteryColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorMagenta",
+      "value" : 16711935
+    }, {
+      "display" : "ColorCyan",
+      "value" : 65535
+    }, {
+      "display" : "ColorSoftBlue",
+      "value" : 32767
+    }, {
+      "display" : "ColorGoldenYellow",
+      "value" : 16766720
+    }, {
+      "display" : "ColorLightPink",
+      "value" : 16758465
+    }, {
+      "display" : "ColorSkyBlue",
+      "value" : 8900331
+    }, {
+      "display" : "ColorReddishBrown",
+      "value" : 9127187
+    }, {
+      "display" : "ColorDarkOliveGreen",
+      "value" : 5597999
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16753920
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorDarkMagenta",
+      "value" : 9109643
+    }, {
+      "display" : "ColorGreen",
+      "value" : 32768
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "BatteryColorCharged",
+    "valueType" : "number",
+    "defaultValue" : 16711935,
+    "configTitle" : "BatteryColorChargedTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorMagenta",
+      "value" : 16711935
+    }, {
+      "display" : "ColorCyan",
+      "value" : 65535
+    }, {
+      "display" : "ColorSoftBlue",
+      "value" : 32767
+    }, {
+      "display" : "ColorGoldenYellow",
+      "value" : 16766720
+    }, {
+      "display" : "ColorLightPink",
+      "value" : 16758465
+    }, {
+      "display" : "ColorSkyBlue",
+      "value" : 8900331
+    }, {
+      "display" : "ColorReddishBrown",
+      "value" : 9127187
+    }, {
+      "display" : "ColorDarkOliveGreen",
+      "value" : 5597999
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16753920
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorDarkMagenta",
+      "value" : 9109643
+    }, {
+      "display" : "ColorGreen",
+      "value" : 32768
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SensorStatsColor",
+    "valueType" : "number",
+    "defaultValue" : 16777215,
+    "configTitle" : "SensorStatsColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorMagenta",
+      "value" : 16711935
+    }, {
+      "display" : "ColorCyan",
+      "value" : 65535
+    }, {
+      "display" : "ColorSoftBlue",
+      "value" : 32767
+    }, {
+      "display" : "ColorGoldenYellow",
+      "value" : 16766720
+    }, {
+      "display" : "ColorLightPink",
+      "value" : 16758465
+    }, {
+      "display" : "ColorSkyBlue",
+      "value" : 8900331
+    }, {
+      "display" : "ColorReddishBrown",
+      "value" : 9127187
+    }, {
+      "display" : "ColorDarkOliveGreen",
+      "value" : 5597999
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16753920
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorDarkMagenta",
+      "value" : 9109643
+    }, {
+      "display" : "ColorGreen",
+      "value" : 32768
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "AccentLinesColor",
+    "valueType" : "number",
+    "defaultValue" : 16711935,
+    "configTitle" : "AccentLinesColorTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "ColorBlack",
+      "value" : 0
+    }, {
+      "display" : "ColorDarkGray",
+      "value" : 5592405
+    }, {
+      "display" : "ColorLightGray",
+      "value" : 11184810
+    }, {
+      "display" : "ColorWhite",
+      "value" : 16777215
+    }, {
+      "display" : "ColorRed",
+      "value" : 16711680
+    }, {
+      "display" : "ColorGreen",
+      "value" : 65280
+    }, {
+      "display" : "ColorYellow",
+      "value" : 16776960
+    }, {
+      "display" : "ColorBlue",
+      "value" : 255
+    }, {
+      "display" : "ColorMagenta",
+      "value" : 16711935
+    }, {
+      "display" : "ColorCyan",
+      "value" : 65535
+    }, {
+      "display" : "ColorSoftBlue",
+      "value" : 32767
+    }, {
+      "display" : "ColorGoldenYellow",
+      "value" : 16766720
+    }, {
+      "display" : "ColorLightPink",
+      "value" : 16758465
+    }, {
+      "display" : "ColorSkyBlue",
+      "value" : 8900331
+    }, {
+      "display" : "ColorReddishBrown",
+      "value" : 9127187
+    }, {
+      "display" : "ColorDarkOliveGreen",
+      "value" : 5597999
+    }, {
+      "display" : "ColorOrange",
+      "value" : 16753920
+    }, {
+      "display" : "ColorPurple",
+      "value" : 8388736
+    }, {
+      "display" : "ColorDarkMagenta",
+      "value" : 9109643
+    }, {
+      "display" : "ColorGreen",
+      "value" : 32768
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  }, {
+    "key" : "SeasonIcon",
+    "valueType" : "number",
+    "defaultValue" : 0,
+    "configTitle" : "SeasonIconTitle",
+    "configPrompt" : null,
+    "configType" : "list",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : [ {
+      "display" : "SeasonTree",
+      "value" : 0
+    }, {
+      "display" : "SeasonIllustrations",
+      "value" : 1
+    } ],
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "SeasonIllustrations" : "Illustrations",
+      "ColorBlue" : "Blue",
+      "ColorSkyBlue" : "Sky Blue",
+      "BackgroundColorTitle" : "Background Color",
+      "ColorSoftBlue" : "Soft Blue",
+      "ColorReddishBrown" : "Reddish Brown",
+      "ColorDarkMagenta" : "Dark Magenta",
+      "ColorYellow" : "Yellow",
+      "AppName" : "Kago",
+      "ColorMagenta" : "Magenta",
+      "ColorRed" : "Red",
+      "ColorGoldenYellow" : "Golden Yellow",
+      "ColorLightPink" : "Light Pink",
+      "ColorDarkOliveGreen" : "Dark Olive Green",
+      "SensorStatsColorTitle" : "Stats color",
+      "SeasonIconTitle" : "Season illustration/icon",
+      "ColorWhite" : "White",
+      "ColorGreen" : "Dark Green",
+      "ColorLightGray" : "Light Gray",
+      "ColorDarkGray" : "Dark Gray",
+      "MilitaryFormatTitle" : "Military Format for 24 Hour Time",
+      "ColorBlack" : "Black",
+      "ColorOrange" : "Orange",
+      "SeasonTree" : "Tree",
+      "BatteryColorTitle" : "Battery Arc Color",
+      "ForegroundColorTitle" : "Foreground Color",
+      "AccentLinesColorTitle" : "Accent elements color",
+      "BatteryColorChargedTitle" : "Battery Arc Color (drained)",
+      "DateColorTitle" : "Date color",
+      "ColorCyan" : "Cyan",
+      "ColorPurple" : "Purple",
+      "ColorLimeGreen" : "Lime Green"
+    }
+  }
+}

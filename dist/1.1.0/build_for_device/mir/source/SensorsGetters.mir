@@ -1,0 +1,353 @@
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 2; ]
+import Toybox.System;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 3; ]
+import Toybox.ActivityMonitor;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 4; ]
+import Toybox.Application.Storage;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 5; ]
+import Toybox.Activity;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 6; ]
+import Toybox.SensorHistory;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 7; ]
+import Toybox.Time;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 8; ]
+import Toybox.Time.Gregorian;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 9; ]
+import Toybox.Math;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 11; ]
+module SensorsGetters {
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 11; ]
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 13; ]
+    module Getters {
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 14; ]
+        function getNone() as Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_14_35_16_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 15 12 ]
+            %tmp.1 = null;
+            ret %tmp.1;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_14_35_16_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 18; ]
+        function getSteps() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_18_39_20_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 19 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :steps;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_18_39_20_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 22; ]
+        function getCalories() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_22_42_24_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 23 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :calories;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_22_42_24_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 26; ]
+        function getStressScore() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_26_45_28_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 27 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :stressScore;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_26_45_28_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 30; ]
+        function getFloors() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_30_40_32_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 31 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :floorsClimbed;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_30_40_32_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 34; ]
+        function getTimeToRecovery() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_34_48_36_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 35 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :timeToRecovery;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_34_48_36_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 38; ]
+        function getStepGoal() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_38_42_40_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 39 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :stepGoal;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_38_42_40_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 42; ]
+        function getRespirationRate() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_42_49_44_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 43 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :respirationRate;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_42_49_44_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 46; ]
+        function getMetersClimbed() as Float or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_46_46_48_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 47 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :metersClimbed;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_46_46_48_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 50; ]
+        function getFloorsClimbedGoal() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_50_51_52_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 51 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :floorsClimbedGoal;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_50_51_52_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 54; ]
+        function getDistanceMeters() as Float or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_54_47_58_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 55 12 ]
+            [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_54_47_58_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_54_47_58_8_stop" ]
+            %distanceCm.1 = local;
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :distance;
+            lputv %distanceCm.1 %tmp.4;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 57 12 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_begin:
+            %tmp.6 = lgetv %distanceCm.1;
+            %tmp.7 = null;
+            %tmp.8 = ne %tmp.6 %tmp.7;
+            bf %tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_false;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_true:
+            %tmp.9 = lgetv %distanceCm.1;
+            %tmp.10 = as %tmp.9 { (!Null) };
+            %tmp.11 = getv function %tmp.10 :toFloat;
+            %tmp.12 = invoke %tmp.10 %tmp.11();
+            %tmp.13 = 100;
+            %tmp.14 = div %tmp.12 %tmp.13;
+            push %tmp.14;
+            goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_false:
+            %tmp.15 = null;
+            push %tmp.15;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_end:
+            %tmp.16 = phi [%tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_begin] [%tmp.14 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_true] [%tmp.15 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_false] [%tmp.16 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_57_19_57_69_end];
+            ret %tmp.16;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_54_47_58_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 60; ]
+        function getActiveMinutesDay() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_60_50_64_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 61 12 ]
+            [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_60_50_64_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_60_50_64_8_stop" ]
+            %value.1 = local;
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :activeMinutesDay;
+            lputv %value.1 %tmp.4;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 63 12 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_begin:
+            %tmp.6 = lgetv %value.1;
+            %tmp.7 = null;
+            %tmp.8 = ne %tmp.6 %tmp.7;
+            bf %tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_false;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_true:
+            %tmp.9 = lgetv %value.1;
+            %tmp.10 = as %tmp.9 { (!Null) };
+            %tmp.11 = getv %tmp.10 :total;
+            push %tmp.11;
+            goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_false:
+            %tmp.13 = lgetv %value.1;
+            %tmp.14 = as %tmp.13 { (Null) };
+            push %tmp.14;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_end:
+            %tmp.15 = phi [%tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_begin] [%tmp.11 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_true] [%tmp.14 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_false] [%tmp.15 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_63_19_63_49_end];
+            ret %tmp.15;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_60_50_64_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 66; ]
+        function getMemory() as Number {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_66_39_68_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 67 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getSystemStats;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :usedMemory;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_66_39_68_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 70; ]
+        function getBattery() as Number {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_70_40_72_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 71 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getSystemStats;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :battery;
+            %tmp.5 = getv function %tmp.4 :toNumber;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            ret %tmp.6;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_70_40_72_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 74; ]
+        function getBatteryInDays() as Number {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_74_46_76_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 75 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getSystemStats;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :batteryInDays;
+            %tmp.5 = getv function %tmp.4 :toNumber;
+            %tmp.6 = invoke %tmp.4 %tmp.5();
+            ret %tmp.6;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_74_46_76_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 78; ]
+        function getAlarmCount() as Number {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_78_43_80_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 79 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :alarmCount;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_78_43_80_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 82; ]
+        function getMessages() as Number {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_82_41_84_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 83 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :notificationCount;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_82_41_84_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 86; ]
+        function getSolarIntensity() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_86_48_88_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 87 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getSystemStats;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :solarIntensity;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_86_48_88_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 90; ]
+        function isDoNotDisturb() as Boolean or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_90_46_92_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 91 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :doNotDisturb;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_90_46_92_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 94; ]
+        function isNightModeEnabled() as Boolean {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_94_49_96_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 95 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :isNightModeEnabled;
+            %tmp.5 = not %tmp.4;
+            %tmp.6 = not %tmp.5;
+            ret %tmp.6;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_94_49_96_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 98; ]
+        function getIsConnected() as Boolean {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_98_45_100_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 99 12 ]
+            %tmp.1 = getm $.Toybox.System;
+            %tmp.2 = getv function %tmp.1 :getDeviceSettings;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :phoneConnected;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_98_45_100_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 102; ]
+        function getActiveMinutesWeek() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_102_51_106_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 103 12 ]
+            [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_102_51_106_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_102_51_106_8_stop" ]
+            %value.1 = local;
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :activeMinutesWeek;
+            lputv %value.1 %tmp.4;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 105 12 ]
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_begin:
+            %tmp.6 = lgetv %value.1;
+            %tmp.7 = null;
+            %tmp.8 = ne %tmp.6 %tmp.7;
+            bf %tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_false;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_true:
+            %tmp.9 = lgetv %value.1;
+            %tmp.10 = as %tmp.9 { (!Null) };
+            %tmp.11 = getv %tmp.10 :total;
+            push %tmp.11;
+            goto @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_end;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_false:
+            %tmp.12 = null;
+            push %tmp.12;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_end:
+            %tmp.13 = phi [%tmp.8 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_begin] [%tmp.11 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_true] [%tmp.12 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_false] [%tmp.13 @_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_105_19_105_49_end];
+            ret %tmp.13;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_102_51_106_8_stop:
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 108; ]
+        function getActiveMinutesWeekGoal() as Number or Null {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_108_55_110_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc" 109 12 ]
+            %tmp.1 = getm $.Toybox.ActivityMonitor;
+            %tmp.2 = getv function %tmp.1 :getInfo;
+            %tmp.3 = invoke %tmp.1 %tmp.2();
+            %tmp.4 = getv %tmp.3 :activeMinutesWeekGoal;
+            ret %tmp.4;
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_SensorsGetters_mc_108_55_110_8_stop:
+        }
+    }
+}
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/SensorsGetters.mc"; @line = 1; ]
+<init> {
+}
