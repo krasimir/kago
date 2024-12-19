@@ -20,3 +20,7 @@ Res: 454x454
 ## Attribution
 
 Season picture developed by [Freepik here](https://www.freepik.com/free-vector/months-year-template-design_33802328.htm#fromView=keyword&page=1&position=12&uuid=9343120e-e1c9-4ccb-873b-1c1bb6aa44f6) and [here](https://www.freepik.com/free-vector/calendar-with-sketchy-seasonal-elements_823715.htm#fromView=keyword&page=1&position=33&uuid=9343120e-e1c9-4ccb-873b-1c1bb6aa44f6). Gallery [here](https://www.freepik.com/free-photos-vectors/months-year-icon).
+
+## How to deploy the watch face on your watch without the store
+
+You'll need to build the watch face for the device by using Cmd+Shift+P in VSCode and choose "Monkey C: Build for Device". The result of that proccess you can probably find in the `dist` directory (under the `build_for_device`). You then will need a away to transfer the files from your Mac to the watch. Fenix 8 is using MTP protocol. [OpenMTP](https://openmtp.ganeshrvel.com/) is a good option. Copy a single file, the `.prg` file (in this case `Kago.prg`) to `/GARMIN/Apps` directory on the watch.
