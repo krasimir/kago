@@ -1,5 +1,8 @@
-# WatchFace for Garmin Fēnix 8+
+![Kago](./dist/store/hero.png)
 
+# Kago - WatchFace for Garmin Fēnix 8+
+
+* At Connect IQ [here](https://apps.garmin.com/apps/0866d1f2-2b9c-4a6f-8d50-a544de9c18ca?tid=0)
 * It's using Connect IQ 7.3.1 SDK version (API docs [here](https://developer.garmin.com/connect-iq/api-docs/))
 
 ## Fonts
