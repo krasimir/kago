@@ -54,7 +54,7 @@
         <settingConfig type="boolean" />
     </setting>
 
-    <setting propertyKey="@Properties.BatteryColor" title="@Strings.BatteryColorTitle">
+    <setting propertyKey="@Properties.DayArcColor" title="@Strings.DayArcColorTitle">
         <settingConfig type="list">
             <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
             <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
@@ -79,7 +79,7 @@
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.BatteryColorCharged" title="@Strings.BatteryColorChargedTitle">
+    <setting propertyKey="@Properties.DayArcColorCharged" title="@Strings.DayArcColorChargedTitle">
         <settingConfig type="list">
             <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
             <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>
@@ -104,7 +104,7 @@
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.BatteryColorCharged" title="@Strings.BatteryColorChargedTitle">
+    <setting propertyKey="@Properties.DayArcColorCharged" title="@Strings.DayArcColorChargedTitle">
         <settingConfig type="list">
             <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
             <listEntry value="0x555555">@Strings.ColorDarkGray</listEntry>

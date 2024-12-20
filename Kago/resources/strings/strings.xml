@@ -5,8 +5,8 @@
     <string id="BackgroundColorTitle">Background Color</string>
     <string id="ForegroundColorTitle">Foreground Color</string>
     <string id="MilitaryFormatTitle">Military Format for 24 Hour Time</string>
-    <string id="BatteryColorTitle">Battery Arc Color</string>
-    <string id="BatteryColorChargedTitle">Battery Arc Color (drained)</string>
+    <string id="DayArcColorTitle">Day Circle Color</string>
+    <string id="DayArcColorChargedTitle">Day Circle Color (progress)</string>
     <string id="DateColorTitle">Date color</string>
     <string id="SensorStatsColorTitle">Stats color</string>
     <string id="AccentLinesColorTitle">Accent elements color</string>

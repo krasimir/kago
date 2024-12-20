@@ -4,6 +4,8 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import SensorsGetters;
+import Quotes;
+using Toybox.Math
 
 using Toybox.Time;
 using Toybox.Time.Gregorian;
@@ -28,19 +30,19 @@ class KagoView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         View.onUpdate(dc);
-        drawSeason(dc);
-        drawBatteryArc(dc);
+        drawDayArc(dc);
         drawAccentLines(dc);
         drawTime(dc);
         drawDate(dc);
         drawBattery(dc);
         drawHeartRate(dc);
-        // drawActiveMinutes(dc); 
         drawMessages(dc);
         drawSteps(dc);
         drawDistance(dc);
         drawCalories(dc);
         drawPhoneConnection(dc);
+        drawQuote(dc);
+        drawSeason(dc);
     }
 
     // Called when this View is removed from the screen. Save the
@@ -66,9 +68,29 @@ class KagoView extends WatchUi.WatchFace {
       var dimensions = season.getDimensions();
       season.setLocation(
         (dc.getWidth() / 2) - (dimensions[0] / 2),
-        70 - (dimensions[1] / 2)
+        58 - (dimensions[1] / 2)
       );
       season.draw(dc);
+    }
+    function drawQuote(dc as Dc) as Void {
+      var quoteText = Quotes.getQuote();
+      var width = dc.getWidth() - 100;
+      var font = WatchUi.loadResource(Rez.Fonts.MontserratFont22);
+      var text = new WatchUi.TextArea({
+        :text => quoteText,
+        :color => Application.Properties.getValue("SensorStatsColor") as Number,
+        :font => font,
+        :width => width,
+        :height => 200,
+        :justification => Graphics.TEXT_JUSTIFY_CENTER
+      });
+      var size = dc.getTextDimensions(quoteText, font);
+      var textY = 134 - (size[1] / 2);
+      if (quoteText.length() > 25) {
+        textY = 134 - ((size[1] * 2) / 2);
+      }
+      text.setLocation((dc.getWidth() / 2) - (width / 2), textY);
+      text.draw(dc);
     }
     function drawAccentLines(dc as Dc) as Void {
         dc.setPenWidth(1);
@@ -76,46 +98,57 @@ class KagoView extends WatchUi.WatchFace {
           Application.Properties.getValue("AccentLinesColor") as Number,
           Application.Properties.getValue("AccentLinesColor") as Number
         );
-        var centerY = dc.getHeight() / 2 + 90;
+
+        // dots
+        dc.drawCircle(12, dc.getHeight() / 2, 2);
+        dc.drawCircle(18, dc.getHeight() / 2, 1);
+        dc.drawCircle(dc.getWidth() - 12, dc.getHeight() / 2, 2);
+        dc.drawCircle(dc.getWidth() - 18, dc.getHeight() / 2, 1);
+        var theta = Math.toRadians(-60);
+
         // accent below the time
+        var centerY = dc.getHeight() / 2 + 70;
         dc.drawLine(
-          100, centerY,
-          dc.getWidth() - 100, centerY
+          60, centerY,
+          dc.getWidth() - 60, centerY
         );
-        dc.drawCircle(95, centerY, 2);
-        dc.drawCircle(dc.getWidth() - 95, centerY, 2);
+        dc.drawCircle(60 - 5, centerY, 2);
+        dc.drawCircle(dc.getWidth() - 60 + 5, centerY, 2);
         dc.drawLine(
           dc.getWidth() / 2, centerY,
-          dc.getWidth() / 2, centerY + 80
+          dc.getWidth() / 2, centerY + 100
         );
-        dc.drawCircle(dc.getWidth() / 2, centerY, 2);
+        dc.drawCircle(dc.getWidth() / 2, centerY + 100 + 5, 2);
+
         // accent above the time
-        var aboveTheTimeY = dc.getHeight() / 2 - 80;
+        // dc.drawLine(
+        //   40, dc.getHeight() / 2 - 70,
+        //   dc.getWidth() - 40, dc.getHeight() / 2 - 70
+        // );
+        // dc.drawCircle(40 - 5, dc.getHeight() / 2 - 70, 2);
+        // dc.drawCircle(dc.getWidth() - 40 + 5, dc.getHeight() / 2 - 70, 2);
+
+        // accent between time and date
         dc.drawLine(
-          80, aboveTheTimeY,
-          120, aboveTheTimeY
+          dc.getWidth() - 112, dc.getHeight() / 2 - 45,
+          dc.getWidth() - 112, dc.getHeight() / 2 + 69
         );
-        dc.drawCircle(80 - 5, aboveTheTimeY, 2);
-        dc.drawLine(
-          dc.getWidth() - 120, aboveTheTimeY,
-          dc.getWidth() - 80, aboveTheTimeY
-        );
-        dc.drawCircle(dc.getWidth() - 80 + 5, aboveTheTimeY, 2);
+        dc.drawCircle(dc.getWidth() - 112, dc.getHeight() / 2 - 45 - 5, 2);
     }
-    function drawBatteryArc(dc as Dc) as Void {
+    function drawDayArc(dc as Dc) as Void {
+        var clockTime = System.getClockTime();
         var screenWidth = dc.getWidth();
         var screenHeight = dc.getHeight();
-        var myStats = System.getSystemStats();
-        var batteryLevel = myStats.battery;
-        var batteryColor = Application.Properties.getValue("BatteryColor") as Number;
-        var batteryColorCharged = Application.Properties.getValue("BatteryColorCharged") as Number;
+        var percentage = (clockTime.hour / 24.0) * 100;
+        var DayArcColor = Application.Properties.getValue("DayArcColor") as Number;
+        var DayArcColorCharged = Application.Properties.getValue("DayArcColorCharged") as Number;
         var BackgroundColor = Application.Properties.getValue("BackgroundColor") as Number;
         var lineWidth = 4;
-        var chargedDegree = 360 - ((100 - batteryLevel)/100*360);
+        var chargedDegree = 360 - (percentage/100*360);
 
         // Background arc
         dc.setPenWidth(lineWidth);
-        dc.setColor(batteryColorCharged, BackgroundColor);
+        dc.setColor(DayArcColorCharged, BackgroundColor);
         dc.drawArc(
           screenWidth / 2,
           screenHeight / 2,
@@ -125,7 +158,7 @@ class KagoView extends WatchUi.WatchFace {
           360
         );
         // Charged arc
-        dc.setColor(batteryColor, BackgroundColor);
+        dc.setColor(DayArcColor, BackgroundColor);
         dc.drawArc(
           screenWidth / 2,
           screenHeight / 2,
@@ -146,37 +179,36 @@ class KagoView extends WatchUi.WatchFace {
         } else {
             if (Application.Properties.getValue("UseMilitaryFormat")) {
                 timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
             }
         }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
+        var timeString = Lang.format(timeFormat, [hours.format("%02d"), clockTime.min.format("%02d")]);
 
-        var font = WatchUi.loadResource(Rez.Fonts.OswaldBold140);
+        var font = WatchUi.loadResource(Rez.Fonts.OswaldBold120);
         var text = new WatchUi.Text({
           :text => timeString,
           :color => Application.Properties.getValue("ForegroundColor") as Number,
           :font => font,
-          :justification => Graphics.TEXT_JUSTIFY_CENTER
+          :justification => Graphics.TEXT_JUSTIFY_LEFT
         });
         var size = dc.getTextDimensions(timeString, font);
         text.setLocation(
-          (dc.getWidth() / 2),
-          (dc.getHeight() / 2) - (size[1] / 2)
+          dc.getWidth() - size[0] - 132,
+          (dc.getHeight() / 2) - (size[1] / 2) - 8
         );
         text.draw(dc);
     }
     function drawDate(dc as Dc) as Void {
         var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var dayOfWeek = Gregorian.info(Time.now(), Time.FORMAT_SHORT).day_of_week;
-        var dateString = Lang.format("$1$ $2$ $3$", [
+        var dateString = Lang.format("$1$\n$2$\n$3$", [
           self._getDayOfWeek(dayOfWeek),
           today.day.format("%02d"),
           today.month
         ]);
-        var date = self._createText(dc, dateString, Rez.Fonts.MontserratFont32, "DateColor");
+        var date = self._createText(dc, dateString, Rez.Fonts.MontserratFont22, "DateColor");
         date["text"].setLocation(
-          (dc.getWidth() / 2) - (date["width"] / 2),
-          (dc.getHeight() / 2) - 100
+          dc.getWidth() - 88,
+          (dc.getHeight() / 2) - date["height"] / 2
         );
         self._drawText(dc, date);
     }
@@ -187,7 +219,7 @@ class KagoView extends WatchUi.WatchFace {
           dc,
           Rez.Fonts.connection_icon,
           (dc.getWidth() / 2) - 8,
-          dc.getHeight() - 34,
+          dc.getHeight() - 42,
           "SensorStatsColor"
         );
       }
@@ -198,9 +230,9 @@ class KagoView extends WatchUi.WatchFace {
       if (battery != null) {
         batteryText = battery.format("%d") + "%";
       }  
-      var text = self._createText(dc, batteryText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var text = self._createText(dc, batteryText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) - text["width"] - 16;
-      var textY = (dc.getHeight() / 2) + 106;
+      var textY = (dc.getHeight() / 2) + 80;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
@@ -220,7 +252,7 @@ class KagoView extends WatchUi.WatchFace {
       if (System.getSystemStats().charging) {
         batteryIcon = Rez.Fonts.energy_icon;
       }
-      self._drawIcon(dc, batteryIcon, textX - 22, textY + 1, "SensorStatsColor");
+      self._drawIcon(dc, batteryIcon, textX - 22, textY + 6, "SensorStatsColor");
     }
     function drawHeartRate(dc as Dc) as Void {
       var heartRate = 0;
@@ -232,27 +264,13 @@ class KagoView extends WatchUi.WatchFace {
           heartRateText = heartRate.format("%d");
         }
       }  
-      var text = self._createText(dc, heartRateText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var text = self._createText(dc, heartRateText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) - text["width"] - 16;
-      var textY = (dc.getHeight() / 2) + 106 + 30;
+      var textY = (dc.getHeight() / 2) + 80 + 30;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
-      _drawIcon(dc, Rez.Fonts.heart_icon, textX - 22, textY + 1, "SensorStatsColor");
-    }
-    function drawActiveMinutes(dc as Dc) as Void {
-      var activeMinutes = SensorsGetters.Getters.getActiveMinutesDay();
-      var activeMinutesText = "___";
-      if (activeMinutes != null) {
-        activeMinutesText = activeMinutes.format("%d");
-      }  
-      var text = self._createText(dc, activeMinutesText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
-      var textX = (dc.getWidth() / 2) - (text["width"] / 2) - 32;
-      var textY = (dc.getHeight() / 2) + 106 + 30 + 30;
-      text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
-      text["text"].setLocation(textX, textY);
-      self._drawText(dc, text);
-      _drawIcon(dc, Rez.Fonts.activity_icon, textX - 22, textY + 1, "SensorStatsColor");
+      _drawIcon(dc, Rez.Fonts.heart_icon, textX - 22, textY + 6, "SensorStatsColor");
     }
     function drawMessages(dc as Dc) as Void {
       var messages = SensorsGetters.Getters.getMessages();
@@ -260,13 +278,13 @@ class KagoView extends WatchUi.WatchFace {
       if (messages != null) {
         messagesText = messages.format("%d");
       }  
-      var text = self._createText(dc, messagesText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var text = self._createText(dc, messagesText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) - text["width"] - 16;
-      var textY = (dc.getHeight() / 2) + 106 + 30 + 30;
+      var textY = (dc.getHeight() / 2) + 80 + 30 + 30;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
-      self._drawIcon(dc, Rez.Fonts.messages_icon, textX - 22, textY + 1, "SensorStatsColor");
+      self._drawIcon(dc, Rez.Fonts.messages_icon, textX - 24, textY + 6, "SensorStatsColor");
     }
     function drawSteps(dc as Dc) as Void {
       var steps = SensorsGetters.Getters.getSteps();
@@ -275,17 +293,17 @@ class KagoView extends WatchUi.WatchFace {
       if (steps != null) {
         stepsText = steps.format("%d");
       }  
-      var text = self._createText(dc, stepsText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var text = self._createText(dc, stepsText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) + 38;
-      var textY = (dc.getHeight() / 2) + 106;
+      var textY = (dc.getHeight() / 2) + 80;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
-      self._drawIcon(dc, Rez.Fonts.steps_icon, textX - 22, textY + 1, "SensorStatsColor");
-      System.println("===");
+      self._drawIcon(dc, Rez.Fonts.steps_icon, textX - 22, textY + 6, "SensorStatsColor");
+
       if (goalSteps != null && steps != null) {
         var goalText = steps.toFloat() / goalSteps.toFloat() * 100;
-        var goal = self._createText(dc, goalText.format("%d") + "%", Rez.Fonts.MontserratFont12, "SensorStatsColor");
+        var goal = self._createText(dc, goalText.format("%d") + "%", Rez.Fonts.MontserratFont16, "SensorStatsColor");
         goal["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
         goal["text"].setLocation(textX + text["width"] + 2, textY - 4);
         self._drawText(dc, goal);
@@ -297,13 +315,13 @@ class KagoView extends WatchUi.WatchFace {
       if (distance != null) {
         distanceText = self._transformMeters(distance);
       }  
-      var text = self._createText(dc, distanceText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var text = self._createText(dc, distanceText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) + 38;
-      var textY = (dc.getHeight() / 2) + 106 + 30;
+      var textY = (dc.getHeight() / 2) + 80 + 30;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
-      self._drawIcon(dc, Rez.Fonts.distance_icon, textX - 22, textY + 1, "SensorStatsColor");
+      self._drawIcon(dc, Rez.Fonts.distance_icon, textX - 22, textY + 6, "SensorStatsColor");
     }
     function drawCalories(dc as Dc) as Void {
       var calories = SensorsGetters.Getters.getCalories();
@@ -311,13 +329,13 @@ class KagoView extends WatchUi.WatchFace {
       if (calories != null) {
         caloriesText = calories.format("%d");
       }  
-      var text = self._createText(dc, caloriesText, Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      var text = self._createText(dc, caloriesText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) + 38;
-      var textY = (dc.getHeight() / 2) + 106 + 30 + 30;
+      var textY = (dc.getHeight() / 2) + 80 + 30 + 30;
       text["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
-      self._drawIcon(dc, Rez.Fonts.calories_icon, textX - 22, textY + 1, "SensorStatsColor");
+      self._drawIcon(dc, Rez.Fonts.calories_icon, textX - 22, textY + 6, "SensorStatsColor");
     }
 
     function _drawIcon(dc as Dc, iconId as ResourceId, x as Number, y as Number, color as String) as Void {
@@ -456,7 +474,6 @@ class KagoView extends WatchUi.WatchFace {
           bitmap = Rez.Drawables.IllustrationDecember;
         }
       }
-      System.println(bitmap);
       return bitmap;
     }
 }

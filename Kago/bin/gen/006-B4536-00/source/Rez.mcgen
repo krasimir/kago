@@ -71,6 +71,7 @@ module Rez {
         (:initialized) var MontserratFont as ResourceId;
         (:initialized) var MontserratFont12 as ResourceId;
         (:initialized) var MontserratFont16 as ResourceId;
+        (:initialized) var MontserratFont22 as ResourceId;
         (:initialized) var MontserratFont32 as ResourceId;
         (:initialized) var OswaldBold140 as ResourceId;
         (:initialized) var OswaldBold120 as ResourceId;
@@ -82,9 +83,9 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_21127903051012544289 = new Background();
+            var rez_cmp_local_custom_drawable_82612024282038367711 = new Background();
 
-            return [rez_cmp_local_custom_drawable_21127903051012544289] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_82612024282038367711] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -100,6 +101,8 @@ module Rez {
         (:initialized) var AppName as ResourceId;
         (:initialized) var ColorMagenta as ResourceId;
         (:initialized) var ColorRed as ResourceId;
+        (:initialized) var DayArcColorTitle as ResourceId;
+        (:initialized) var DayArcColorChargedTitle as ResourceId;
         (:initialized) var ColorGoldenYellow as ResourceId;
         (:initialized) var ColorLightPink as ResourceId;
         (:initialized) var ColorDarkOliveGreen as ResourceId;
@@ -113,10 +116,8 @@ module Rez {
         (:initialized) var ColorBlack as ResourceId;
         (:initialized) var ColorOrange as ResourceId;
         (:initialized) var SeasonTree as ResourceId;
-        (:initialized) var BatteryColorTitle as ResourceId;
         (:initialized) var ForegroundColorTitle as ResourceId;
         (:initialized) var AccentLinesColorTitle as ResourceId;
-        (:initialized) var BatteryColorChargedTitle as ResourceId;
         (:initialized) var DateColorTitle as ResourceId;
         (:initialized) var ColorCyan as ResourceId;
         (:initialized) var ColorPurple as ResourceId;

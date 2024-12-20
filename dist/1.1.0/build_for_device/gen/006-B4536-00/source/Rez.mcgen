@@ -71,6 +71,7 @@ module Rez {
         (:initialized) var MontserratFont as ResourceId;
         (:initialized) var MontserratFont12 as ResourceId;
         (:initialized) var MontserratFont16 as ResourceId;
+        (:initialized) var MontserratFont22 as ResourceId;
         (:initialized) var MontserratFont32 as ResourceId;
         (:initialized) var OswaldBold140 as ResourceId;
         (:initialized) var OswaldBold120 as ResourceId;
@@ -82,9 +83,9 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_23676017621099868584 = new Background();
+            var rez_cmp_local_custom_drawable_20921407451696299486 = new Background();
 
-            return [rez_cmp_local_custom_drawable_23676017621099868584] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_20921407451696299486] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
