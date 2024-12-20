@@ -30,8 +30,8 @@ class KagoView extends WatchUi.WatchFace {
     // Update the view
     function onUpdate(dc as Dc) as Void {
         View.onUpdate(dc);
-        drawDayArc(dc);
         drawAccentLines(dc);
+        drawDayArc(dc);
         drawTime(dc);
         drawDate(dc);
         drawBattery(dc);
@@ -100,16 +100,17 @@ class KagoView extends WatchUi.WatchFace {
         );
 
         // dots
-        dc.drawCircle(18, dc.getHeight() / 2, 1);
-        dc.drawCircle(dc.getWidth() - 18, dc.getHeight() / 2, 1);
-        var radius = 216;
-        var angles = [0, 30, 60, 120, 150, 180, 210, 240, 300, 330];
+        var radius = (dc.getWidth() / 2) - 4;
+        var angles = [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 300, 315, 330, 345];
         for (var i = 0; i < angles.size(); i++) {
           var angle = angles[i];
           var theta = Math.toRadians(angle);
-          var x = (dc.getWidth()/2) + radius * Math.cos(theta);
-          var y = (dc.getHeight()/2) + radius * Math.sin(theta);
-          dc.drawCircle(x, y, 2);
+          // var x1 = (dc.getWidth()/2) + radius * Math.cos(theta);
+          // var y1 = (dc.getHeight()/2) + radius * Math.sin(theta);
+          var x2 = (dc.getWidth()/2) + (radius - 4) * Math.cos(theta);
+          var y2 = (dc.getHeight()/2) + (radius - 4) * Math.sin(theta);
+          dc.drawCircle(x2, y2, 2);
+          // dc.drawLine(x1, y1, x2, y2);
         }        
 
         // accent below the time
@@ -126,14 +127,6 @@ class KagoView extends WatchUi.WatchFace {
         );
         dc.drawCircle(dc.getWidth() / 2, centerY + 100 + 5, 2);
 
-        // accent above the time
-        // dc.drawLine(
-        //   40, dc.getHeight() / 2 - 70,
-        //   dc.getWidth() - 40, dc.getHeight() / 2 - 70
-        // );
-        // dc.drawCircle(40 - 5, dc.getHeight() / 2 - 70, 2);
-        // dc.drawCircle(dc.getWidth() - 40 + 5, dc.getHeight() / 2 - 70, 2);
-
         // accent between time and date
         dc.drawLine(
           dc.getWidth() - 112, dc.getHeight() / 2 - 45,
@@ -145,12 +138,22 @@ class KagoView extends WatchUi.WatchFace {
         var clockTime = System.getClockTime();
         var screenWidth = dc.getWidth();
         var screenHeight = dc.getHeight();
-        var percentage = (clockTime.hour / 24.0) * 100;
         var DayArcColor = Application.Properties.getValue("DayArcColor") as Number;
         var DayArcColorCharged = Application.Properties.getValue("DayArcColorCharged") as Number;
         var BackgroundColor = Application.Properties.getValue("BackgroundColor") as Number;
         var lineWidth = 4;
-        var chargedDegree = 360 - (percentage/100*360);
+
+        var percentageHour = (((clockTime.hour * 60.0) + clockTime.min) / (24.0 * 60.0)) * 100;
+        var angleHour = 360 - (percentageHour/100*360);
+        var percentageMinute = (clockTime.min / 60.0) * 100;
+        var angleMinutes = 360 - (percentageMinute/100*360);
+
+        if (angleHour < 1) {
+          angleHour = 1;
+        }
+        if (angleMinutes < 1) {
+          angleMinutes = 1;
+        }
 
         // Background arc
         dc.setPenWidth(lineWidth);
@@ -168,10 +171,32 @@ class KagoView extends WatchUi.WatchFace {
         dc.drawArc(
           screenWidth / 2,
           screenHeight / 2,
-          screenWidth / 2 - (lineWidth/2),
+          screenWidth / 2 - (lineWidth / 2),
           Graphics.ARC_COUNTER_CLOCKWISE,
           90,
-          chargedDegree + 90
+          angleHour + 90
+        );
+        // Markers
+        var markerRadius = screenWidth / 2 - (lineWidth / 2) - 4;
+        dc.setPenWidth(10);
+        dc.setColor(DayArcColorCharged, BackgroundColor);
+        dc.drawArc(
+          screenWidth / 2,
+          screenHeight / 2,
+          markerRadius,
+          Graphics.ARC_COUNTER_CLOCKWISE,
+          90 + angleHour,
+          90 + angleHour + 10
+        );
+        dc.setPenWidth(2);
+        dc.setColor(DayArcColor, BackgroundColor);
+        dc.drawArc(
+          screenWidth / 2,
+          screenHeight / 2,
+          markerRadius - 2,
+          Graphics.ARC_COUNTER_CLOCKWISE,
+          90 + angleMinutes,
+          90 + angleMinutes + 10
         );
     }
     function drawTime(dc as Dc) as Void {

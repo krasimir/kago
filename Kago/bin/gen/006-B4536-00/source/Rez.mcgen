@@ -83,9 +83,9 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_10584405231161525734 = new Background();
+            var rez_cmp_local_custom_drawable_15731774254725800110 = new Background();
 
-            return [rez_cmp_local_custom_drawable_10584405231161525734] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_15731774254725800110] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
