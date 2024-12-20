@@ -5,7 +5,7 @@ import Toybox.System;
 import Toybox.WatchUi;
 import SensorsGetters;
 import Quotes;
-using Toybox.Math
+using Toybox.Math;
 
 using Toybox.Time;
 using Toybox.Time.Gregorian;
@@ -100,11 +100,17 @@ class KagoView extends WatchUi.WatchFace {
         );
 
         // dots
-        dc.drawCircle(12, dc.getHeight() / 2, 2);
         dc.drawCircle(18, dc.getHeight() / 2, 1);
-        dc.drawCircle(dc.getWidth() - 12, dc.getHeight() / 2, 2);
         dc.drawCircle(dc.getWidth() - 18, dc.getHeight() / 2, 1);
-        var theta = Math.toRadians(-60);
+        var radius = 216;
+        var angles = [0, 30, 60, 120, 150, 180, 210, 240, 300, 330];
+        for (var i = 0; i < angles.size(); i++) {
+          var angle = angles[i];
+          var theta = Math.toRadians(angle);
+          var x = (dc.getWidth()/2) + radius * Math.cos(theta);
+          var y = (dc.getHeight()/2) + radius * Math.sin(theta);
+          dc.drawCircle(x, y, 2);
+        }        
 
         // accent below the time
         var centerY = dc.getHeight() / 2 + 70;
@@ -412,7 +418,8 @@ class KagoView extends WatchUi.WatchFace {
       var month = today.month;
       var bitmap = Rez.Drawables.TreeJanuary;
       var seasonIconType = Application.Properties.getValue("SeasonIcon") as String;
-      // month = 1;
+      // month = 12;
+      // seasonIconType = 1;
       if (month == 1) {
         bitmap = Rez.Drawables.TreeJanuary;
         if (seasonIconType == 1) {

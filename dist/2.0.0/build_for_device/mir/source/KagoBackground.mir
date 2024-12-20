@@ -1,0 +1,61 @@
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 2; ]
+import Toybox.Graphics;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 3; ]
+import Toybox.Lang;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 6; ]
+class Background extends WatchUi.Drawable{
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 6; ]
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 8; ]
+    function initialize() as Void {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoBackground_mc_8_26_14_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" 9 8 ]
+        [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoBackground_mc_8_26_14_4_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoBackground_mc_8_26_14_4_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" 13 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoBackground_mc_8_26_14_4_stop:
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 16; ]
+    function draw(dc as Dc) as Void {
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoBackground_mc_16_36_20_4_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" 18 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_TRANSPARENT;
+        %tmp.5 = getm $.Toybox.Application;
+        %tmp.6 = getv %tmp.5 :Properties;
+        %tmp.7 = getv function %tmp.6 :getValue;
+        %tmp.8 = "BackgroundColor";
+        %tmp.9 = invoke %tmp.6 %tmp.7(%tmp.8);
+        %tmp.10 = as %tmp.9 Number;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.10);
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc" 19 8 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :clear;
+        invoke %tmp.11 %tmp.12();
+_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_source_KagoBackground_mc_16_36_20_4_stop:
+    }
+}
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/source/KagoBackground.mc"; @line = 1; ]
+<init> {
+}
