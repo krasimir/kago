@@ -1,0 +1,1759 @@
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var TreeJanuary as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var TreeFebruary as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 11; @position = 27; initialized = true; ]
+        var TreeMarch as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 12; @position = 27; initialized = true; ]
+        var TreeApril as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 13; @position = 27; initialized = true; ]
+        var TreeMay as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 14; @position = 27; initialized = true; ]
+        var TreeJune as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 15; @position = 27; initialized = true; ]
+        var TreeJuly as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 16; @position = 27; initialized = true; ]
+        var TreeAugust as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 17; @position = 27; initialized = true; ]
+        var TreeSeptember as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 18; @position = 27; initialized = true; ]
+        var TreeOctober as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var TreeNovember as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 20; @position = 27; initialized = true; ]
+        var TreeDecember as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 21; @position = 27; initialized = true; ]
+        var IllustrationJanuary as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 22; @position = 27; initialized = true; ]
+        var IllustrationFebruary as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; ]
+        var IllustrationMarch as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 24; @position = 27; initialized = true; ]
+        var IllustrationApril as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 25; @position = 27; initialized = true; ]
+        var IllustrationMay as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 26; @position = 27; initialized = true; ]
+        var IllustrationJune as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 27; @position = 27; initialized = true; ]
+        var IllustrationJuly as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 28; @position = 27; initialized = true; ]
+        var IllustrationAugust as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 29; @position = 27; initialized = true; ]
+        var IllustrationSeptember as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 30; @position = 27; initialized = true; ]
+        var IllustrationOctober as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var IllustrationNovember as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        var IllustrationDecember as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 33; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 36; ]
+    module Fonts {
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 36; ]
+        <init> {
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 37; @position = 27; initialized = true; ]
+        var activity_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 38; @position = 27; initialized = true; ]
+        var alarm_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 39; @position = 27; initialized = true; ]
+        var altitude_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        var battery_0_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        var battery_25_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        var battery_50_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
+        var battery_75_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
+        var battery_100_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 45; @position = 27; initialized = true; ]
+        var calories_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 46; @position = 27; initialized = true; ]
+        var connection_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 47; @position = 27; initialized = true; ]
+        var distance_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 48; @position = 27; initialized = true; ]
+        var dnd_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 49; @position = 27; initialized = true; ]
+        var energy_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 50; @position = 27; initialized = true; ]
+        var floors_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 51; @position = 27; initialized = true; ]
+        var heart_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 52; @position = 27; initialized = true; ]
+        var memory_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 53; @position = 27; initialized = true; ]
+        var messages_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 54; @position = 27; initialized = true; ]
+        var oxygen_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 55; @position = 27; initialized = true; ]
+        var preasure_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 56; @position = 27; initialized = true; ]
+        var recovery_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 57; @position = 27; initialized = true; ]
+        var sleep_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 58; @position = 27; initialized = true; ]
+        var steps_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 59; @position = 27; initialized = true; ]
+        var stress_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 60; @position = 27; initialized = true; ]
+        var sun_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 61; @position = 27; initialized = true; ]
+        var sunrise_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 62; @position = 27; initialized = true; ]
+        var sunset_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 63; @position = 27; initialized = true; ]
+        var weather_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 64; @position = 27; initialized = true; ]
+        var snow_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 65; @position = 27; initialized = true; ]
+        var clouds_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 66; @position = 27; initialized = true; ]
+        var fog_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 67; @position = 27; initialized = true; ]
+        var hail_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 68; @position = 27; initialized = true; ]
+        var rain_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 69; @position = 27; initialized = true; ]
+        var thunderstorm_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 70; @position = 27; initialized = true; ]
+        var hurricane_icon as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 71; @position = 27; initialized = true; ]
+        var MontserratFont as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 72; @position = 27; initialized = true; ]
+        var MontserratFont12 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 73; @position = 27; initialized = true; ]
+        var MontserratFont16 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 74; @position = 27; initialized = true; ]
+        var MontserratFont22 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 75; @position = 27; initialized = true; ]
+        var MontserratFont32 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 76; @position = 27; initialized = true; ]
+        var OswaldBold140 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 77; @position = 27; initialized = true; ]
+        var OswaldBold120 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 78; @position = 27; initialized = true; ]
+        var OswaldBold32 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 79; @position = 27; initialized = true; ]
+        var OswaldRegular20 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 80; @position = 27; initialized = true; ]
+        var OswaldRegular32 as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 81; @position = 27; initialized = true; ]
+        var OswaldRegular48 as ResourceId;
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 84; ]
+    module Layouts {
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 84; ]
+        <init> {
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 85; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_krasimir_Work_Krasimir_Garmin_kago_dist_2_0_1_build_for_device_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_start:
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 86 12 ]
+            [ "_Users_krasimir_Work_Krasimir_Garmin_kago_dist_2_0_1_build_for_device_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_dist_2_0_1_build_for_device_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_stop" ]
+            %rez_cmp_local_custom_drawable_16843335021798516991.1 = local;
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_16843335021798516991.1 %tmp.1;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 88 12 ]
+            %tmp.5 = newa 1 Array<WatchUi.Drawable>;
+            %tmp.7 = lgetv %rez_cmp_local_custom_drawable_16843335021798516991.1;
+            %tmp.8 = dup %tmp.5;
+            %tmp.9 = aputv %tmp.8 0 %tmp.7;
+            ret %tmp.9;
+_Users_krasimir_Work_Krasimir_Garmin_kago_dist_2_0_1_build_for_device_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_stop:
+        }
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 92; ]
+    module Strings {
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 92; ]
+        <init> {
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 93; @position = 27; initialized = true; ]
+        var SeasonIllustrations as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 94; @position = 27; initialized = true; ]
+        var ColorBlue as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 95; @position = 27; initialized = true; ]
+        var ColorSkyBlue as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 96; @position = 27; initialized = true; ]
+        var BackgroundColorTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 97; @position = 27; initialized = true; ]
+        var ColorSoftBlue as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 98; @position = 27; initialized = true; ]
+        var ColorReddishBrown as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 99; @position = 27; initialized = true; ]
+        var ColorDarkMagenta as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 100; @position = 27; initialized = true; ]
+        var ColorYellow as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 101; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 102; @position = 27; initialized = true; ]
+        var ColorMagenta as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 103; @position = 27; initialized = true; ]
+        var ColorRed as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 104; @position = 27; initialized = true; ]
+        var DayArcColorTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 105; @position = 27; initialized = true; ]
+        var DayArcColorChargedTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 106; @position = 27; initialized = true; ]
+        var ColorGoldenYellow as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 107; @position = 27; initialized = true; ]
+        var ColorLightPink as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 108; @position = 27; initialized = true; ]
+        var ColorDarkOliveGreen as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 109; @position = 27; initialized = true; ]
+        var SensorStatsColorTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 110; @position = 27; initialized = true; ]
+        var SeasonIconTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 111; @position = 27; initialized = true; ]
+        var ColorWhite as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 112; @position = 27; initialized = true; ]
+        var ColorGreen as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 113; @position = 27; initialized = true; ]
+        var ColorLightGray as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 114; @position = 27; initialized = true; ]
+        var ColorDarkGray as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 115; @position = 27; initialized = true; ]
+        var MilitaryFormatTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 116; @position = 27; initialized = true; ]
+        var ColorBlack as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 117; @position = 27; initialized = true; ]
+        var ColorOrange as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 118; @position = 27; initialized = true; ]
+        var SeasonTree as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 119; @position = 27; initialized = true; ]
+        var ForegroundColorTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 120; @position = 27; initialized = true; ]
+        var AccentLinesColorTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 121; @position = 27; initialized = true; ]
+        var DateColorTitle as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 122; @position = 27; initialized = true; ]
+        var ColorCyan as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 123; @position = 27; initialized = true; ]
+        var ColorPurple as ResourceId;
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 124; @position = 27; initialized = true; ]
+        var ColorLimeGreen as ResourceId;
+    }
+    [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 127; ]
+    module Styles {
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 127; ]
+        <init> {
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 128; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 129; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 132; ]
+        module system_size__menu_header {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 132; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 133; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 134; @position = 18; ]
+            const height as Number = 169;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 137; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 138; @position = 18; ]
+            const x as Number = 15;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 139; @position = 18; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 142; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 142; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 143; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 146; ]
+        module prompt_loc__body_no_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 146; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
+            const x as Number = 56;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
+            const y as Number = 89;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 151; ]
+        module system_icon_dark__about {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 151; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 152; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__about.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 154; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 155; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 156; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 159; ]
+        module system_icon_light__question {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 160; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__question.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 161; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 162; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 163; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 164; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 167; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 167; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 168; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 171; ]
+        module prompt_font__title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 171; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 172 18 ]
+                %tmp.10 = getm $.Toybox.Graphics;
+                %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_VCENTER;
+                %tmp.14 = bitor %tmp.11 %tmp.13;
+                putv self :justification %tmp.14;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 173 18 ]
+                %tmp.15 = getm $.Toybox.Graphics;
+                %tmp.16 = getv %tmp.15 :FONT_GLANCE_NUMBER;
+                putv self :font %tmp.16;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 172; @position = 18; ]
+            const justification;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 173; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 176; ]
+        module system_icon_dark__discard {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 177; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__discard.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 178; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 179; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 180; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 181; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 184; ]
+        module system_size__menu_item {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 184; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 185; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 186; @position = 18; ]
+            const height as Number = 116;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 189; ]
+        module system_color_dark__text {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 189; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 191 18 ]
+                %tmp.17 = getm $.Toybox.Graphics;
+                %tmp.18 = getv %tmp.17 :COLOR_TRANSPARENT;
+                putv self :background %tmp.18;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 190; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 191; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 194; ]
+        module system_icon_destructive__discard {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 194; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 195; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__discard.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 196; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 197; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 200; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 201; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 202; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 203; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 206; ]
+        module prompt_size__title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 206; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 207; @position = 18; ]
+            const width as Number = 360;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 208; @position = 18; ]
+            const height as Number = 48;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 211; ]
+        module confirmation_font__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 211; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 212 18 ]
+                %tmp.19 = getm $.Toybox.Graphics;
+                %tmp.20 = getv %tmp.19 :TEXT_JUSTIFY_CENTER;
+                %tmp.21 = getm $.Toybox.Graphics;
+                %tmp.22 = getv %tmp.21 :TEXT_JUSTIFY_VCENTER;
+                %tmp.23 = bitor %tmp.20 %tmp.22;
+                putv self :justification %tmp.23;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 213 18 ]
+                %tmp.24 = getm $.Toybox.Graphics;
+                %tmp.25 = getv %tmp.24 :FONT_TINY;
+                putv self :font %tmp.25;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 212; @position = 18; ]
+            const justification;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 213; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 216; ]
+        module system_color_dark__background {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 216; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 217; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 218; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 221; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 221; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 222; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_left_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 224; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 227; ]
+        module system_size__launch_icon {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 227; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 228; @position = 18; ]
+            const scaleX as Number = 65;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 229; @position = 18; ]
+            const scaleY as Number = 65;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 230; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 233; ]
+        module confirmation_input__confirm {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 233; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 234 18 ]
+                %tmp.26 = getm $.Toybox.WatchUi;
+                %tmp.27 = getv %tmp.26 :KEY_ENTER;
+                putv self :button %tmp.27;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 234; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 237; ]
+        module prompt_font__body_with_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 237; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 238 18 ]
+                %tmp.28 = getm $.Toybox.Graphics;
+                %tmp.29 = getv %tmp.28 :TEXT_JUSTIFY_CENTER;
+                putv self :justification %tmp.29;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 239 18 ]
+                %tmp.30 = getm $.Toybox.Graphics;
+                %tmp.31 = getv %tmp.30 :FONT_XTINY;
+                putv self :font %tmp.31;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 238; @position = 18; ]
+            const justification;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 239; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 242; ]
+        module confirmation_loc__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 242; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 243; @position = 18; ]
+            const x as Number = 70;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 244; @position = 18; ]
+            const y as Number = 70;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 247; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 247; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 248; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_left_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 249; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 250; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 253; ]
+        module prompt_color_dark__background {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 253; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 254; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 255; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 258; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 259; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 260; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 261; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 264; ]
+        module system_loc__hint_action_menu {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 264; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 265; @position = 18; ]
+            const x as Number = 353;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 266; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 269; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 269; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 270; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 271; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 272; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 275; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 276; @position = 18; ]
+            const x as Number = 2;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 277; @position = 18; ]
+            const y as Number = 181;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 280; ]
+        module prompt_size__body_no_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 280; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 281; @position = 18; ]
+            const width as Number = 342;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 282; @position = 18; ]
+            const height as Number = 275;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 285; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 285; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 286; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 287; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 288; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 291; ]
+        module prompt_color_light__background {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 291; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 292; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 293; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 296; ]
+        module confirmation_input__delete {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 296; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 297 18 ]
+                %tmp.32 = getm $.Toybox.WatchUi;
+                %tmp.33 = getv %tmp.32 :KEY_ENTER;
+                putv self :button %tmp.33;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 297; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 300; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 300; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 301; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 302; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 303; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 306; ]
+        module system_input__action_menu {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 306; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 307 18 ]
+                %tmp.34 = getm $.Toybox.WatchUi;
+                %tmp.35 = getv %tmp.34 :KEY_ENTER;
+                putv self :button %tmp.35;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 307; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 310; ]
+        module system_icon_light__save {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 310; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 311; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__save.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 312; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 313; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 314; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 315; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 318; ]
+        module prompt_color_light__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 318; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 320 18 ]
+                %tmp.36 = getm $.Toybox.Graphics;
+                %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
+                putv self :background %tmp.37;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 319; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 320; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 323; ]
+        module system_loc__subwindow {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 323; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 324; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 327; ]
+        module system_icon_light__warning {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 327; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 328; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__warning.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 329; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 330; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 331; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 332; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 335; ]
+        module confirmation_color_light__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 335; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 337 18 ]
+                %tmp.38 = getm $.Toybox.Graphics;
+                %tmp.39 = getv %tmp.38 :COLOR_TRANSPARENT;
+                putv self :background %tmp.39;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 336; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 337; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 340; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 340; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 341; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 342; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 343; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 346; ]
+        module activity_color_light__background {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 346; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 347; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 348; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 351; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 352; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 353; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 354; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 357; ]
+        module system_size__screen {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 357; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 358; @position = 18; ]
+            const width as Number = 454;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 359; @position = 18; ]
+            const height as Number = 454;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 362; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 362; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 363; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_right_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 364; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 365; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 368; ]
+        module system_color_light__background {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 369; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 370; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 373; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 373; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 374; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 375; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 376; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 379; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 379; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 380; @position = 18; ]
+            const x as Number = 353;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 381; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 384; ]
+        module activity_color_dark__text {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 384; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 386 18 ]
+                %tmp.40 = getm $.Toybox.Graphics;
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                putv self :background %tmp.41;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 385; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 386; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 389; ]
+        module confirmation_input__keep {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 389; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 390 18 ]
+                %tmp.42 = getm $.Toybox.WatchUi;
+                %tmp.43 = getv %tmp.42 :KEY_DOWN;
+                putv self :button %tmp.43;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 390; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 393; ]
+        module prompt_loc__body_with_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 393; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 394; @position = 18; ]
+            const x as Number = 58;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 395; @position = 18; ]
+            const y as Number = 203;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 398; ]
+        module system_icon_dark__search {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 398; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 399; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__search.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 400; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 401; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 402; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 403; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 406; ]
+        module activity_color_light__text {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 406; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 408 18 ]
+                %tmp.44 = getm $.Toybox.Graphics;
+                %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+                putv self :background %tmp.45;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 407; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 411; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 411; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 412; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 413; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 414; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 417; ]
+        module system_icon_dark__save {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 417; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 418; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__save.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 419; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 420; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 421; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 422; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 425; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 426; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__hint_button_left_middle.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 427; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 431; ]
+        module system_icon_light__search {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 431; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 432; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__search.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 433; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 434; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 435; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 436; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 439; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 440; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 441; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 442; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 445; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 445; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 446; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_left_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 447; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 448; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 451; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 451; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 452; @position = 18; ]
+            const x as Number = 353;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 453; @position = 18; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 456; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 456; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 457; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 458; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 459; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 462; ]
+        module confirmation_color_dark__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 462; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 464 18 ]
+                %tmp.46 = getm $.Toybox.Graphics;
+                %tmp.47 = getv %tmp.46 :COLOR_TRANSPARENT;
+                putv self :background %tmp.47;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 463; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 464; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 467; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 467; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 468; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 469; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 470; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 473; ]
+        module prompt_color_dark__title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 473; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 475 18 ]
+                %tmp.48 = getm $.Toybox.Graphics;
+                %tmp.49 = getv %tmp.48 :COLOR_TRANSPARENT;
+                putv self :background %tmp.49;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 474; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 475; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 478; ]
+        module system_icon_destructive__cancel {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 478; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 479; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__cancel.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 480; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 481; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 484; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 484; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 485; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 486; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 487; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 490; ]
+        module prompt_loc__title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 490; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 491; @position = 18; ]
+            const x as Number = 47;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 492; @position = 18; ]
+            const y as Number = 101;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 495; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 495; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 496; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 499; ]
+        module prompt_color_light__title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 499; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 501 18 ]
+                %tmp.50 = getm $.Toybox.Graphics;
+                %tmp.51 = getv %tmp.50 :COLOR_TRANSPARENT;
+                putv self :background %tmp.51;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 500; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 501; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 504; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 504; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 505; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 506; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 507; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 510; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 510; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 511; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 512; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 513; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 516; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 517; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_keep.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 518; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 519; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 522; ]
+        module system_icon_light__cancel {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 522; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__cancel.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 525; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 526; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 527; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 530; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 531; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 532; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 533; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 536; ]
+        module system_icon_light__about {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 537; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__about.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 538; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 539; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 540; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 541; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 544; ]
+        module system_size__toast_icon {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 544; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 545; @position = 18; ]
+            const scaleX as Number = 59;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 546; @position = 18; ]
+            const scaleY as Number = 59;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 547; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 550; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 550; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 551; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 554; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 554; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 555; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_reject.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 556; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 557; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 560; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 560; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 561; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 562; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 563; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 566; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 566; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 567; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 570; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 570; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 571; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 574; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 574; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 575; @position = 18; ]
+            const x as Number = 15;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 576; @position = 18; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 579; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 579; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 580; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 581; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 582; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 585; ]
+        module activity_color_dark__background {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 585; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 586; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 587; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 590; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 590; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 591; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 592; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 593; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 596; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 596; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 597; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_left_middle.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 598; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 599; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 602; ]
+        module system_size__menu_icon {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 602; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 603; @position = 18; ]
+            const scaleX as Number = 74;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 604; @position = 18; ]
+            const scaleY as Number = 114;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 605; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 608; ]
+        module system_icon_destructive__warning {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 608; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 609; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_destructive__warning.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 610; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 611; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 614; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 614; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 615; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 618; ]
+        module system_icon_dark__cancel {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 618; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 619; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__cancel.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 620; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 621; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 622; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 623; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 626; ]
+        module prompt_size__body_with_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 626; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 627; @position = 18; ]
+            const width as Number = 338;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 628; @position = 18; ]
+            const height as Number = 173;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 631; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 631; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 632; @position = 18; ]
+            const x as Number = 353;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 633; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 636; ]
+        module system_color_light__text {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 636; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 638 18 ]
+                %tmp.52 = getm $.Toybox.Graphics;
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 637; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 638; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 641; ]
+        module system_icon_light__check {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 641; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 642; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__check.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 643; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 644; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 645; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 646; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 649; ]
+        module confirmation_input__reject {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 649; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 650 18 ]
+                %tmp.54 = getm $.Toybox.WatchUi;
+                %tmp.55 = getv %tmp.54 :KEY_DOWN;
+                putv self :button %tmp.55;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 650; @position = 18; ]
+            const button;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 653; ]
+        module system_icon_light__revert {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 653; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 654; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__revert.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 655; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 656; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 657; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 658; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 661; ]
+        module system_size__subwindow {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 661; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 662; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 665; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 665; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 666; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_left_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 667; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 668; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 671; ]
+        module system_icon_dark__check {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 671; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 672; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__check.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 673; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 674; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 675; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 676; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 679; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 679; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 680; @position = 18; ]
+            const x as Number = 15;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 681; @position = 18; ]
+            const y as Number = 291;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 684; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 684; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 685; @position = 18; ]
+            const x as Number = 353;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 686; @position = 18; ]
+            const y as Number = 77;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 689; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 689; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 690; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 691; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 692; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 695; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 695; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 696; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 699; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 699; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 700; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 701; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 702; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 705; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 705; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 706; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 707; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 708; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 711; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 711; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 712; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__hint_button_right_bottom.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 713; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 714; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 717; ]
+        module system_icon_dark__revert {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 717; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 718; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__revert.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 719; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 720; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 721; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 722; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 725; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 725; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 726; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 727; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 728; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 731; ]
+        module system_icon_dark__question {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 731; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 732; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__question.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 733; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 734; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 735; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 736; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 739; ]
+        module system_icon_light__discard {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 739; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 740; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__discard.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 741; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 742; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 743; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 744; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 747; ]
+        module device_info {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 747; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 749 18 ]
+                %tmp.56 = getm $.Toybox.System;
+                %tmp.57 = getv %tmp.56 :SCREEN_SHAPE_ROUND;
+                putv self :screenShape %tmp.57;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 748; @position = 18; ]
+            const screenWidth as Number = 454;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 749; @position = 18; ]
+            const screenShape;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 750; @position = 18; ]
+            const hasNightMode as Boolean = false;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 751; @position = 18; ]
+            const hasGpu as Boolean = true;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 752; @position = 18; ]
+            const screenHeight as Number = 454;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 753; @position = 18; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 754; @position = 18; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 757; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 757; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 758; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_completion.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 759; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 760; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 763; ]
+        module prompt_font__body_no_title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 763; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 764 18 ]
+                %tmp.58 = getm $.Toybox.Graphics;
+                %tmp.59 = getv %tmp.58 :TEXT_JUSTIFY_CENTER;
+                %tmp.60 = getm $.Toybox.Graphics;
+                %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_VCENTER;
+                %tmp.62 = bitor %tmp.59 %tmp.61;
+                putv self :justification %tmp.62;
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 765 18 ]
+                %tmp.63 = getm $.Toybox.Graphics;
+                %tmp.64 = getv %tmp.63 :FONT_XTINY;
+                putv self :font %tmp.64;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 764; @position = 18; ]
+            const justification;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 765; @position = 18; ]
+            const font;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 768; ]
+        module prompt_size__title_icon {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 768; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 769; @position = 18; ]
+            const scaleX as Float = 0.15;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 770; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 773; ]
+        module system_icon_dark__warning {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 773; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 774; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_dark__warning.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 775; @position = 18; ]
+            const compress as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 776; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 777; @position = 18; ]
+            const automaticPalette as String = "true";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 778; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 781; ]
+        module prompt_loc__title_icon {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 781; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 782; @position = 18; ]
+            const x as Number = 227;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 783; @position = 18; ]
+            const y as Number = 148;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 784; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 785; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 788; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 788; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 789; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 792; ]
+        module prompt_color_dark__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 792; ]
+            <init> {
+[ "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen" 794 18 ]
+                %tmp.65 = getm $.Toybox.Graphics;
+                %tmp.66 = getv %tmp.65 :COLOR_TRANSPARENT;
+                putv self :background %tmp.66;
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 793; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 794; @position = 18; ]
+            const background;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 797; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 797; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 798; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/confirmation_icon__hint_delete.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 799; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 800; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 803; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 803; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 804; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 805; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 806; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 809; ]
+        module confirmation_size__body {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 809; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 810; @position = 18; ]
+            const width as Number = 313;
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 811; @position = 18; ]
+            const height as Number = 313;
+        }
+        [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 814; ]
+        module system_icon_positive__check {
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 814; ]
+            <init> {
+            }
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 815; @position = 18; ]
+            const filename as String = "/Users/krasimir/Library/Application Support/Garmin/ConnectIQ/Devices/fenix847mm/system_icon_positive__check.svg";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 816; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 817; @position = 18; ]
+            const packingFormat as String = "png";
+        }
+    }
+}
+[ @file = "/Users/krasimir/Work/Krasimir/Garmin/kago/dist/2.0.1/build_for_device/gen/006-B4536-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

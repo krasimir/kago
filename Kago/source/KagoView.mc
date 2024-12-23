@@ -111,7 +111,7 @@ class KagoView extends WatchUi.WatchFace {
           var y2 = (dc.getHeight()/2) + (radius - 4) * Math.sin(theta);
           dc.drawCircle(x2, y2, 2);
           // dc.drawLine(x1, y1, x2, y2);
-        }        
+        }
 
         // accent below the time
         var centerY = dc.getHeight() / 2 + 70;
@@ -284,6 +284,12 @@ class KagoView extends WatchUi.WatchFace {
         batteryIcon = Rez.Fonts.energy_icon;
       }
       self._drawIcon(dc, batteryIcon, textX - 22, textY + 6, "SensorStatsColor");
+
+      var batteryInDays = SensorsGetters.Getters.getBatteryInDays();
+      var inDays = self._createText(dc, batteryInDays.format("%d") + "d", Rez.Fonts.MontserratFont16, "SensorStatsColor");
+      inDays["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
+      inDays["text"].setLocation(textX - text["width"], textY - 4);
+      self._drawText(dc, inDays);
     }
     function drawHeartRate(dc as Dc) as Void {
       var heartRate = 0;
