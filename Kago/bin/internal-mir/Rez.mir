@@ -175,13 +175,13 @@ module Rez {
 _Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_start:
 [ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" 86 12 ]
             [ "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_start" "_Users_krasimir_Work_Krasimir_Garmin_kago_Kago_bin_gen_006_B4536_00_source_Rez_mcgen_85_73_89_8_stop" ]
-            %rez_cmp_local_custom_drawable_60005282635077338130.1 = local;
+            %rez_cmp_local_custom_drawable_96083241224742905968.1 = local;
             %tmp.4 = getv ? :Background;
             %tmp.1 = newc %tmp.4 ();
-            lputv %rez_cmp_local_custom_drawable_60005282635077338130.1 %tmp.1;
+            lputv %rez_cmp_local_custom_drawable_96083241224742905968.1 %tmp.1;
 [ "/Users/krasimir/Work/Krasimir/Garmin/kago/Kago/bin/gen/006-B4536-00/source/Rez.mcgen" 88 12 ]
             %tmp.5 = newa 1 Array<WatchUi.Drawable>;
-            %tmp.7 = lgetv %rez_cmp_local_custom_drawable_60005282635077338130.1;
+            %tmp.7 = lgetv %rez_cmp_local_custom_drawable_96083241224742905968.1;
             %tmp.8 = dup %tmp.5;
             %tmp.9 = aputv %tmp.8 0 %tmp.7;
             ret %tmp.9;

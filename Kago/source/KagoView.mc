@@ -93,6 +93,8 @@ class KagoView extends WatchUi.WatchFace {
       text.draw(dc);
     }
     function drawAccentLines(dc as Dc) as Void {
+        var clockTime = System.getClockTime();
+
         dc.setPenWidth(1);
         dc.setColor(
           Application.Properties.getValue("AccentLinesColor") as Number,
@@ -100,17 +102,33 @@ class KagoView extends WatchUi.WatchFace {
         );
 
         // dots
-        var radius = (dc.getWidth() / 2) - 4;
-        var angles = [0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 300, 315, 330, 345];
+        var radius = (dc.getWidth() / 2) - 5;
+        var angles = [0, 30, 60, 90, 120, 150, 180, 210, 240, 300, 330];
+        // 0 = 3 o'clock
+        // 90 = 6 o'clock
+        // 180 = 9 o'clock
+        // 270 = 12 o'clock
+        dc.setPenWidth(6);
         for (var i = 0; i < angles.size(); i++) {
-          var angle = angles[i];
+          var angle = 360 - angles[i];
+          dc.drawArc(
+            dc.getWidth()/2,
+            dc.getHeight()/2,
+            radius - 4,
+            Graphics.ARC_COUNTER_CLOCKWISE,
+            angle - 2,
+            angle + 2
+          );
+        }
+        dc.setPenWidth(1);
+        for (var i = 0; i < 360; i+=2) {
+          var angle = i;
           var theta = Math.toRadians(angle);
-          // var x1 = (dc.getWidth()/2) + radius * Math.cos(theta);
-          // var y1 = (dc.getHeight()/2) + radius * Math.sin(theta);
-          var x2 = (dc.getWidth()/2) + (radius - 4) * Math.cos(theta);
-          var y2 = (dc.getHeight()/2) + (radius - 4) * Math.sin(theta);
-          dc.drawCircle(x2, y2, 2);
-          // dc.drawLine(x1, y1, x2, y2);
+          var x1 = (dc.getWidth()/2) + (radius - 4) * Math.cos(theta);
+          var y1 = (dc.getHeight()/2) + (radius - 4) * Math.sin(theta);
+          var x2 = (dc.getWidth()/2) + (radius - 7) * Math.cos(theta);
+          var y2 = (dc.getHeight()/2) + (radius - 7) * Math.sin(theta);
+          dc.drawLine(x1, y1, x2, y2);
         }
 
         // accent below the time
@@ -143,16 +161,10 @@ class KagoView extends WatchUi.WatchFace {
         var BackgroundColor = Application.Properties.getValue("BackgroundColor") as Number;
         var lineWidth = 4;
 
-        var percentageHour = (((clockTime.hour * 60.0) + clockTime.min) / (24.0 * 60.0)) * 100;
+        var percentageHour = ((((clockTime.hour % 12) * 60.0) + clockTime.min) / (12.0 * 60.0)) * 100;
         var angleHour = 360 - (percentageHour/100*360);
-        var percentageMinute = (clockTime.min / 60.0) * 100;
-        var angleMinutes = 360 - (percentageMinute/100*360);
-
         if (angleHour < 1) {
           angleHour = 1;
-        }
-        if (angleMinutes < 1) {
-          angleMinutes = 1;
         }
 
         // Background arc
@@ -166,7 +178,7 @@ class KagoView extends WatchUi.WatchFace {
           0,
           360
         );
-        // Charged arc
+        // Time progress arc
         dc.setColor(DayArcColor, BackgroundColor);
         dc.drawArc(
           screenWidth / 2,
@@ -176,28 +188,15 @@ class KagoView extends WatchUi.WatchFace {
           90,
           angleHour + 90
         );
-        // Markers
-        var markerRadius = screenWidth / 2 - (lineWidth / 2) - 4;
-        dc.setPenWidth(10);
+        // Hours
+        dc.setPenWidth(2);
         dc.setColor(DayArcColorCharged, BackgroundColor);
-        dc.drawArc(
-          screenWidth / 2,
-          screenHeight / 2,
-          markerRadius,
-          Graphics.ARC_COUNTER_CLOCKWISE,
-          90 + angleHour,
-          90 + angleHour + 10
-        );
+        self._drawArrow((percentageHour * 360 / 100) - 90, dc);
+        // Minutes
+        var percentageMinute = (clockTime.min / 60.0) * 100;
         dc.setPenWidth(2);
         dc.setColor(DayArcColor, BackgroundColor);
-        dc.drawArc(
-          screenWidth / 2,
-          screenHeight / 2,
-          markerRadius - 2,
-          Graphics.ARC_COUNTER_CLOCKWISE,
-          90 + angleMinutes,
-          90 + angleMinutes + 10
-        );
+        self._drawArrow((percentageMinute * 360 / 100) - 90, dc);
     }
     function drawTime(dc as Dc) as Void {
         var timeFormat = "$1$:$2$";
@@ -260,6 +259,8 @@ class KagoView extends WatchUi.WatchFace {
       var batteryText = "___";
       if (battery != null) {
         batteryText = battery.format("%d") + "%";
+        var batteryInDays = SensorsGetters.Getters.getBatteryInDays();
+        batteryText += " / " + batteryInDays.format("%d") + "d";
       }  
       var text = self._createText(dc, batteryText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) - text["width"] - 16;
@@ -284,12 +285,6 @@ class KagoView extends WatchUi.WatchFace {
         batteryIcon = Rez.Fonts.energy_icon;
       }
       self._drawIcon(dc, batteryIcon, textX - 22, textY + 6, "SensorStatsColor");
-
-      var batteryInDays = SensorsGetters.Getters.getBatteryInDays();
-      var inDays = self._createText(dc, batteryInDays.format("%d") + "d", Rez.Fonts.MontserratFont16, "SensorStatsColor");
-      inDays["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
-      inDays["text"].setLocation(textX - text["width"], textY - 4);
-      self._drawText(dc, inDays);
     }
     function drawHeartRate(dc as Dc) as Void {
       var heartRate = 0;
@@ -328,7 +323,11 @@ class KagoView extends WatchUi.WatchFace {
       var goalSteps = SensorsGetters.Getters.getStepGoal();
       var stepsText = "___";
       if (steps != null) {
-        stepsText = steps.format("%d");
+        stepsText = self._formatSteps(steps);
+        if (goalSteps != null && steps != null) {
+          var goalText = steps.toFloat() / goalSteps.toFloat() * 100;
+          stepsText += " / " + goalText.format("%.0f") + "%";
+        }
       }  
       var text = self._createText(dc, stepsText, Rez.Fonts.MontserratFont22, "SensorStatsColor");
       var textX = (dc.getWidth() / 2) + 38;
@@ -337,14 +336,6 @@ class KagoView extends WatchUi.WatchFace {
       text["text"].setLocation(textX, textY);
       self._drawText(dc, text);
       self._drawIcon(dc, Rez.Fonts.steps_icon, textX - 22, textY + 6, "SensorStatsColor");
-
-      if (goalSteps != null && steps != null) {
-        var goalText = steps.toFloat() / goalSteps.toFloat() * 100;
-        var goal = self._createText(dc, goalText.format("%d") + "%", Rez.Fonts.MontserratFont16, "SensorStatsColor");
-        goal["text"].setJustification(Graphics.TEXT_JUSTIFY_LEFT);
-        goal["text"].setLocation(textX + text["width"] + 2, textY - 4);
-        self._drawText(dc, goal);
-      }
     }
     function drawDistance(dc as Dc) as Void {
       var distance = SensorsGetters.Getters.getDistanceMeters();
@@ -444,6 +435,12 @@ class KagoView extends WatchUi.WatchFace {
     function _transformMetrToFeet(value as Float or Number) as Float or Number {
         return value * 3.280839895;
     }
+    function _formatSteps(steps as Float or Number) as String {
+        if (steps > 1000) {
+            return (steps / 1000).format("%.1f") + "k";
+        }
+        return steps.format("%d");
+    }
     function _getSeasonIcon() {
       var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
       var month = today.month;
@@ -513,5 +510,16 @@ class KagoView extends WatchUi.WatchFace {
         }
       }
       return bitmap;
+    }
+    function _drawArrow(angle as Float or Number, dc as Dc) as Void {
+      var radius = (dc.getWidth() / 2) - 10;
+      var circleX = (dc.getWidth()/2) + (radius + 10) * Math.cos(Math.toRadians(angle));
+      var circleY = (dc.getHeight()/2) + (radius + 10) * Math.sin(Math.toRadians(angle));
+      var x1 = (dc.getWidth()/2) + (radius - 14) * Math.cos(Math.toRadians(angle));
+      var y1 = (dc.getHeight()/2) + (radius - 14) * Math.sin(Math.toRadians(angle));
+      var x2 = (dc.getWidth()/2) + (radius - 10) * Math.cos(Math.toRadians(angle));
+      var y2 = (dc.getHeight()/2) + (radius - 10)* Math.sin(Math.toRadians(angle));
+      dc.drawLine(x1, y1, x2, y2);
+      dc.drawCircle(circleX, circleY, 14);
     }
 }
